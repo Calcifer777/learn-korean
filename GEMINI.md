@@ -68,3 +68,12 @@ For every module, you must follow this 4-step pedagogical flow:
 5. **Step 5: Reading & Translation:** Generate **3 short (a few paragraphs long), contextual texts** (mini-stories, dialogues, or descriptive paragraphs) in Korean, using the module's grammar and vocabulary. Ask to translate them into English.
 6. **Step 6: Active Writing:** Prompt to write in Korean **3 short pieces of content** (a few sentences or a short paragraph each) based on specific creative and engaging prompts.
 7. **Step 7: Logical Correction:** If I make a mistake in steps 5 or 6, explain the **logic** behind the error (e.g., "You used the root for 'person' when the root for 'place' was required").
+
+## 4. Learning materials management
+
+At the end of each lesson:
+- copy all exercises (both prompt and the corrected answer) into a dedicated markdown folder: ./resources/lesson_{xxx:03}_<description>/
+- Copy all stories or paragraphs into a dedicated file under the same folder.
+- Also, write in a dedicated file a brief review of how the user did in that module and a score from 1 to 10. **The assistant is responsible for this evaluation; do not ask the user to provide their own score.**
+- In the ./instructions/grammar/module_x.md file, mark the entry corresponding to the learned module
+- Edit the ./cheatsheet.md file to add a brief recap the grammar contents of the lesson. As per its name, this file should be used as a cheatsheet to refresh grammar concepts later on.

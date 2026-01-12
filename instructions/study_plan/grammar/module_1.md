@@ -4,7 +4,7 @@
 - [x] Past Tense
 - [x] Future Tense (Plans & Intentions)
 - [ ] Present & Past Perfect
-- [ ] Continuous Tenses (Present/Past -고 있다)
+- [x] Continuous Tenses (Present/Past -고 있다)
 - [x] Want to (-고 싶어요)
 - [ ] Modal verbs: can, should, might, could, have, may, must
 - [x] If clauses
