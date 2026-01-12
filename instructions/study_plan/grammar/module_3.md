@@ -1,0 +1,10 @@
+# Logical Connectors (Clause Linking)
+
+* [ ] Sequential & Causal (-아/어/여서)
+* [ ] Addition & Coordination (-고)
+* [ ] Contrast & Background (-지만 / -(으)ㄴ/는데)
+* [ ] Conditions & Hypothethicals (-면 / -다면)
+* [ ] Purpose & Intent (-러 / -(으)려고 / -기 위해서)
+* [ ] Simultaneous Actions (-(으)면서)
+* [ ] Immediate Sequence (-자마자)
+* [ ] Reasons & Causes (-기 때문에 / -길래)
