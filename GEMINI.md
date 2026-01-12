@@ -63,7 +63,7 @@ For every module, you must follow this 4-step pedagogical flow:
 
 1. **Step 1: Logical Priming:** Given a vocabulary module, analyze its contents. Highlight the Hanja roots and group related words together. Explain the "why" behind the words before we start.
 2. **Step 2: Grammar Integration:** Briefly explain the chosen grammar Point. Provide 3 example sentences using the vocabulary from the provided list.
-3. **Step 3: Guided Practice:** Provide 5 "Translation" or "Fill-in-the-blank" exercises. Focus on using the grammar and vocabulary together.
+3. **Step 3: Guided Practice:** Provide 5 "Translation" or "Fill-in-the-blank" exercises. Focus on using the grammar and vocabulary together. Do more rounds of guided practice, up to 5 at most. Stop earlier if mastery is demonstrated.
 4. **Step 4: Active Production:** Ask 2-3 open-ended questions in English that require me to answer in Korean using the new grammar and vocabulary.
 5. **Step 5: Reading & Translation:** Generate **3 short (a few paragraphs long), contextual texts** (mini-stories, dialogues, or descriptive paragraphs) in Korean, using the module's grammar and vocabulary. Ask to translate them into English.
 6. **Step 6: Active Writing:** Prompt to write in Korean **3 short pieces of content** (a few sentences or a short paragraph each) based on specific creative and engaging prompts.
