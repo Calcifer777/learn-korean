@@ -1,6 +1,29 @@
 # Foundational Conjugations
 
-* [ ] Present Tense (Polite & Casual) (-)
-* [ ] Past Tense
-* [ ] Future Tense (Plans & Intentions)
-* [ ] Continuous Tenses (Present/Past -고 있다)
+- [x] Present Tense (Polite & Casual) (-)
+- [x] Past Tense
+- [x] Future Tense (Plans & Intentions)
+- [ ] Present & Past Perfect
+- [ ] Continuous Tenses (Present/Past -고 있다)
+- [x] Want to (-고 싶어요)
+- [ ] Modal verbs: can, should, might, could, have, may, must
+- [x] If clauses
+- [x] Passive
+- [ ] Reported speech
+- [ ] Questions & Auxiliary verbs
+  - Do you know where she is?...
+  - I'm not happy either...
+- [ ] Question word + to:
+  - used to
+  - about ...ing
+  - good to go
+  - see her go...
+- [x] Determiners: 이/ 저/ 그
+- [ ] Relative clauses
+  - "I know the <subject> who ..."
+  - "Do you know what I did?"
+  - "It is so ... that I want to ... "
+  - "It is too much too ..."
+- Comparisons & conjugations
+  - to be better/worse than ...
+  - "Although I could do it, I didn't"
