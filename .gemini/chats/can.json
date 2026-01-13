@@ -582,5 +582,29 @@
         "text": "This round was significantly better! Your accuracy with **-ㄹ 수 있다/없다** is much higher, and you are consistently including the word **수**.\n\n### Round 2 Feedback & Corrections\n\n1.  **눈이 아파서, TV를 볼 수 없어요**\n    *   **Perfect!** Correct root, connector, and grammar.\n2.  **손이 아파서 글씨를 쓸 수 없어요**\n    *   **Logic:** You wrote \"아파거\"—remember the connector is **-서** (as in \"So\").\n    *   **Grammar:** **쓸 수 없어요** is perfect.\n3.  **저는 관심이 많아서, 공부할 수 있어요**\n    *   **Logic:** You wrote \"자는\" (sleeping/ruler) instead of **저는** (I).\n    *   **Vocab:** **관심** (Interest) and **공부** (Study) are the correct spellings.\n4.  **지금 너무 바빠서, 만날 수 없어요**\n    *   **Logic:** You wrote \"나무\" (Tree) instead of **너무** (Too much).\n    *   **Grammar:** **만날 수 없어요** is perfect.\n5.  **젓가락으로 음식을 먹을 수 있어요?**\n    *   **Vocab:** **젓가락** (Chopsticks) uses 'ㅓ', not 'ㅏ'.\n    *   **Grammar:** **먹을 수 있어요?** is perfect (consonant ending + 을).\n\n---\n\n### Round 3: Guided Practice (Complex Connections)\n\nLet's do one more round to solidify these spelling nuances and the **-서** connection.\n\n1.  **Translate:** \"Because my head hurts, I cannot sleep.\"\n    *   *Roots:* Head (두/머리), To sleep (자다).\n2.  **Fill in the blank:** \"안경이 __________(don't have), 볼 수 없어요.\"\n    *   *Vocab:* To not have (없다 -> use -서).\n3.  **Translate:** \"Can you clean the bathroom with me?\"\n    *   *Roots:* Bathroom (욕실), With me (저하고 같이), To clean (청소하다).\n4.  **Fill in the blank:** \"다리가 __________(hurt), 걸을 수 없어요.\"\n    *   *Vocab:* To hurt (아프다 -> use -서).\n5.  **Translate:** \"I have a heart, so I can love.\" (A bit poetic!)\n    *   *Roots:* Heart (심장), To love (사랑하다).\n\nHow are these feeling? After this, we'll move to Active Production!"
       }
     ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "1. 마리거 아퍼서 잘 수 없어요\n2. 안경를 앖서, 볼 수 없어요\n3. 욕실을 저하고 가"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "1. 다리거 아퍼서 잘 수 없어요\n2. 안경를 앖서, 볼 수 없어요\n3. 욕실을 저하고 같이 청수할 수 있어요?\n4. 다리가 아파서, 걸 수 없어요\n5. 심장을 있서, 사랑할 수 있서요"
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "You are showing great perseverance. We are ironing out the last few wrinkles with the spelling and particles.\n\n### Round 3 Feedback & Corrections\n\n**1. 머리가 아파서 잘 수 없어요.**\n*   **Logic:**\n    *   **Head:** You wrote \"마리\" (which means 'head' of cattle or a counter). It is **머리**.\n    *   **Particle:** **가** (Subject marker), not \"거\".\n    *   **Hurt:** **아파서**, not \"아퍼서\".\n    *   **Result:** **잘 수 없어요** is perfect.\n\n**2. 안경이 없어서, 볼 수 없어요.**\n*   **Logic:**\n    *   **Particle:** Since \"not have\" is an adjective-like verb, we use the subject marker **이/가**, not object marker **를**. -> **안경이**.\n    *   **Connector:** **없다** (to not have) + **-어서** = **없어서**. (You wrote \"앖서\").\n    *   **Result:** **볼 수 없어요** is perfect.\n\n**3. 욕실을 저하고 같이 청소할 수 있어요?**\n*   **Logic:**\n    *   **With me:** **저하고 같이** is perfect.\n    *   **Clean:** **청소** (Cleaning), not \"청수\".\n    *   *Note:* **청소** uses the root **소 (掃 - sweep)**. **수** usually means water or hand.\n\n**4. 다리가 아파서, 걸을 수 없어요.**\n*   **Logic:**\n    *   **Hurt:** **아파서** is correct here!\n    *   **Walk:** Remember the irregular verb? **걷다** becomes **걸을** (with `을`), not just `걸`. You need the extra syllable because of the consonant. -> **걸을 수 없어요**.\n\n**5. 심장이 있어서, 사랑할 수 있어요.**\n*   **Logic:**\n    *   **Particle:** Again, \"to have\" (있다) takes subject marker **이/가**. -> **심장이**.\n    *   **Connector:** **있** + **어서** = **있어서**.\n    *   **End:** **있어요**, not \"있서요\".\n\n---\n\n## Step 4: Active Production\n\nOkay, now let's try answering questions again. I'll ask in English, you answer in Korean.\n\n1.  **Why can't you go to the mountains today?**\n    *   *Answer using:* \"Because my leg hurts...\"\n2.  **Can you read this book without glasses?**\n    *   *Answer using:* \"No (아니요), because I don't have glasses, I cannot read.\"\n3.  **What can you do in the kitchen?**\n    *   *Answer using:* \"I can cook (요리하다).\"\n\nTake your time with the spelling! Think: **Connector (-서)** and **Ability (수)**."
+      }
+    ]
   }
 ]
