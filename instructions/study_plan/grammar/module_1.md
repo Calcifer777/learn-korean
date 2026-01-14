@@ -6,7 +6,8 @@
 - [ ] Present & Past Perfect
 - [x] Continuous Tenses (Present/Past -고 있다)
 - [x] Want to (-고 싶어요)
-- [ ] Modal verbs: can, should, might, could, have, may, must
+- [x] Modal verbs: can, have to, must
+- [ ] Other Modals: should, might, could, may, etc.
 - [x] If clauses
 - [x] Passive
 - [ ] Reported speech
