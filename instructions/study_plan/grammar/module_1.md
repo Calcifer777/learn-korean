@@ -28,3 +28,10 @@
 - Comparisons & conjugations
   - to be better/worse than ...
   - "Although I could do it, I didn't"
+
+# Time, Duration & Instrumental Particles
+
+- [x] Time Duration & Ranges (since ~부터, during ~동안, from...to ~부터...까지)
+- [x] Means, Methods & Path (via/through/using ~(으)로)
+- [x] Companionship (with ~와/과, ~하고, ~(이)랑)
+- [ ] Prevention (stop from ...ing ~지 못하게 하다)

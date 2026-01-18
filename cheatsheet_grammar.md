@@ -39,7 +39,12 @@ Used to link a reason/cause to a result ("Because...", "So...").
 *   **Formation:** Conjugate verb to present tense (remove -요) + -서.
 *   *Example:* 아파서 (Because it hurts), 없어서 (Because I don't have it).
 
-### 7. Obligation & Necessity (-아/어/여야 되다)
+### 7. Causal Connector (Formal/Noun-based) (-기 때문에)
+A stronger, more formal way to express "Because...".
+*   **Formation:** Verb Stem + -기 때문에
+*   *Example:* 비가 오기 때문에 (Because it rains), 바쁘기 때문에 (Because I am busy).
+
+### 8. Obligation & Necessity (-아/어/여야 되다)
 Used to express "must" or "have to".
 *   **Formation:** Conjugate to Present Tense (remove -요) + -야 되다.
     *   **Ends in ㅏ/ㅗ:** -아야 되다 (가다 -> 가야 돼요)
@@ -48,9 +53,22 @@ Used to express "must" or "have to".
     *   **Hada verbs:** -해야 되다 (공부하다 -> 공부해야 돼요)
 *   *Example:* 가야 돼요 (I must go), 먹어야 돼요 (I must eat).
 
-### 8. If Clauses (-(으)면)
+### 9. If Clauses (-(으)면)
 Used to say "If X, then Y".
 *   **Formation:**
     *   **Vowel stem / ㄹ-ending:** Add -면 (가다 -> 가면, 살다 -> 살면).
     *   **Consonant stem:** Add -으면 (먹다 -> 먹으면).
 *   *Example:* 비가 오면 안 가요 (If it rains, I won't go).
+
+### 10. Permission & Prohibition (-아/어도 되다 / -(으)면 안 되다)
+Used to ask for/give permission or express that something is forbidden.
+*   **Permission:** Verb Stem + -아/어/여도 되다 (May I / You may).
+*   **Prohibition:** Verb Stem + -(으)면 안 되다 (Must not / Not allowed).
+*   *Example:* 들어가도 돼요? (May I come in?), 먹으면 안 돼요 (You must not eat it).
+
+### 11. Purpose / For the sake of (-을/를 위해서)
+Used to express doing something for a goal, purpose, or person.
+*   **Formation:** Noun + -을/를 위해서
+*   *Example:* 건강을 위해서 (For [the sake of] health), 친구를 위해서 (For my friend).
+
+### Particles: Time & Methods

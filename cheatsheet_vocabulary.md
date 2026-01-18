@@ -17,6 +17,18 @@
 *   **풍 (風 - Wind):** 태풍 (Typhoon), 선풍기 (Electric fan)
 *   **우 (雨 - Rain):** 우산 (Umbrella), 우비 (Raincoat)
 
+### Places & Transportation
+*   **장 (場 - Place / Open Space):** 시장 (Market), 주차장 (Parking lot), 장소 (Location)
+*   **소 (所 - Place / Office):** 주소 (Address), 사무소 (Office), 장소 (Location)
+*   **차 (車 - Vehicle / Car):** 자동차 (Car), 기차 (Train), 전차 (Tram)
+*   **철 (鐵 - Iron / Rail):** 지하철 (Subway), 철도 (Railway)
+*   **역 (驛 - Station):** 역 (Station), 서울역 (Seoul Station)
+
+### Social Life & Relationships
+*   **인 (人 - Person):** 개인 (Individual), 인구 (Population), 부인 (Wife)
+*   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member)
+*   **친 (親 - Close / Relative):** 친구 (Friend), 친척 (Relative), 부모 (Parents)
+
 ### Time & Logic
 *   **후 (後 - After):** 후에 (After/Later)
-*   **전 (前 - Before):** 전에 (Before/Ago)
+*   **전 (前 - Before):** 전에 (Before/Ago), 역전 (In front of the station)
