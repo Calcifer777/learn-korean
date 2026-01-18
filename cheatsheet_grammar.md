@@ -44,14 +44,16 @@ A stronger, more formal way to express "Because...".
 *   **Formation:** Verb Stem + -기 때문에
 *   *Example:* 비가 오기 때문에 (Because it rains), 바쁘기 때문에 (Because I am busy).
 
-### 8. Obligation & Necessity (-아/어/여야 되다)
+### 8. Obligation & Necessity (-아/어/여야 되다 / 하다)
 Used to express "must" or "have to".
-*   **Formation:** Conjugate to Present Tense (remove -요) + -야 되다.
-    *   **Ends in ㅏ/ㅗ:** -아야 되다 (가다 -> 가야 돼요)
-        *   *Contraction Note:* If the stem ends in a vowel, they often merge (가 + 아 -> 가, 오 + 아 -> 와).
-    *   **Ends in other vowel:** -어야 되다 (먹다 -> 먹어야 돼요)
-    *   **Hada verbs:** -해야 되다 (공부하다 -> 공부해야 돼요)
-*   *Example:* 가야 돼요 (I must go), 먹어야 돼요 (I must eat).
+*   **Formation:** Conjugate to Present Tense (remove -요) + -야 되다 OR -야 하다.
+    *   **Ends in ㅏ/ㅗ:** -아야 되다/하다 (가다 -> 가야 돼요/해요)
+    *   **Ends in other vowel:** -어야 되다/하다 (먹다 -> 먹어야 돼요/해요)
+    *   **Hada verbs:** -해야 되다/하다 (공부하다 -> 공부해야 돼요/해요)
+*   **Nuance Difference:**
+    *   **-야 하다:** Focuses on the **duty**. More formal/objective. Common in writing/rules.
+    *   **-야 되다:** Focuses on the **result** ("It works out if..."). More casual/natural. Common in speech.
+*   *Example:* 가야 돼요/해요 (I must go), 먹어야 돼요/해요 (I must eat).
 
 ### 9. If Clauses (-(으)면)
 Used to say "If X, then Y".
@@ -71,4 +73,34 @@ Used to express doing something for a goal, purpose, or person.
 *   **Formation:** Noun + -을/를 위해서
 *   *Example:* 건강을 위해서 (For [the sake of] health), 친구를 위해서 (For my friend).
 
+### 12. Noun Modifiers (Past Tense: -(으)ㄴ)
+Used to describe a noun with a past action (e.g., "The movie I watched").
+*   **Vowel stem:** Add -ㄴ (보다 -> 본 영화).
+*   **Consonant stem:** Add -은 (먹다 -> 먹은 빵).
+*   **-ㄹ irregular:** Drop ㄹ, add -ㄴ (만들다 -> 만든 음식).
+*   *Example:* 어제 본 영화 (The movie I watched yesterday).
+
+### 13. Before ...ing (-기 전에)
+Used to say "Before doing X".
+*   **Formation:** Verb Stem + -기 전에
+*   *Example:* 자기 전에 (Before sleeping), 먹기 전에 (Before eating).
+
+### 14. About / Concerning (-에 대해서)
+Used to say "About X".
+*   **Formation:** Noun + -에 대해서
+*   *Example:* 영화에 대해서 (About the movie).
+
 ### Particles: Time & Methods
+
+### 15. The Particle -(으)로
+A versatile particle with several key meanings:
+*   **Means / Method / Instrument:** "By", "Using", "With", "In (a language)".
+    *   *Example:* 버스로 가요 (I go by bus), 한국어로 말해요 (I speak in Korean).
+*   **Direction:** "Towards" or "To" a general area.
+    *   *Example:* 집으로 가요 (I'm going towards home).
+*   **Status / Capacity / Identity:** "As", "In the capacity of", or to indicate a state.
+    *   *Example:* 선물로 빵을 줬어요 (I gave bread **as** a gift), **처음으로** (for the first time / **as** the first).
+
+---
+
+### Particles: Time & Duration

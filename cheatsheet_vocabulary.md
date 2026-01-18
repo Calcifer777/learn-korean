@@ -29,6 +29,12 @@
 *   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member)
 *   **친 (親 - Close / Relative):** 친구 (Friend), 친척 (Relative), 부모 (Parents)
 
+### Culture & Media (Movies)
+*   **영 (映 - Reflect):** 영화 (Movie - reflecting picture), 상영 (Screening)
+*   **감 (監 - Supervise):** 감독 (Director - supervise & command), 감사 (Audit)
+*   **실 (實 - Real):** 실사 (Live-action - copying reality), 실제 (Reality/Truth)
+*   **기 (期 - Time/Expect):** 기대 (Expectation - waiting for a time), 기간 (Period)
+
 ### Time & Logic
 *   **후 (後 - After):** 후에 (After/Later)
 *   **전 (前 - Before):** 전에 (Before/Ago), 역전 (In front of the station)
