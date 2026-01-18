@@ -90,6 +90,32 @@ Used to say "About X".
 *   **Formation:** Noun + -에 대해서
 *   *Example:* 영화에 대해서 (About the movie).
 
+### 15. Noun Modifiers (Present Tense: -는)
+Used to describe a noun with an action happening now or generally.
+*   **Formation:** Add -는 to the verb stem.
+*   **ㄹ irregular:** Drop ㄹ, add -는 (만들다 -> 만드는).
+*   **있다/없다:** Always use -는 (있는, 없는).
+*   *Example:* 제가 자주 가는 병원 (The hospital I often go to).
+
+### 16. Addition & Coordination (-고)
+Used to connect two verbs or adjectives ("And" / "And then").
+*   **Formation:** Verb/Adjective Stem + -고.
+*   *Example:* 먹고 쉬어요 (Eat and rest), 친절하고 예뻐요 (Kind and pretty).
+
+### 17. Adverbs (-게)
+Turns an adjective into an adverb (e.g., "Kindly").
+*   **Formation:** Adjective Stem + -게.
+*   *Example:* 친절하게 (Kindly), 맛있게 먹어요 (Eat deliciously/well).
+
+### Irregular Conjugations
+
+### 르 Irregular
+When a stem ending in 르 meets -아/어/요:
+1. Drop ㅡ.
+2. Add an extra ㄹ to the previous syllable.
+*   부르다 (to call) -> 불러요.
+*   모르다 (to not know) -> 몰라요.
+
 ### Particles: Time & Methods
 
 ### 15. The Particle -(으)로

@@ -29,6 +29,12 @@
 *   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member)
 *   **친 (親 - Close / Relative):** 친구 (Friend), 친척 (Relative), 부모 (Parents)
 
+### Health & Medical
+*   **병 (病 - Illness):** 병원 (Hospital), 병 (Sickness)
+*   **의 (醫 - To heal/Medical):** 의사 (Doctor), 의원 (Clinic)
+*   **약 (藥 - Medicine):** 약국 (Pharmacy), 약사 (Pharmacist)
+*   **진 (診 - Diagnose):** 진찰 (Examination), 진단 (Diagnosis)
+
 ### Culture & Media (Movies)
 *   **영 (映 - Reflect):** 영화 (Movie - reflecting picture), 상영 (Screening)
 *   **감 (監 - Supervise):** 감독 (Director - supervise & command), 감사 (Audit)
