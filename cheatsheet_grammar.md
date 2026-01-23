@@ -107,6 +107,56 @@ Turns an adjective into an adverb (e.g., "Kindly").
 *   **Formation:** Adjective Stem + -게.
 *   *Example:* 친절하게 (Kindly), 맛있게 먹어요 (Eat deliciously/well).
 
+### 18. Adjective Modifiers (A + -(으)ㄴ)
+Used to describe a noun with a state/quality.
+*   **Vowel stem:** Add -ㄴ (예쁘다 -> 예쁜).
+*   **Consonant stem:** Add -은 (좋다 -> 좋은).
+*   **ㅂ irregular:** Drop ㅂ, add -운 (무섭다 -> 무서운, 맵다 -> 매운).
+*   *Example:* 무서운 영화 (Scary movie), 좋은 사람 (Good person).
+
+### 19. Emotional Verbs (-아/어/여하다)
+Turns an adjective (state) into an action verb (feeling) that can take an object.
+*   **Formation:** Present conjugation (remove -요) + 하다.
+*   **좋다 (Good)** -> 좋아하다 (To like)
+*   **싫다 (Disliked)** -> 싫어하다 (To hate)
+*   **무섭다 (Scary)** -> 무서워하다 (To be afraid of)
+*   *Example:* 저는 영화를 좋아해요 (I like movies).
+
+### 20. Passive / State Verbs (-되다)
+Used when a state is reached or an action happens "to" the subject.
+*   **시작하다 (To start something)** vs **시작되다 (Something starts)**.
+*   *Example:* 영화가 시작돼요 (The movie starts).
+
+### 21. Expressions for "Should" (Advice vs. Suggestion)
+Korean has no direct 1-to-1 word for "should." Instead, use:
+*   **Advice (It is good to...):** V + -는 것이 좋아요.
+    *   *Example:* 일찍 자는 것이 좋아요. (You should sleep early.)
+*   **Suggestion (Try it):** V + -아/어/여 보세요.
+    *   *Example:* 이 방법을 써 보세요. (Try/Should use this method.)
+*   **Note:** If "should" means "must," use **-아야 돼요/해요**.
+
+### 22. Polite Requests / Instructions (-(으)세요)
+Used to politely tell someone what to do.
+*   **Vowel stem:** -세요 (가세요).
+*   **Consonant stem:** -으세요 (읽으세요).
+*   **Special:** 먹다/마시다 -> **드세요**.
+*   *Example:* 따뜻한 우유를 드세요. (Please drink warm milk.)
+
+### 23. Prohibition (-지 마세요)
+Used to say "Please don't."
+*   **Formation:** Verb Stem + -지 마세요.
+*   *Example:* 너무 많이 먹지 마세요. (Please don't eat too much.)
+
+### 24. Nominalization (-는 것)
+Turns a verb into a noun ("the act of doing").
+*   **Formation:** Verb Stem + -는 것.
+*   *Example:* 자는 것 (The act of sleeping / Sleeping).
+
+### 25. Choices: Or ((이)나)
+Used between nouns.
+*   **Vowel ending:** N + 나 (커피나).
+*   **Consonant ending:** N + 이나 (물이나).
+
 ### Irregular Conjugations
 
 ### 르 Irregular

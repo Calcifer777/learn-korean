@@ -45,3 +45,15 @@
 - [x] Addition & Coordination (-고)
 - [x] Irregular: 르 (부르다 -> 불러요)
 - [x] Adverbs: -게 (친절하게)
+
+# New Concepts from Lesson 008
+- [x] Noun Modifiers (Adjectives: -(으)ㄴ)
+- [x] Emotional Verbs (Good/Like: -아/어/여하다)
+- [x] Passive/State Verbs (-되다)
+
+# New Concepts from Lesson 009
+- [x] Imperatives: Polite Requests (-(으)세요)
+- [x] Prohibition: Please don't (-지 마세요)
+- [x] Suggestions/Trying: Try doing (-아/어/여 보세요)
+- [x] Nominalization: The act of doing (-는 것)
+- [x] Choices: Or (Noun + (이)나)

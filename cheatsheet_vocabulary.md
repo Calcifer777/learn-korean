@@ -29,6 +29,12 @@
 *   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member)
 *   **친 (親 - Close / Relative):** 친구 (Friend), 친척 (Relative), 부모 (Parents)
 
+### Concepts & Feelings
+*   **시 (始 - Begin):** 시작 (Start/Begin), 시조 (Founder)
+*   **작 (作 - Make/Work):** 시작 (Start), 조작 (Manipulation), 작가 (Writer)
+*   **인 (人 - Person):** 인기 (Popularity), 인구 (Population)
+*   **기 (氣 - Energy/Air):** 인기 (Popularity), 기분 (Mood), 공기 (Air)
+
 ### Health & Medical
 *   **병 (病 - Illness):** 병원 (Hospital), 병 (Sickness)
 *   **의 (醫 - To heal/Medical):** 의사 (Doctor), 의원 (Clinic)
