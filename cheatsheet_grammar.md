@@ -152,10 +152,52 @@ Turns a verb into a noun ("the act of doing").
 *   **Formation:** Verb Stem + -는 것.
 *   *Example:* 자는 것 (The act of sleeping / Sleeping).
 
-### 25. Choices: Or ((이)나)
-Used between nouns.
-*   **Vowel ending:** N + 나 (커피나).
-*   **Consonant ending:** N + 이나 (물이나).
+### 25. Choices: Or (N+(이)나 / V-거나)
+Used to indicate alternatives.
+*   **Nouns:** N + (이)나 (커피나 차).
+*   **Verbs:** V + -거나 (먹거나 마셔요).
+*   *Example:* 책을 읽거나 자요. (Read a book or sleep.)
+
+### 26. Time Clause: When (-(으)ㄹ 때)
+Used to say "When action/state happens..."
+*   **Formation:** Future Modifier + 때.
+*   *Example:* 비가 올 때 (When it rains), 아플 때 (When sick).
+
+### 27. Particle Stacking & Hierarchy
+Some particles replace others, while some stack.
+*   **Subject/Object (-이/가, -을/를):** **DROP** them when adding -만 (only), -도 (also), or -은/는 (topic).
+    *   *Example:* 영화를 + 만 -> **영화만** (Only movie).
+*   **Time/Place/Direction (-에, -에서, -에게, -으로):** **KEEP** them and add the special particle after.
+    *   *Example:* 집에서 + 만 -> **집에서만** (Only at home).
+
+### 28. Selection: Among (-중에서)
+Used to pick from a group.
+*   *Example:* 과일 중에서 사과 (Apple among fruits).
+
+### 29. Approximation: About (-정도)
+Used for approximate quantity/time.
+*   *Example:* 10분 정도 (About 10 minutes).
+
+### 30. Only (-만)
+*   *Example:* 너만 (Only you), 학교에만 (Only to school).
+
+### 31. The Verb "To Be" (이에요 / 예요)
+Used to define what something is.
+*   **Noun ends in Consonant:** + 이에요 (학생이에요).
+*   **Noun ends in Vowel:** + 예요 (마르코예요).
+*   **Negative ("Is not"):** N + 이/가 아니에요.
+
+### 32. Personal Pronouns & Possessives
+| English | Formal | Casual | Possessive (My) |
+| :--- | :--- | :--- | :--- |
+| **I** | **저** | **나** | **제** (Formal) / **내** (Casual) |
+| **We** | **저희** | **우리** | **저희** / **우리** |
+| **You** | (Use Title/Name) | **너** | **네** (Pronounced "Ni") |
+
+### 33. Demonstratives (This/That)
+*   **이것 (이거):** This (near me).
+*   **그것 (그거):** That (near you/context).
+*   **저것 (저거):** That (far from both).
 
 ### Irregular Conjugations
 
