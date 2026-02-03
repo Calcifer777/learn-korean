@@ -1,0 +1,57 @@
+#separator:tab
+#html:true
+to go	가다
+to receive	받다
+to make	만들다
+to meet	만나다
+to buy	사다
+to see, watch	보다
+to shoot	쏘다
+to learn	배우다
+to erase	지우다
+to drink	마시다
+to borrow, rent	빌리다
+to take time	걸리다
+to listen, hear	듣다
+to read	읽다
+to teach	가르치다
+to dance	춤을 추다
+to play tennis	테니스를 치다
+to study	공부하다
+to wash one's face	세수하다
+to do homework	숙제하다
+morning, breakfast	아침
+meal	식사
+to exercise	운동하다
+to talk, chat	이야기하다
+to work	일하다
+to call, telephone	전화하다
+to eat breakfast	아침 식사하다
+to eat lunch	점심 식사하다
+to eat dinner	저녁 식사하다
+to swim	수영하다
+to use a computer	컴퓨터하다
+to travel	여행하다
+to like	좋아하다
+to come	오다
+to find, look for	찾다
+to be tired	피곤하다
+visa	비자
+pizza	피자
+book	책
+Japanese language	일본어
+English language	영어
+Korean language	한국어
+movie	영화
+dance (noun)	춤
+water	물
+tennis	테니스
+homework	숙제
+lunch	점심
+evening, dinner	저녁
+computer	컴퓨터
+apple	사과
+bread	빵
+coffee	커피
+alcohol	술
+television	텔레비전

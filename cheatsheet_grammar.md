@@ -199,6 +199,90 @@ Used to define what something is.
 *   **그것 (그거):** That (near you/context).
 *   **저것 (저거):** That (far from both).
 
+### 34. Comparisons (-보다, 더, 가장/제일)
+Used to compare things.
+*   **Than:** N + 보다 (attach to the "standard").
+*   **More:** 더 (adverb).
+*   **Most/Best:** 가장 / 제일.
+*   **Formula:** A가 B보다 더 [Adj/Verb].
+*   *Example:* 영화보다 책이 더 좋아요. (Books are better than movies.)
+
+### 35. Sequential Linker (-아서/어서)
+Used to link two actions that are tightly connected in sequence or state.
+*   **Logic:** Do A, and then (while still in that state/place) do B.
+*   *Example:* 서점에 가서 책을 사요. (Go to the bookstore and buy a book).
+
+### 36. Transition: And then (그러고 나서)
+Used to transition between two separate sentences in sequence.
+*   *Example:* 숙제를 끝내요. 그러고 나서 음악을 들어요. (I finish homework. And then I listen to music.)
+
+### 37. Contraction: -는 걸
+Short for **-는 것을** (The act of... [object]).
+*   *Example:* 영화 보는 걸 좋아해요. (I like watching movies.)
+
+### 38. Causal Connector: Since/Because (-(으)니까)
+Used when the second clause is a suggestion, command, or personal opinion.
+*   **Formation:** Verb Stem + -(으)니까.
+*   *Example:* 추우니까 입으세요. (Since it's cold, please wear [it].)
+
+### 39. Benefactive: Do for someone (-아/어/여 주다)
+Used to show an action is done as a favor **for** someone.
+*   **Formation:** Present Tense + 주다.
+*   *Example:* 읽어 주세요. (Please read it [for me].)
+
+### 40. Similarity: Like / Such as (같은)
+Used to say "Nouns like A or B."
+*   **Formation:** Noun + 같은.
+*   *Example:* 사자 같은 동물 (Animals like lions).
+
+### 41. Potential: Might even / Can also (-ㄹ 수도 있다)
+Adding -도 to the "can" form emphasizes possibility ("might even").
+*   *Example:* 갈 수도 있어요. (I might even go.)
+
+### 42. Change of State: To become (-아/어/여지다)
+Turns an adjective into a process of change ("to get [adj]").
+*   **ㅏ, ㅗ:** -아지다 (많아지다).
+*   **Other:** -어지다 (추워지다).
+*   **-하다:** -해지다 (유명해지다).
+*   *Example:* 날씨가 추워져요. (The weather is getting cold.)
+
+### 43. Complex Modifiers: That one can (-(으)ㄹ 수 있는)
+Used to describe a noun by what can be done with/at it.
+*   *Example:* 수영할 수 있는 곳. (A place where one can swim.)
+
+### 44. Transition: For example (예를 들어서)
+Used to introduce examples.
+
+### 45. Immediate Sequence: As soon as (-자마자)
+Used when the second action follows the first instantly.
+*   **Formation:** Verb Stem + -자마자.
+*   *Example:* 일어나자마자 (As soon as I wake up).
+
+### 46. Approximate Time: Around (-쯤)
+Used for specific clock times or points in time.
+*   *Example:* 7시쯤 (Around 7 o'clock).
+
+### 47. Transfer & Change (갈다)
+*   **갈아입다:** To change clothes.
+*   **갈아타다:** To transfer (vehicles).
+
+### 48. Frequency: Sometimes (-(으)ㄹ 때도 있다)
+Used to say "There are times when..." or "Sometimes [Action]."
+*   *Example:* 아침을 안 먹을 때도 있어요. (There are times when I don't eat breakfast.)
+
+### 49. Not only A, but also B (뿐만 아니라)
+Used to add more information or list multiple items with emphasis.
+*   **Nouns:** N + 뿐만 아니라.
+*   *Example:* 책뿐만 아니라 옷도 샀어요. (I bought not only books but also clothes.)
+
+### 50. Even / Including (까지 - Emphasis)
+Used to emphasize including something unexpected.
+*   *Example:* 달걀까지 샀어요. (I even bought eggs.)
+
+### 51. Within / Inside (안에 - Time/Space)
+Used to set a time limit or deadline.
+*   *Example:* 이틀 안에 도착해요. (It arrives within two days.)
+
 ### Irregular Conjugations
 
 ### 르 Irregular

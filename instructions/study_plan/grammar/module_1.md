@@ -35,3 +35,28 @@
 - [x] Suggestions/Trying: Try doing (-아/어/여 보세요)
 - [x] Nominalization: The act of doing (-는 것)
 - [x] Choices: Or (Noun + (이)나)
+
+# New Concepts from Lesson 016
+- [x] Plural Marker (-들)
+- [x] Particles: To/For living things (-한테 / -에게)
+- [x] "Can also/even": -ㄹ 수도 있다
+- [x] Causal Connector (Reason for advice): -(으)니까
+- [x] Caution & Danger: 조심하다, 위험하다
+
+# New Concepts from Lesson 017
+- [x] Change of State (To become): -아/어/여지다
+- [x] For example: 예를 들어서
+- [x] Complex Modifiers: -(으)ㄹ 수 있는
+- [x] Trend & Fashion: 유행
+
+# New Concepts from Lesson 018
+- [x] Immediate Sequence: -자마자
+- [x] Approximate Time: -쯤
+- [x] Transfer & Change: 갈아타다 / 갈아입다
+- [x] Adverbs from Adjectives: -게 (간단하게)
+- [x] Frequencies: ... -(으)ㄹ 때도 있다 (Sometimes)
+
+# New Concepts from Lesson 019
+- [x] Not only... but also: 뿐만 아니라
+- [x] Even / Including: 까지 (Emphasis)
+- [x] Within (Time/Space): 안에

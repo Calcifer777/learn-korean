@@ -1,6 +1,6 @@
 # Logical Connectors (Clause Linking)
 
-* [ ] Sequential & Causal (-아/어/여서)
+* [x] Sequential & Causal (-아/어/여서)
 * [x] Addition & Coordination (-고)
 * [ ] Contrast & Background (-지만 / -(으)ㄴ/는데)
 * [ ] Conditions & Hypothethicals (-면 / -다면)

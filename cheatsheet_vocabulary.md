@@ -33,11 +33,28 @@
 *   **형/오빠:** Older brother (Male/Female speaker)
 *   **누나/언니:** Older sister (Male/Female speaker)
 
+### Education & Literature
+*   **서 (書 - Book/Writing):** 서점 (Bookstore), 도서관 (Library), 독서 (Reading)
+*   **설 (說 - Story/Theory):** 소설 (Novel), 설명 (Explanation)
+*   **추 (推 - Deduce):** 추리 (Deduction/Mystery)
+*   **리 (理 - Logic/Reason):** 추리, 이유 (Reason), 논리 (Logic)
+
 ### Social Life & Economics
-*   **편 (便 - Convenient):** 편의점 (Convenience store), 편리 (Convenience), 편지 (Letter)
+*   **편 (便 - Convenient)::** 편의점 (Convenience store), 편리 (Convenience), 편지 (Letter)
 *   **점 (店 - Store):** 편의점, 상점 (Store), 서점 (Bookstore)
 *   **가 (價 - Price):** 가격 (Price), 가치 (Value)
-*   **종 (種 - Kind):** 종류 (Variety/Kind), 인종 (Race)
+*   **종 (종 - Kind)::** 종류 (Variety/Kind), 인종 (Race)
+*   **유 (流 - Flow):** 유행 (Trend/Fashion), 유창하다 (Fluent)
+*   **행 (行 - Go):** 유행, 여행 (Travel), 행동 (Action)
+*   **사 (使 - Use/Send):** 사용 (Use), 대사관 (Embassy)
+*   **용 (用 - Use):** 사용, 이용 (Utilize), 용도 (Usage)
+*   **근 (勤 - Work)::** 출근 (Go to work), 퇴근 (Leave work)
+*   **오 (午 - Noon):** 오전 (AM), 오후 (PM), 정오 (Noon)
+*   **세 (洗 - Wash)::** 세수 (Wash face), 세탁 (Laundry)
+*   **택 (宅 - House):** 택배 (Delivery), 주택 (Housing)
+*   **배 (配 - Distribute):** 택배, 배달 (Delivery), 배분 (Distribution)
+*   **주 (注 - Pour/Focus):** 주문 (Order), 주의 (Caution)
+*   **문 (文 - Writing):** 주문, 문화 (Culture), 문장 (Sentence)
 
 ### Concepts & Feelings
 *   **시 (始 - Begin):** 시작 (Start/Begin), 시조 (Founder)
@@ -45,6 +62,10 @@
 *   **인 (人 - Person):** 인기 (Popularity), 인구 (Population)
 *   **기 (氣 - Energy/Air):** 인기 (Popularity), 기분 (Mood), 공기 (Air)
 *   **분 (分 - Part/Share):** 기분 (Mood), 분수 (Fraction)
+*   **동 (動 - Move):** 동물 (Animal), 운동 (Exercise)
+*   **물 (物 - Thing):** 동물 (Animal), 물건 (Item)
+*   **위 (危 - Danger):** 위험 (Danger)
+*   **험 (險 - Steep/Danger):** 위험 (Danger), 모험 (Adventure)
 
 ### Health & Medical
 *   **병 (病 - Illness):** 병원 (Hospital), 병 (Sickness)
