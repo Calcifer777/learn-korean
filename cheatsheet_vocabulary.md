@@ -71,15 +71,21 @@
 *   **병 (病 - Illness):** 병원 (Hospital), 병 (Sickness)
 *   **의 (醫 - To heal/Medical):** 의사 (Doctor), 의원 (Clinic)
 *   **약 (藥 - Medicine):** 약국 (Pharmacy), 약사 (Pharmacist)
-*   **진 (診 - Diagnose):** 진찰 (Examination), 진단 (Diagnosis)
+*   **진 (診 - Diagnose):** 진찰 (Examination), 진단 (Diagnosis), 진료 (Medical treatment), 휴진 (Closed for treatment)
 *   **식 (食 - Food/Eat):** 음식점 (Restaurant), 식사 (Meal), 식당 (Cafeteria)
+*   **치 (齒 - Tooth):** 치과 (Dentistry), 치통 (Toothache)
+*   **과 (科 - Department/Subject):** 치과, 내과 (Internal medicine), 학과 (Academic department)
+*   **휴 (休 - Rest):** 휴진, 휴일 (Holiday), 휴식 (Rest)
 
 ### Culture & Media (Movies)
 *   **영 (映 - Reflect):** 영화 (Movie - reflecting picture), 상영 (Screening)
 *   **감 (監 - Supervise):** 감독 (Director - supervise & command), 감사 (Audit)
-*   **실 (實 - Real):** 실사 (Live-action - copying reality), 실제 (Reality/Truth)
+*   **실 (實 - Real)::** 실사 (Live-action - copying reality), 실제 (Reality/Truth)
 *   **기 (期 - Time/Expect):** 기대 (Expectation - waiting for a time), 기간 (Period)
 
 ### Time & Logic
 *   **후 (後 - After):** 후에 (After/Later)
 *   **전 (前 - Before):** 전에 (Before/Ago), 역전 (In front of the station)
+*   **야 (夜 - Night):** 야간 (Night-time), 야식 (Late-night snack)
+*   **간 (間 - Space/Interval):** 야간, 시간 (Time), 공간 (Space)
+*   **평 (平 - Flat/Average):** 평일 (Weekdays), 평소 (Ordinary times)

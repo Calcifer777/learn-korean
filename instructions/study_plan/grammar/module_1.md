@@ -60,3 +60,8 @@
 - [x] Not only... but also: 뿐만 아니라
 - [x] Even / Including: 까지 (Emphasis)
 - [x] Within (Time/Space): 안에
+
+# New Concepts from Lesson 020
+- [x] Gratitude for Actions: -아/어/여 주셔서 감사합니다
+- [x] Time Ranges: -부터 ... -까지
+- [x] Every X: 매주, 매일, 매월

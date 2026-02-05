@@ -283,6 +283,24 @@ Used to emphasize including something unexpected.
 Used to set a time limit or deadline.
 *   *Example:* 이틀 안에 도착해요. (It arrives within two days.)
 
+### 52. Gratitude for Specific Actions (-아/어/여 주셔서 감사합니다)
+Used to say "Thank you for [doing something]."
+*   **Logic:** Verb + -아/어/여 주다 (honorific favor) + -어서 (reason) + 감사합니다.
+*   *Example:* 와 주셔서 감사합니다. (Thank you for coming.)
+*   *Example:* 전화 주셔서 감사합니다. (Thank you for calling.)
+
+### 53. Time Ranges (Time + 부터 ~ Time + 까지)
+Used to define a period from start to finish.
+*   **부터:** From (start point).
+*   **까지:** Until / To (end point).
+*   *Example:* 9시부터 6시까지. (From 9:00 to 6:00.)
+
+### 54. Every X (매 + Noun)
+Used to indicate frequency.
+*   **매일:** Every day.
+*   **매주:** Every week.
+*   **매월:** Every month.
+
 ### Irregular Conjugations
 
 ### 르 Irregular
