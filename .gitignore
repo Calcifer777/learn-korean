@@ -1,3 +1,4 @@
 *.mp3
 *.zip
 .DS_Store
+.env
