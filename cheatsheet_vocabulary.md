@@ -26,8 +26,10 @@
 
 ### Social Life & Relationships
 *   **인 (人 - Person):** 개인 (Individual), 인구 (Population), 부인 (Wife)
-*   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member)
+*   **회 (會 - Meeting / Association):** 회사 (Company), 사회 (Society), 회원 (Member), 회식 (Company dinner)
 *   **친 (親 - Close / Relative):** 친구 (Friend), 친척 (Relative), 부모 (Parents)
+*   **전 (全 - All / Whole):** 전체 (Whole/Entire), 전국 (Nationwide)
+*   **체 (體 - Body):** 전체 (Entire body/organization), 신체 (Physical body)
 *   **선생님:** Teacher / Doctor (Honorific)
 *   **사장님:** Boss / Shop owner
 *   **형/오빠:** Older brother (Male/Female speaker)
@@ -58,6 +60,8 @@
 
 ### Concepts & Feelings
 *   **시 (始 - Begin):** 시작 (Start/Begin), 시조 (Founder)
+*   **감 (感 - Feel/Emotion):** 감사 (Gratitude), 감정 (Emotion), 감기 (Cold/Flu)
+*   **사 (謝 - Thank/Decline):** 감사, 사과 (Apology)
 *   **작 (作 - Make/Work):** 시작 (Start), 조작 (Manipulation), 작가 (Writer)
 *   **인 (人 - Person):** 인기 (Popularity), 인구 (Population)
 *   **기 (氣 - Energy/Air):** 인기 (Popularity), 기분 (Mood), 공기 (Air)
@@ -76,6 +80,7 @@
 *   **치 (齒 - Tooth):** 치과 (Dentistry), 치통 (Toothache)
 *   **과 (科 - Department/Subject):** 치과, 내과 (Internal medicine), 학과 (Academic department)
 *   **휴 (休 - Rest):** 휴진, 휴일 (Holiday), 휴식 (Rest)
+*   **생 (生 - Life/Birth):** 생일 (Birthday), 학생 (Student), 생활 (Life/Living), 태어나다 (To be born - native)
 
 ### Culture & Media (Movies)
 *   **영 (映 - Reflect):** 영화 (Movie - reflecting picture), 상영 (Screening)
@@ -84,7 +89,7 @@
 *   **기 (期 - Time/Expect):** 기대 (Expectation - waiting for a time), 기간 (Period)
 
 ### Time & Logic
-*   **후 (後 - After):** 후에 (After/Later)
+*   **후 (後 - After):** 후에 (After/Later), 식후 (After meal), 오후 (PM)
 *   **전 (前 - Before):** 전에 (Before/Ago), 역전 (In front of the station)
 *   **야 (夜 - Night):** 야간 (Night-time), 야식 (Late-night snack)
 *   **간 (間 - Space/Interval):** 야간, 시간 (Time), 공간 (Space)

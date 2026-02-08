@@ -1,5 +1,23 @@
 # Korean Grammar Cheatsheet
 
+## Important: Verb Types (동사 vs 형용사)
+
+Before conjugating, you must identify if a word is an **Action Verb** or a **Descriptive Verb (Adjective)**. They follow different rules in patterns like the Plain Form and Reported Speech.
+
+### 1. Action Verbs (동사 - Dongsa)
+Describe an **action** or **process**.
+*   **Examples:** 가다 (go), 먹다 (eat), 공부하다 (study), 만들다 (make).
+*   **Check:** Can you say "Let's [verb]!"? If yes, it's an Action Verb.
+*   **Plain Form:** Stem + **-ㄴ다 / -는다** (간다, 먹는다).
+
+### 2. Descriptive Verbs / Adjectives (형용사 - Hyeongyongsa)
+Describe a **state** or **quality**.
+*   **Examples:** 예쁘다 (pretty), 좋다 (good), 크다 (big), 행복하다 (happy).
+*   **Check:** You cannot say "Let's be [adj]!" naturally in Korean.
+*   **Plain Form:** **Dictionary Form** (예쁘다, 좋다).
+
+---
+
 ### 1. Present Tense (Polite -아/어/여요)
 Used for general truths, habits, and current states.
 *   **Ends in ㅏ/ㅗ:** Add -아요 (가다 -> 가요, 오다 -> 와요).
@@ -300,6 +318,41 @@ Used to indicate frequency.
 *   **매일:** Every day.
 *   **매주:** Every week.
 *   **매월:** Every month.
+
+### 55. Simultaneous Actions (V + -(으)면서)
+Used when one person does two actions at the same time.
+*   **Vowel Stem:** -면서 (하면서).
+*   **Consonant Stem:** -으면서 (먹으면서).
+*   **ㄹ Ending:** -면서 (만들면서).
+*   *Example:* 음악을 들으면서 공부해요. (I study while listening to music.)
+
+### 56. Group Exclusivity: Among / Just us (N + 끼리)
+Used to show an action is limited to a specific group.
+*   *Example:* 우리끼리 이야기해요. (Let's talk among ourselves.)
+*   *Example:* 학생들끼리 갔어요. (Only the students went.)
+
+### 57. The Plain Form (해라체 - Skeleton Form)
+The "neutral" style used in writing, reporting, or quoting.
+*   **Action Verbs:** V + -ㄴ/는다고 (간다, 먹는다).
+*   **Adjectives:** Dictionary Form (춥다, 좋다).
+*   **Nouns:** N + -(이)다 (의사다, 학생이다).
+
+### 58. Indirect Quotation: Statements (-다고 하다)
+Used to report what someone else said or a general fact.
+*   **Action Verbs:** V + -ㄴ/는다고 하다 (좋아한다고 해요, 먹는다고 해요).
+*   **Adjectives:** Adj + -다고 하다 (예쁘다고 해요, 춥다고 해요).
+*   **Past Tense:** -았/었/였다고 하다 (먹었다고 해요, 좋았다고 해요).
+*   **Future Tense:** -(으)ㄹ 거라고 하다 (할 거라고 해요).
+
+### 59. "As you know" / "I told you" (-잖아요)
+Used to state a fact the listener should know or to emphasize a reason.
+*   *Example:* 어제 봤잖아요. (You saw it yesterday [remember?].)
+*   *Example:* 친절하잖아요. (He's kind, you know.)
+
+### 60. After doing X (V + -(으)ㄴ 후에)
+Used to sequence actions.
+*   **Formation:** Past Modifier (-(으)ㄴ) + 후에.
+*   *Example:* 밥을 먹은 후에 커피를 마셔요. (After eating, I drink coffee.)
 
 ### Irregular Conjugations
 
