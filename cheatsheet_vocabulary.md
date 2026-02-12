@@ -94,3 +94,18 @@
 *   **야 (夜 - Night):** 야간 (Night-time), 야식 (Late-night snack)
 *   **간 (間 - Space/Interval):** 야간, 시간 (Time), 공간 (Space)
 *   **평 (平 - Flat/Average):** 평일 (Weekdays), 평소 (Ordinary times)
+
+### Orientation & Space
+*   **상 (上 - Up/Above):** 상체 (Upper body), 책상 (Desk), 이상 (Above/More than)
+*   **하 (下 - Down/Below):** 하체 (Lower body), 지하 (Basement), 이하 (Below/Less than)
+*   **동 (東 - East):** 동쪽 (East), 동해 (East Sea)
+*   **서 (西 - West):** 서쪽 (West), 서구 (The West/Occident)
+*   **남 (南 - South):** 남쪽 (South), 강남 (South of the river)
+*   **북 (北 - North):** 북쪽 (North), 북한 (North Korea)
+*   **위 / 아래(밑):** Up / Down
+*   **앞 / 뒤:** Front / Back
+*   **왼쪽 / 오른쪽:** Left / Right
+*   **사이:** Between
+*   **건너편:** Across / Opposite side
+*   **안 / 밖:** Inside / Outside
+*   **근처:** Nearby / Vicinity

@@ -354,6 +354,41 @@ Used to sequence actions.
 *   **Formation:** Past Modifier (-(으)ㄴ) + 후에.
 *   *Example:* 밥을 먹은 후에 커피를 마셔요. (After eating, I drink coffee.)
 
+### 61. Suggestions & Wondering (-(으)ㄹ까요?)
+Used to suggest an action or wonder about a possibility.
+*   **Vowel Stem:** -ㄹ까요?
+*   **Consonant Stem:** -을까요?
+*   *Example (Suggestion):* 우리 커피 마실까요? (Shall we drink coffee?)
+*   *Example (Wondering):* 내일 비가 올까요? (I wonder if it will rain tomorrow?)
+
+### 62. Emphasis / "You know..." (-잖아요)
+Used to state a fact the listener should already know or to emphasize a reason.
+*   **Formation:** Add -잖아요 to the verb/adjective stem or noun+이.
+*   *Example:* 춥잖아요. (It's cold, you know.)
+*   *Example:* 학생이잖아요. (He's a student, you know.)
+
+### 63. Causative: To make it so (-게 하다 / 해 주다)
+Used to cause a state or action to happen. Use **해 주다** for beneficial actions.
+*   **Formation:** Adj/Verb Stem + -게 하다.
+*   *Example:* 맑게 해요. (Makes it clear).
+*   *Example:* 웃게 해 줘요. (Makes [someone] laugh [for them]).
+
+### 64. Starting Actions (-기 시작하다)
+Used to express the beginning of an ongoing action.
+*   **Formation:** Verb Stem + -기 시작하다.
+*   *Example:* 먹기 시작했어요. (Started eating).
+*   *Example:* 비가 오기 시작해요. (It's starting to rain).
+
+### 65. Location & Existence (Noun + Position + -에 있다)
+Used to describe where something is located.
+*   *Example:* 책상 위에 있어요. (It's on the desk.)
+*   *Example:* 의자 밑에 있어요. (It's under the chair.)
+
+### 66. Direction (Noun + Position/Direction + -(으)로 가다)
+Used to give directions or specify movement towards a place.
+*   *Example:* 오른쪽으로 가세요. (Please go to the right.)
+*   *Example:* 뒤로 가세요. (Please go back.)
+
 ### Irregular Conjugations
 
 ### 르 Irregular
