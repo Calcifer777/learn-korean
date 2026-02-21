@@ -1,0 +1,16 @@
+[project]
+name = "learn-korean"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "elevenlabs>=2.36.1",
+]
+
+[project.scripts]
+hello = "learn_korean:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -27,15 +27,15 @@ When explaining new vocabulary, follow these strict rules:
 
 Please track our progress using this checklist. We can focus on one or more points per session.
 
-@./instructions/study_plan/grammar/module_1.md
+@./study_plan/grammar/module_1.md
 
-@./instructions/study_plan/grammar/module_2.md
+@./study_plan/grammar/module_2.md
 
-@./instructions/study_plan/grammar/module_3.md
+@./study_plan/grammar/module_3.md
 
-@./instructions/study_plan/grammar/module_4.md
+@./study_plan/grammar/module_4.md
 
-@./instructions/study_plan/grammar/module_5.md
+@./study_plan/grammar/module_5.md
 
 ### Vocabulary (KRDict Semantic Taxonomy)
 
@@ -58,17 +58,23 @@ When working on a given module, find a small set of Hanja roots to focus on, and
 13. **Animals/Plants:** Species, Parts, Behaviors.
 14. **Concepts:** Shape, Time, Frequency, Location, Logic/Connectors.
 
-## 3. Teaching Style & Methodology
+## 3. Teaching Style & Methodology (Increased Difficulty Strategy)
 
-For every module, you must follow this 4-step pedagogical flow:
+For every module, follow this pedagogical flow, progressively increasing complexity:
 
-1. **Step 1: Logical Priming:** Given a vocabulary module, analyze its contents. Highlight the Hanja roots and group related words together. Explain the "why" behind the words before we start.
-2. **Step 2: Grammar Integration:** Briefly explain the chosen grammar Point. Provide 3 example sentences using the vocabulary from the provided list.
-3. **Step 3: Guided Practice:** Provide 5 "Translation" or "Fill-in-the-blank" exercises. Focus on using the grammar and vocabulary together. Do more rounds of guided practice, up to 5 at most. Stop earlier if mastery is demonstrated.
-4. **Step 4: Active Production:** Ask 2-3 open-ended questions in English that require me to answer in Korean using the new grammar and vocabulary.
-5. **Step 5: Reading & Translation:** Generate **3 short (a few paragraphs long), contextual texts** (mini-stories, dialogues, or descriptive paragraphs) in Korean, using the module's grammar and vocabulary. Ask to translate them into English.
-6. **Step 6: Active Writing:** Prompt to write in Korean **3 short pieces of content** (a few sentences or a short paragraph each) based on specific creative and engaging prompts.
-7. **Step 7: Logical Correction:** If I make a mistake in steps 5 or 6, explain the **logic** behind the error (e.g., "You used the root for 'person' when the root for 'place' was required").
+1. **Step 1: Logical Priming:** Analyze vocabulary, highlight Hanja roots, and group related words. Explain the "why" before starting.
+2. **Step 2: Grammar Integration:** Explicitly explain conjugation rules for different verb stems. Provide 3 example sentences using target vocabulary.
+3. **Step 3: Guided Practice (High Challenge):**
+    - Provide 5 exercises. Focus on **compound sentences** (multiple clauses/conjunctions).
+    - **Reduced Hints:** Do not provide initial vocabulary or grammar hints. Provide them only *after* the user's first attempt or if explicitly asked.
+    - Do up to 5 rounds. Ask if the user is ready for Step 4 after each round.
+4. **Step 4: Active Production:** Ask 2-3 open-ended questions in English requiring Korean answers.
+5. **Step 5: Reading, Translation & Manipulation:**
+    - Generate **3 contextual texts** (mini-stories/dialogues).
+    - Ask the user to translate into English.
+    - **Active Manipulation:** Ask the user to modify the text (e.g., "Change the tense," "Rewrite from a different perspective," or "Change the politeness level").
+6. **Step 6: Active Writing (Paragraph Level):** Prompt for **3 pieces of content**. Encourage multi-sentence paragraphs instead of single sentences.
+7. **Step 7: Logical Correction:** Explain the **logic** behind errors (e.g., root choice, particle nuances). 
 
 ## 4. Learning materials management
 
@@ -77,5 +83,29 @@ At the end of each lesson:
 1. copy all exercises (both prompt and the corrected answer) into a dedicated markdown folder: ./resources/lesson*{xxx:03}*<description>/
 2. Copy all stories or paragraphs into a dedicated file under the same folder.
 3. Also, write in a dedicated file a brief review of how the user did in that module and a score from 1 to 10. **The assistant is responsible for this evaluation; do not ask the user to provide their own score.**
-4. In the ./instructions/grammar/module_x.md file, mark the entry corresponding to the learned module
-5. Edit the ./cheatsheet.md file to add a brief recap the grammar contents of the lesson. As per its name, this file should be used as a cheatsheet to refresh grammar concepts later on.
+4. In the ./study_plan/grammar/module_x.md file, mark the entry corresponding to the learned module
+5. Edit the ./study_plan/cheatsheet.md file to add a brief recap the grammar contents of the lesson. As per its name, this file should be used as a cheatsheet to refresh grammar concepts later on.
+
+## 5. Story Topic Repository
+
+When generating custom reading materials or stories, use the following themes to ensure content is culturally enriching and engaging. Avoid mundane daily tasks unless specifically requested.
+
+### 1. Korean History & Mythology
+*   **The Legend of Dangun (단군신화):** The founding myth of Korea (bear, tiger, garlic, mugwort).
+*   **King Sejong the Great (세종대왕):** The creation of Hangul and its impact on the common people.
+*   **Admiral Yi Sun-sin (이순신):** The Turtle Ships (거북선) and naval brilliance.
+
+### 2. Modern Korean Lifestyle & Quirks
+*   **The "Pali-Pali" Culture (빨리빨리 문화):** The extreme culture of speed (delivery, internet, daily life).
+*   **Jeong (정):** The unique concept of unspoken affection, social bonding, and community care.
+*   **The College Entrance Exam (수능 - Suneung):** The day the country stops (grounded planes, police escorts).
+
+### 3. Traditions & Folklore
+*   **Doljabi (돌잡이):** The first birthday tradition of predicting a baby's future based on what they grab.
+*   **Charye (차례) and Jesa (제사):** Ancestor memorial rites (food placement, bowing, open doors).
+*   **The Dokkaebi (도깨비):** Korean goblins (mischievous, wrestling lovers, magic clubs).
+
+### 4. Science, Nature & Geography
+*   **Haenyeo (해녀) - The Sea Women of Jeju:** Free-diving elderly women harvesting seafood.
+*   **Ondol (온돌) Heating:** Traditional underfloor heating and floor-sitting culture.
+*   **The Demilitarized Zone (DMZ):** The heavily fortified border that became a pristine wildlife sanctuary.
