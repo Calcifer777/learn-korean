@@ -1,5 +1,6 @@
 import argparse
 import os
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -8,6 +9,7 @@ from typing import Iterator
 from dotenv import load_dotenv
 from elevenlabs.client import ElevenLabs
 from playsound3 import playsound
+import stable_whisper
 
 # Load environment variables from .env if present
 load_dotenv()
@@ -37,7 +39,6 @@ def resolve_voice_id(client: ElevenLabs, voice_input: str) -> str:
     Tries to find a valid voice_id from a name or ID string.
     Prioritizes saved voices to avoid library payment restrictions.
     """
-    # 1. Search saved/premade voices by name (PRIORITY)
     try:
         saved = client.voices.get_all()
         for v in saved.voices:
@@ -47,14 +48,12 @@ def resolve_voice_id(client: ElevenLabs, voice_input: str) -> str:
     except Exception:
         pass
 
-    # 2. Try as a direct ID
     try:
         voice = client.voices.get(voice_id=voice_input)
         return voice.voice_id
     except Exception:
         pass
 
-    # 3. Search shared library
     try:
         shared = client.voices.get_shared(search=voice_input)
         if shared.voices:
@@ -208,8 +207,93 @@ def generate_tts(
         sys.exit(1)
 
 
+def format_timestamp(seconds: float) -> str:
+    """Format seconds into LRC timestamp format: [MM:SS.xx]"""
+    minutes = int(seconds // 60)
+    remaining_seconds = seconds % 60
+    return f"[{minutes:02d}:{remaining_seconds:05.2f}]"
+
+
+def _process_alignment(model, audio_path: str, text_path: str, output_path: str, language: str, offset_ms: int) -> None:
+    """Core logic to read, clean, align, and save subtitles."""
+    # Read and clean the text file
+    with open(text_path, "r", encoding="utf-8") as f:
+        raw_text = f.read()
+        
+    # Strip existing LRC timestamps like [00:00.00] if they exist
+    clean_text = re.sub(r'\[\d{2}:\d{2}\.\d{2}\]', '', raw_text)
+    # Collapse multiple newlines/spaces
+    clean_text = re.sub(r'\n+', ' ', clean_text).strip()
+    
+    if not clean_text:
+        raise ValueError(f"The text file '{text_path}' appears to be empty after cleaning.")
+
+    print(f"Aligning '{os.path.basename(audio_path)}' to the text (this might take a moment)...")
+    result = model.align(audio_path, clean_text, language=language)
+
+    offset_seconds = offset_ms / 1000.0
+    print(f"Writing synchronized subtitles to '{os.path.basename(output_path)}' with a {offset_ms}ms offset...")
+    with open(output_path, "w", encoding="utf-8") as f:
+        for segment in result.segments:
+            # Apply offset and ensure time is not negative
+            synced_start = max(0, segment.start + offset_seconds)
+            timestamp = format_timestamp(synced_start)
+            f.write(f"{timestamp} {segment.text.strip()}\n")
+
+
+def align_audio_text(audio_file: str, text_file: str, output_file: str, language: str = 'ko', offset_ms: int = -200) -> None:
+    """Aligns audio with text using stable-ts and faster-whisper, generating an LRC file."""
+    try:
+        print(f"Loading faster-whisper 'base' model via stable-ts...")
+        # Use compute_type='int8' to ensure it runs comfortably on most machines
+        model = stable_whisper.load_faster_whisper('base', compute_type='int8')
+        
+        _process_alignment(model, audio_file, text_file, output_file, language, offset_ms)
+
+        print("Alignment complete! ✨")
+        
+    except Exception as e:
+        print(f"Error during alignment: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def align_all_audio_text(directory: str, language: str = 'ko', offset_ms: int = -200) -> None:
+    """Aligns all .mp3 and .lrc pairs in a directory."""
+    dir_path = Path(directory)
+    if not dir_path.is_dir():
+        print(f"Error: '{directory}' is not a valid directory.", file=sys.stderr)
+        sys.exit(1)
+
+    mp3_files = sorted(dir_path.glob("*.mp3"))
+    if not mp3_files:
+        print(f"No .mp3 files found in '{directory}'.")
+        return
+
+    print(f"Found {len(mp3_files)} .mp3 files. Loading faster-whisper 'base' model...")
+    try:
+        model = stable_whisper.load_faster_whisper('base', compute_type='int8')
+    except Exception as e:
+        print(f"Error loading model: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    for audio_path in mp3_files:
+        lrc_path = audio_path.with_suffix('.lrc')
+        if not lrc_path.exists():
+            print(f"Skipping '{audio_path.name}': No matching .lrc file found.")
+            continue
+
+        print(f"\nProcessing '{audio_path.name}'...")
+        try:
+            _process_alignment(model, str(audio_path), str(lrc_path), str(lrc_path), language, offset_ms)
+            print(f"Successfully aligned '{lrc_path.name}'.")
+        except Exception as e:
+            print(f"Error processing '{audio_path.name}': {e}", file=sys.stderr)
+
+    print("\nBulk alignment complete! ✨")
+
+
 def main() -> None:
-    parser = argparse.ArgumentParser(description="ElevenLabs TTS CLI Tool")
+    parser = argparse.ArgumentParser(description="ElevenLabs TTS & Subtitle Alignment Tool")
     subparsers = parser.add_subparsers(
         dest="command", required=True, help="Available commands"
     )
@@ -243,8 +327,47 @@ def main() -> None:
         "--output", required=True, help="Path to the output MP3 file"
     )
 
+    # Command: Align
+    align_parser = subparsers.add_parser("align", help="Force-align text to an audio file using stable-ts")
+    align_parser.add_argument(
+        "--audio", required=True, help="Path to the input MP3 file"
+    )
+    align_parser.add_argument(
+        "--text", required=True, help="Path to the input text or broken LRC file"
+    )
+    align_parser.add_argument(
+        "--output", required=True, help="Path to the output synced LRC file"
+    )
+    align_parser.add_argument(
+        "--language", default="ko", help="Language code of the audio (default: ko)"
+    )
+    align_parser.add_argument(
+        "--offset", type=int, default=-200, help="Offset in milliseconds to shift timestamps (default: -200)"
+    )
+
+    # Command: Align All
+    align_all_parser = subparsers.add_parser("align-all", help="Force-align all MP3/LRC pairs in a directory using stable-ts")
+    align_all_parser.add_argument(
+        "--dir", required=True, help="Path to the directory containing MP3 and LRC files"
+    )
+    align_all_parser.add_argument(
+        "--language", default="ko", help="Language code of the audio (default: ko)"
+    )
+    align_all_parser.add_argument(
+        "--offset", type=int, default=-200, help="Offset in milliseconds to shift timestamps (default: -200)"
+    )
+
     args = parser.parse_args()
 
+    if args.command == "align":
+        # The align command does not require an ElevenLabs API key
+        align_audio_text(args.audio, args.text, args.output, args.language, args.offset)
+        return
+    elif args.command == "align-all":
+        align_all_audio_text(args.dir, args.language, args.offset)
+        return
+
+    # Initialize ElevenLabs client for voice commands
     api_key = os.getenv("ELEVENLABS_API_KEY")
     if not api_key:
         print("Error: ELEVENLABS_API_KEY environment variable is not set.", file=sys.stderr)
@@ -259,7 +382,6 @@ def main() -> None:
     if args.command == "list-voices":
         list_voices(client, language=args.language, shared=args.shared)
     elif args.command == "sample":
-        # Check cache before doing any API calls
         path = get_preview_path(args.voice)
         if path.exists():
             print(f"Using cached sample: {path}")
