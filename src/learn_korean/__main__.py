@@ -11,6 +11,13 @@ from elevenlabs.client import ElevenLabs
 from playsound3 import playsound
 import stable_whisper
 
+# New imports
+from .parser import process_text_file, translate_words_simple, save_vocab_to_csv, load_vocab_from_csv
+from .anki_utils import generate_anki_deck
+from .translator_llm import translate_with_gemini
+from .translator_ollama import translate_with_ollama
+from .miner import mine_subtitles
+
 # Load environment variables from .env if present
 load_dotenv()
 
@@ -298,6 +305,77 @@ def main() -> None:
         dest="command", required=True, help="Available commands"
     )
 
+    # Command: Extract Vocab
+    extract_parser = subparsers.add_parser(
+        "extract-vocab", help="Extract unique Korean words from text and save to CSV"
+    )
+    extract_parser.add_argument(
+        "--input", required=True, help="Path to the input text file"
+    )
+    extract_parser.add_argument(
+        "--output", required=True, help="Path to the output CSV file"
+    )
+
+    # Command: Mine Drama
+    mine_parser = subparsers.add_parser(
+        "mine-drama", help="Mine unique Korean words from drama subtitles (.lrc)"
+    )
+    mine_parser.add_argument(
+        "--input", required=True, help="Path to the input subtitle file (.lrc)"
+    )
+    mine_parser.add_argument(
+        "--output", required=True, help="Path to the output CSV file"
+    )
+    mine_parser.add_argument(
+        "--min-freq", type=int, default=2, help="Minimum occurrences of a word (default: 2)"
+    )
+    mine_parser.add_argument(
+        "--exclude", help="Optional CSV file of known words to exclude"
+    )
+
+    # Command: Translate Vocab
+    translate_parser = subparsers.add_parser(
+        "translate-vocab", help="Translate words in a CSV file"
+    )
+    translate_parser.add_argument(
+        "--input", required=True, help="Path to the input CSV file"
+    )
+    translate_parser.add_argument(
+        "--output", required=True, help="Path to save the translated CSV file"
+    )
+    translate_parser.add_argument(
+        "--llm", action="store_true", help="Use Gemini LLM for context-aware translation"
+    )
+    translate_parser.add_argument(
+        "--ollama", action="store_true", help="Use local Ollama LLM for context-aware translation"
+    )
+    translate_parser.add_argument(
+        "--ollama-model", default="llama3", help="Ollama model to use (default: llama3)"
+    )
+
+    # Command: Anki Deck
+    anki_parser = subparsers.add_parser(
+        "anki-deck", help="Create an Anki deck from a Korean text or CSV file"
+    )
+    anki_parser.add_argument(
+        "--input", required=True, help="Path to the input text or CSV file"
+    )
+    anki_parser.add_argument(
+        "--output", required=True, help="Path to the output .apkg file"
+    )
+    anki_parser.add_argument(
+        "--name", default="Korean Vocabulary", help="Name of the deck inside Anki"
+    )
+    anki_parser.add_argument(
+        "--llm", action="store_true", help="Use Gemini LLM (if input is text)"
+    )
+    anki_parser.add_argument(
+        "--ollama", action="store_true", help="Use Ollama (if input is text)"
+    )
+    anki_parser.add_argument(
+        "--ollama-model", default="llama3", help="Ollama model to use"
+    )
+
     # Command: List voices
     list_parser = subparsers.add_parser(
         "list-voices", help="List all available ElevenLabs voices"
@@ -359,7 +437,42 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    if args.command == "align":
+    if args.command == "extract-vocab":
+        words = process_text_file(args.input)
+        save_vocab_to_csv(words, args.output)
+        return
+
+    elif args.command == "mine-drama":
+        words = mine_subtitles(args.input, min_freq=args.min_freq, exclude_csv=args.exclude)
+        save_vocab_to_csv(words, args.output)
+        return
+
+    elif args.command == "translate-vocab":
+        words = load_vocab_from_csv(args.input)
+        if args.llm:
+            words = translate_with_gemini(words)
+        elif args.ollama:
+            words = translate_with_ollama(words, model=args.ollama_model)
+        else:
+            words = translate_words_simple(words)
+        save_vocab_to_csv(words, args.output)
+        return
+
+    elif args.command == "anki-deck":
+        if args.input.endswith('.csv'):
+            words = load_vocab_from_csv(args.input)
+        else:
+            words = process_text_file(args.input)
+            if args.llm:
+                words = translate_with_gemini(words)
+            elif args.ollama:
+                words = translate_with_ollama(words, model=args.ollama_model)
+            else:
+                words = translate_words_simple(words)
+        generate_anki_deck(words, args.output, args.name)
+        return
+
+    elif args.command == "align":
         # The align command does not require an ElevenLabs API key
         align_audio_text(args.audio, args.text, args.output, args.language, args.offset)
         return

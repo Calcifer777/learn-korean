@@ -61,7 +61,7 @@ def create_deck(input_csv, output_file, deck_name="Korean Top 1000"):
     # 3. Define the Anki Model with TWO Templates
     my_model = genanki.Model(
         model_id,
-        "Bidirectional Korean Vocab",
+        "Bidirectional Korean Vocab v2",
         fields=[
             {"name": "Rank"},
             {"name": "Korean"},
