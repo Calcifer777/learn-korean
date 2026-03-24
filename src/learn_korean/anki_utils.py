@@ -79,17 +79,18 @@ def get_stable_id(name: str) -> int:
 
 def create_bidirectional_model():
     # Use a stable ID so re-importing doesn't create duplicate models in Anki
-    model_id = get_stable_id("Context-Aware Korean Vocab v2")
+    model_id = get_stable_id("Context-Aware Korean Vocab v3")
     return genanki.Model(
         model_id,
         "Context-Aware Korean Vocab",
         fields=[
-            {"name": "Rank"},
             {"name": "Korean"},
+            {"name": "Rank"},
             {"name": "English"},
             {"name": "Part of Speech"},
             {"name": "Example Sentence"},
             {"name": "Sentence Translation"},
+            {"name": "Etymology"},
         ],
         templates=[
             # Template 1: Korean -> English (Recognition)
@@ -103,6 +104,9 @@ def create_bidirectional_model():
                     <hr id="answer">
                     <div class="english">{{English}}</div>
                     <div class="pos">{{Part of Speech}}</div>
+                    {{#Etymology}}
+                    <div class="etymology">{{Etymology}}</div>
+                    {{/Etymology}}
                     
                     <div class="sentence-container">
                         <div class="sentence-kr">{{Example Sentence}}</div>
@@ -123,6 +127,9 @@ def create_bidirectional_model():
                     {{FrontSide}}
                     <hr id="answer">
                     <div class="korean">{{Korean}}</div>
+                    {{#Etymology}}
+                    <div class="etymology">{{Etymology}}</div>
+                    {{/Etymology}}
                     
                     <div class="sentence-container">
                         <div class="sentence-kr">{{Example Sentence}}</div>
@@ -133,12 +140,19 @@ def create_bidirectional_model():
                 """,
             },
         ],
-        css=STYLE,
+        css=STYLE + """
+.etymology {
+    font-size: 14px;
+    font-style: italic;
+    color: #E5C890; /* Frappé Yellow */
+    margin-top: 10px;
+}
+""",
     )
 
 def generate_anki_deck(words: List[Dict[str, str]], output_file: str, deck_name: str):
     """
-    words: List of dicts with keys: 'Korean', 'English', 'Part of Speech', 'Example Sentence', 'Sentence Translation'
+    words: List of dicts with keys: 'Korean', 'English', 'Part of Speech', 'Example Sentence', 'Sentence Translation', 'Etymology'
     """
     # Use a stable deck ID based on the deck name
     deck_id = get_stable_id(deck_name)
@@ -156,12 +170,13 @@ def generate_anki_deck(words: List[Dict[str, str]], output_file: str, deck_name:
         note = genanki.Note(
             model=my_model,
             fields=[
-                str(i),
                 word.get("Korean", ""),
+                str(i),
                 word.get("English", ""),
                 word.get("Part of Speech", "unknown"),
                 word.get("Example Sentence", ""),
                 word.get("Sentence Translation", ""),
+                word.get("Etymology", ""),
             ],
             guid=note_guid
         )

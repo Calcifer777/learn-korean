@@ -12,7 +12,12 @@ from playsound3 import playsound
 import stable_whisper
 
 # New imports
-from .parser import process_text_file, translate_words_simple, save_vocab_to_csv, load_vocab_from_csv
+from .parser import (
+    process_text_file,
+    translate_words_simple,
+    save_vocab_to_csv,
+    load_vocab_from_csv,
+)
 from .anki_utils import generate_anki_deck
 from .translator_llm import translate_with_gemini
 from .translator_ollama import translate_with_ollama
@@ -64,7 +69,9 @@ def resolve_voice_id(client: ElevenLabs, voice_input: str) -> str:
     try:
         shared = client.voices.get_shared(search=voice_input)
         if shared.voices:
-            print(f"Resolved name '{voice_input}' to shared library voice ID '{shared.voices[0].voice_id}'")
+            print(
+                f"Resolved name '{voice_input}' to shared library voice ID '{shared.voices[0].voice_id}'"
+            )
             return shared.voices[0].voice_id
     except Exception:
         pass
@@ -124,8 +131,10 @@ def list_voices(
                     found = True
                     label_str = f" [Labels: {labels}]" if labels else ""
                     category = getattr(voice, "category", "unknown")
-                    print(f"- {voice.name} (ID: {voice.voice_id}) [Category: {category}]{label_str}")
-            
+                    print(
+                        f"- {voice.name} (ID: {voice.voice_id}) [Category: {category}]{label_str}"
+                    )
+
             if not found:
                 print("No matching voices found in your account.")
     except Exception as e:
@@ -133,7 +142,9 @@ def list_voices(
         sys.exit(1)
 
 
-def download_sample(client: ElevenLabs, resolved_id: str, voice_input: str) -> Path | None:
+def download_sample(
+    client: ElevenLabs, resolved_id: str, voice_input: str
+) -> Path | None:
     try:
         target_path = get_preview_path(voice_input)
         if target_path.exists():
@@ -143,14 +154,14 @@ def download_sample(client: ElevenLabs, resolved_id: str, voice_input: str) -> P
         print(f"Fetching metadata for voice ID '{resolved_id}'...")
         preview_url = None
         voice_name = "Unknown Voice"
-        
+
         try:
             voice = client.voices.get(voice_id=resolved_id)
             preview_url = getattr(voice, "preview_url", None)
             voice_name = voice.name
         except Exception:
             pass
-        
+
         if not preview_url:
             shared_response = client.voices.get_shared(search=resolved_id)
             if shared_response.voices:
@@ -158,23 +169,25 @@ def download_sample(client: ElevenLabs, resolved_id: str, voice_input: str) -> P
                 voice_name = shared_response.voices[0].name
 
         if not preview_url:
-            print(f"Error: Could not locate a preview URL for voice ID '{resolved_id}'.")
+            print(
+                f"Error: Could not locate a preview URL for voice ID '{resolved_id}'."
+            )
             return None
 
         actual_name_path = get_preview_path(voice_name)
 
         print(f"Downloading sample for '{voice_name}' from: {preview_url}")
-        req = urllib.request.Request(preview_url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(preview_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req) as response:
             data = response.read()
-            
-            with open(target_path, 'wb') as out_file:
+
+            with open(target_path, "wb") as out_file:
                 out_file.write(data)
-                
+
             if target_path != actual_name_path and not actual_name_path.exists():
-                with open(actual_name_path, 'wb') as out_file:
+                with open(actual_name_path, "wb") as out_file:
                     out_file.write(data)
-            
+
         print(f"Successfully saved to {target_path}")
         return target_path
     except Exception as e:
@@ -221,25 +234,38 @@ def format_timestamp(seconds: float) -> str:
     return f"[{minutes:02d}:{remaining_seconds:05.2f}]"
 
 
-def _process_alignment(model, audio_path: str, text_path: str, output_path: str, language: str, offset_ms: int) -> None:
+def _process_alignment(
+    model,
+    audio_path: str,
+    text_path: str,
+    output_path: str,
+    language: str,
+    offset_ms: int,
+) -> None:
     """Core logic to read, clean, align, and save subtitles."""
     # Read and clean the text file
     with open(text_path, "r", encoding="utf-8") as f:
         raw_text = f.read()
-        
-    # Strip existing LRC timestamps like [00:00.00] if they exist
-    clean_text = re.sub(r'\[\d{2}:\d{2}\.\d{2}\]', '', raw_text)
-    # Collapse multiple newlines/spaces
-    clean_text = re.sub(r'\n+', ' ', clean_text).strip()
-    
-    if not clean_text:
-        raise ValueError(f"The text file '{text_path}' appears to be empty after cleaning.")
 
-    print(f"Aligning '{os.path.basename(audio_path)}' to the text (this might take a moment)...")
+    # Strip existing LRC timestamps like [00:00.00] if they exist
+    clean_text = re.sub(r"\[\d{2}:\d{2}\.\d{2}\]", "", raw_text)
+    # Collapse multiple newlines/spaces
+    clean_text = re.sub(r"\n+", " ", clean_text).strip()
+
+    if not clean_text:
+        raise ValueError(
+            f"The text file '{text_path}' appears to be empty after cleaning."
+        )
+
+    print(
+        f"Aligning '{os.path.basename(audio_path)}' to the text (this might take a moment)..."
+    )
     result = model.align(audio_path, clean_text, language=language)
 
     offset_seconds = offset_ms / 1000.0
-    print(f"Writing synchronized subtitles to '{os.path.basename(output_path)}' with a {offset_ms}ms offset...")
+    print(
+        f"Writing synchronized subtitles to '{os.path.basename(output_path)}' with a {offset_ms}ms offset..."
+    )
     with open(output_path, "w", encoding="utf-8") as f:
         for segment in result.segments:
             # Apply offset and ensure time is not negative
@@ -248,23 +274,33 @@ def _process_alignment(model, audio_path: str, text_path: str, output_path: str,
             f.write(f"{timestamp} {segment.text.strip()}\n")
 
 
-def align_audio_text(audio_file: str, text_file: str, output_file: str, language: str = 'ko', offset_ms: int = -200) -> None:
+def align_audio_text(
+    audio_file: str,
+    text_file: str,
+    output_file: str,
+    language: str = "ko",
+    offset_ms: int = -200,
+) -> None:
     """Aligns audio with text using stable-ts and faster-whisper, generating an LRC file."""
     try:
         print(f"Loading faster-whisper 'base' model via stable-ts...")
         # Use compute_type='int8' to ensure it runs comfortably on most machines
-        model = stable_whisper.load_faster_whisper('base', compute_type='int8')
-        
-        _process_alignment(model, audio_file, text_file, output_file, language, offset_ms)
+        model = stable_whisper.load_faster_whisper("base", compute_type="int8")
+
+        _process_alignment(
+            model, audio_file, text_file, output_file, language, offset_ms
+        )
 
         print("Alignment complete! ✨")
-        
+
     except Exception as e:
         print(f"Error during alignment: {e}", file=sys.stderr)
         sys.exit(1)
 
 
-def align_all_audio_text(directory: str, language: str = 'ko', offset_ms: int = -200) -> None:
+def align_all_audio_text(
+    directory: str, language: str = "ko", offset_ms: int = -200
+) -> None:
     """Aligns all .mp3 and .lrc pairs in a directory."""
     dir_path = Path(directory)
     if not dir_path.is_dir():
@@ -278,20 +314,27 @@ def align_all_audio_text(directory: str, language: str = 'ko', offset_ms: int = 
 
     print(f"Found {len(mp3_files)} .mp3 files. Loading faster-whisper 'base' model...")
     try:
-        model = stable_whisper.load_faster_whisper('base', compute_type='int8')
+        model = stable_whisper.load_faster_whisper("base", compute_type="int8")
     except Exception as e:
         print(f"Error loading model: {e}", file=sys.stderr)
         sys.exit(1)
 
     for audio_path in mp3_files:
-        lrc_path = audio_path.with_suffix('.lrc')
+        lrc_path = audio_path.with_suffix(".lrc")
         if not lrc_path.exists():
             print(f"Skipping '{audio_path.name}': No matching .lrc file found.")
             continue
 
         print(f"\nProcessing '{audio_path.name}'...")
         try:
-            _process_alignment(model, str(audio_path), str(lrc_path), str(lrc_path), language, offset_ms)
+            _process_alignment(
+                model,
+                str(audio_path),
+                str(lrc_path),
+                str(lrc_path),
+                language,
+                offset_ms,
+            )
             print(f"Successfully aligned '{lrc_path.name}'.")
         except Exception as e:
             print(f"Error processing '{audio_path.name}': {e}", file=sys.stderr)
@@ -299,8 +342,27 @@ def align_all_audio_text(directory: str, language: str = 'ko', offset_ms: int = 
     print("\nBulk alignment complete! ✨")
 
 
+def load_exclusion_list(exclude_csv: str | None) -> set[str]:
+    """Helper to load a set of Korean words from a CSV file."""
+    known_words: set[str] = set()
+    if not exclude_csv:
+        return known_words
+
+    try:
+        import pandas as pd
+
+        df_known = pd.read_csv(exclude_csv)
+        if "Korean" in df_known.columns:
+            known_words = set(df_known["Korean"].astype(str).tolist())
+    except Exception as e:
+        print(f"Warning: Could not load exclusion list {exclude_csv}: {e}")
+    return known_words
+
+
 def main() -> None:
-    parser = argparse.ArgumentParser(description="ElevenLabs TTS & Subtitle Alignment Tool")
+    parser = argparse.ArgumentParser(
+        description="ElevenLabs TTS & Subtitle Alignment Tool"
+    )
     subparsers = parser.add_subparsers(
         dest="command", required=True, help="Available commands"
     )
@@ -315,6 +377,14 @@ def main() -> None:
     extract_parser.add_argument(
         "--output", required=True, help="Path to the output CSV file"
     )
+    extract_parser.add_argument(
+        "--exclude", help="Optional CSV file of known words to exclude"
+    )
+    extract_parser.add_argument(
+        "--exclude-common",
+        action="store_true",
+        help="Automatically exclude most common words (1k.csv)",
+    )
 
     # Command: Mine Drama
     mine_parser = subparsers.add_parser(
@@ -327,10 +397,18 @@ def main() -> None:
         "--output", required=True, help="Path to the output CSV file"
     )
     mine_parser.add_argument(
-        "--min-freq", type=int, default=2, help="Minimum occurrences of a word (default: 2)"
+        "--min-freq",
+        type=int,
+        default=2,
+        help="Minimum occurrences of a word (default: 2)",
     )
     mine_parser.add_argument(
         "--exclude", help="Optional CSV file of known words to exclude"
+    )
+    mine_parser.add_argument(
+        "--exclude-common",
+        action="store_true",
+        help="Automatically exclude most common words (1k.csv)",
     )
 
     # Command: Translate Vocab
@@ -344,10 +422,14 @@ def main() -> None:
         "--output", required=True, help="Path to save the translated CSV file"
     )
     translate_parser.add_argument(
-        "--llm", action="store_true", help="Use Gemini LLM for context-aware translation"
+        "--llm",
+        action="store_true",
+        help="Use Gemini LLM for context-aware translation",
     )
     translate_parser.add_argument(
-        "--ollama", action="store_true", help="Use local Ollama LLM for context-aware translation"
+        "--ollama",
+        action="store_true",
+        help="Use local Ollama LLM for context-aware translation",
     )
     translate_parser.add_argument(
         "--ollama-model", default="llama3", help="Ollama model to use (default: llama3)"
@@ -381,7 +463,8 @@ def main() -> None:
         "list-voices", help="List all available ElevenLabs voices"
     )
     list_parser.add_argument(
-        "--language", help="Filter voices by language/accent label (e.g., 'ko' for Korean)"
+        "--language",
+        help="Filter voices by language/accent label (e.g., 'ko' for Korean)",
     )
     list_parser.add_argument(
         "--shared",
@@ -406,7 +489,9 @@ def main() -> None:
     )
 
     # Command: Align
-    align_parser = subparsers.add_parser("align", help="Force-align text to an audio file using stable-ts")
+    align_parser = subparsers.add_parser(
+        "align", help="Force-align text to an audio file using stable-ts"
+    )
     align_parser.add_argument(
         "--audio", required=True, help="Path to the input MP3 file"
     )
@@ -420,30 +505,64 @@ def main() -> None:
         "--language", default="ko", help="Language code of the audio (default: ko)"
     )
     align_parser.add_argument(
-        "--offset", type=int, default=-200, help="Offset in milliseconds to shift timestamps (default: -200)"
+        "--offset",
+        type=int,
+        default=-200,
+        help="Offset in milliseconds to shift timestamps (default: -200)",
     )
 
     # Command: Align All
-    align_all_parser = subparsers.add_parser("align-all", help="Force-align all MP3/LRC pairs in a directory using stable-ts")
+    align_all_parser = subparsers.add_parser(
+        "align-all", help="Force-align all MP3/LRC pairs in a directory using stable-ts"
+    )
     align_all_parser.add_argument(
-        "--dir", required=True, help="Path to the directory containing MP3 and LRC files"
+        "--dir",
+        required=True,
+        help="Path to the directory containing MP3 and LRC files",
     )
     align_all_parser.add_argument(
         "--language", default="ko", help="Language code of the audio (default: ko)"
     )
     align_all_parser.add_argument(
-        "--offset", type=int, default=-200, help="Offset in milliseconds to shift timestamps (default: -200)"
+        "--offset",
+        type=int,
+        default=-200,
+        help="Offset in milliseconds to shift timestamps (default: -200)",
     )
 
     args = parser.parse_args()
 
     if args.command == "extract-vocab":
-        words = process_text_file(args.input)
+        exclude_set = set()
+        if args.exclude:
+            exclude_set.update(load_exclusion_list(args.exclude))
+        if args.exclude_common:
+            common_path = (
+                Path(__file__).parent.parent.parent / "resources" / "vocab" / "1k.csv"
+            ).as_posix()
+            if os.path.exists(common_path):
+                exclude_set.update(load_exclusion_list(common_path))
+            else:
+                print(f"Warning: Common words file '{common_path}' not found.")
+
+        words = process_text_file(args.input, exclude_set=exclude_set)
         save_vocab_to_csv(words, args.output)
         return
 
     elif args.command == "mine-drama":
-        words = mine_subtitles(args.input, min_freq=args.min_freq, exclude_csv=args.exclude)
+        exclude_set = set()
+        if args.exclude:
+            exclude_set.update(load_exclusion_list(args.exclude))
+        if args.exclude_common:
+            common_path = "resources/vocab/1k.csv"
+            if os.path.exists(common_path):
+                exclude_set.update(load_exclusion_list(common_path))
+            else:
+                print(f"Warning: Common words file '{common_path}' not found.")
+
+        words = mine_subtitles(
+            args.input, min_freq=args.min_freq, exclude_set=exclude_set
+        )
         save_vocab_to_csv(words, args.output)
         return
 
@@ -459,7 +578,7 @@ def main() -> None:
         return
 
     elif args.command == "anki-deck":
-        if args.input.endswith('.csv'):
+        if args.input.endswith(".csv"):
             words = load_vocab_from_csv(args.input)
         else:
             words = process_text_file(args.input)
@@ -483,7 +602,10 @@ def main() -> None:
     # Initialize ElevenLabs client for voice commands
     api_key = os.getenv("ELEVENLABS_API_KEY")
     if not api_key:
-        print("Error: ELEVENLABS_API_KEY environment variable is not set.", file=sys.stderr)
+        print(
+            "Error: ELEVENLABS_API_KEY environment variable is not set.",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     try:

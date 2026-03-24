@@ -24,11 +24,13 @@ def translate_with_ollama(
         For each entry:
         1.  Provide the English translation of the word that is most appropriate for that specific sentence context.
         2.  Provide the English translation of the entire example sentence.
+        3.  Provide the Etymology: Identify the Sino-Korean (Hanja) roots and their literal English meanings (e.g., '기 (steam) + 차 (car)'). If the word is a pure native Korean word without Hanja roots, simply output 'Pure Korean'.
         
         Output the result ONLY as a JSON list of objects, each containing:
         - "Korean": the original word
         - "English": the word translation
         - "Sentence Translation": the sentence translation
+        - "Etymology": the Hanja roots or 'Pure Korean'
         
         Input list:
         """
@@ -56,8 +58,9 @@ def translate_with_ollama(
                 for r in results:
                     for w in batch:
                         if w["Korean"] == r["Korean"]:
-                            w["English"] = r["English"]
-                            w["Sentence Translation"] = r["Sentence Translation"]
+                            w["English"] = r.get("English", w.get("English", ""))
+                            w["Sentence Translation"] = r.get("Sentence Translation", w.get("Sentence Translation", ""))
+                            w["Etymology"] = r.get("Etymology", "")
             translated_all.extend(batch)
         except Exception as e:
             print(f"Error during Ollama translation batch {i//batch_size}: {e}")

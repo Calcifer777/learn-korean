@@ -48,7 +48,7 @@ def parse_srt(file_path: str) -> List[str]:
                 
     return clean_lines
 
-def mine_subtitles(file_path: str, min_freq: int = 2, exclude_csv: str = None) -> List[Dict[str, str]]:
+def mine_subtitles(file_path: str, min_freq: int = 2, exclude_set: Set[str] = None) -> List[Dict[str, str]]:
     kiwi = Kiwi()
     
     if file_path.lower().endswith('.lrc'):
@@ -61,14 +61,8 @@ def mine_subtitles(file_path: str, min_freq: int = 2, exclude_csv: str = None) -
             
     all_text = " ".join(lines)
     
-    known_words: Set[str] = set()
-    if exclude_csv:
-        try:
-            df_known = pd.read_csv(exclude_csv)
-            if 'Korean' in df_known.columns:
-                known_words = set(df_known['Korean'].astype(str).tolist())
-        except Exception as e:
-            print(f"Warning: Could not load exclusion list {exclude_csv}: {e}")
+    if exclude_set is None:
+        exclude_set = set()
 
     tokens = kiwi.tokenize(all_text)
     word_counts = Counter()
@@ -84,7 +78,7 @@ def mine_subtitles(file_path: str, min_freq: int = 2, exclude_csv: str = None) -
             if len(lemma) < 2 and lemma not in ['가', '오', '내']:
                 continue
                 
-            if lemma not in known_words:
+            if lemma not in exclude_set:
                 word_counts[lemma] += 1
                 lemma_to_pos[lemma] = POS_MAP[token.tag]
 
@@ -106,7 +100,8 @@ def mine_subtitles(file_path: str, min_freq: int = 2, exclude_csv: str = None) -
             "Frequency": word_counts[word],
             "Example Sentence": example_sentence,
             "English": "",
-            "Sentence Translation": ""
+            "Sentence Translation": "",
+            "Etymology": ""
         })
 
     return results
