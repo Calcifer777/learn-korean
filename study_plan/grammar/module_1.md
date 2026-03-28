@@ -19,17 +19,20 @@
 - [x] Companionship (with ~와/과, ~하고, ~(이)랑)
 
 # New Concepts from Lesson 007
+
 - [x] Noun Modifiers (Present Tense: -는)
 - [x] Addition & Coordination (-고)
 - [x] Irregular: 르 (부르다 -> 불러요)
 - [x] Adverbs: -게 (친절하게)
 
 # New Concepts from Lesson 008
+
 - [x] Noun Modifiers (Adjectives: -(으)ㄴ)
 - [x] Emotional Verbs (Good/Like: -아/어/여하다)
 - [x] Passive/State Verbs (-되다)
 
 # New Concepts from Lesson 009
+
 - [x] Imperatives: Polite Requests (-(으)세요)
 - [x] Prohibition: Please don't (-지 마세요)
 - [x] Suggestions/Trying: Try doing (-아/어/여 보세요)
@@ -37,6 +40,7 @@
 - [x] Choices: Or (Noun + (이)나)
 
 # New Concepts from Lesson 016
+
 - [x] Plural Marker (-들)
 - [x] Particles: To/For living things (-한테 / -에게)
 - [x] "Can also/even": -ㄹ 수도 있다
@@ -44,12 +48,14 @@
 - [x] Caution & Danger: 조심하다, 위험하다
 
 # New Concepts from Lesson 017
+
 - [x] Change of State (To become): -아/어/여지다
 - [x] For example: 예를 들어서
 - [x] Complex Modifiers: -(으)ㄹ 수 있는
 - [x] Trend & Fashion: 유행
 
 # New Concepts from Lesson 018
+
 - [x] Immediate Sequence: -자마자
 - [x] Approximate Time: -쯤
 - [x] Transfer & Change: 갈아타다 / 갈아입다
@@ -57,11 +63,13 @@
 - [x] Frequencies: ... -(으)ㄹ 때도 있다 (Sometimes)
 
 # New Concepts from Lesson 019
+
 - [x] Not only... but also: 뿐만 아니라
 - [x] Even / Including: 까지 (Emphasis)
 - [x] Within (Time/Space): 안에
 
 # New Concepts from Lesson 020
+
 - [x] Gratitude for Actions: -아/어/여 주셔서 감사합니다
 - [x] Time Ranges: -부터 ... -까지
 - [x] Every X: 매주, 매일, 매월

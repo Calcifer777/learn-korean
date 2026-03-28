@@ -1,6 +1,7 @@
 # Lesson 009: Instructions & Suggestions - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** Please sleep at the same time.
    - **User:** 같은 시간에 자세요 (Correct!)
 2. **Prompt:** Please don't eat too much food.
@@ -13,6 +14,7 @@
    - **User:** 방을 먹는 잘 촣애요 -> **빵을 먹는 것은 좋아요**
 
 ## Round 2 (Nominalization & Choices)
+
 1. **Prompt:** The act of studying is important.
    - **User:** 공부해는 갓는 중요해요 -> **공부하는 것은 중요해요**
 2. **Prompt:** Please drink juice or water.
@@ -25,6 +27,7 @@
    - **User:** 의사 송생님의 이름를 볼러 보세요 -> **선생님**의 이름을 **불러 보세요**
 
 ## Round 3 (Structure Check)
+
 1. **Prompt:** Reading books is fun.
    - **User:** 읽는 것은 재미있어요 (Correct!)
 2. **Prompt:** Drinking water is good.
@@ -37,11 +40,13 @@
    - **User:** 이 매운 음식을 먹어 보세요 (Correct!)
 
 ## Active Production
+
 1. **User:** 물을 마시는 께 좋아요 -> **마시는 게(것이) 좋아요**
 2. **User:** 단편 수설을 읽어 보세요 -> **소설을**
 3. **User:** 자주 많이 커피를 마서 보세요 -> **마시지 마세요** (Prompt was "Don't")
 
 ## Active Writing
+
 1. **Prompt:** Please don't watch scary movies.
    - **User:** 무소운 요롸를 봐지 마세요 -> **무서운 영화를 보지 마세요** (Stem only before -지)
 2. **Prompt:** Suggest: "Try meeting a good friend."

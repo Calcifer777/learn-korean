@@ -1,6 +1,7 @@
 # Lesson 020: Information & Clinical Hours - Exercises
 
 ## Step 3: Guided Practice (Translation)
+
 1. **Prompt:** Thank you for reading (읽다) the book.
    **Corrected:** 읽어 주셔서 감사합니다.
 2. **Prompt:** The clinic is from 10 o'clock until 6 o'clock.
@@ -13,6 +14,7 @@
    **Corrected:** 기다려 주셔서 감사합니다.
 
 ## Step 4: Active Production (Questions)
+
 1. **Q:** 언제 병원에 가요?
    **A:** 목요일에 8시에 병원에 가요.
 2. **Q:** 보통 몇 시부터 몇 시까지 공부해요?
@@ -21,6 +23,7 @@
    **A:** 월요일하고 목요일에 치과는 야간 진료를 해요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** The Dinner Host (Thank for coming/gift).
    **Corrected:** 제 식사에 와 주셔서 감사합니다. 선물을 주셔서 정말 고마워요.
 2. **Prompt:** The Gym Routine (Days/Time range).

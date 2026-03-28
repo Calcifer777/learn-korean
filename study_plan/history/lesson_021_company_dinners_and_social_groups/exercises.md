@@ -1,6 +1,7 @@
 # Lesson 021: Company Dinners & Social Groups - Exercises
 
 ## Step 3: Guided Practice (Translation)
+
 1. **Prompt:** I listen to music while exercising.
    **Corrected:** 운동하면서 음악을 들어요.
 2. **Prompt:** Let's watch a movie among (just) friends.
@@ -13,6 +14,7 @@
    **Corrected:** 걸으면서 전화 통화 중이에요.
 
 ## Step 4: Active Production (Questions)
+
 1. **Q:** 공부할 때 무엇을 하면서 공부해요?
    **A:** 보통 공부하면서 차를 마셔요.
 2. **Q:** 가족끼리 보통 무엇을 해요?
@@ -21,6 +23,7 @@
    **A:** 1년에 한 번 정도 전체 회식을 해요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** Multitasking (House cleaning while listening to music).
    **Corrected:** 저는 음악을 들으면서 집을 청소해요.
 2. **Prompt:** Group Activity (Students at the library).

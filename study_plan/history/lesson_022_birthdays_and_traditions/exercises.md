@@ -1,6 +1,7 @@
 # Lesson 022: Birthdays & Traditions - Exercises
 
 ## Step 3: Guided Practice (Translation - Round 7)
+
 1. **Prompt:** My friend says that the weather is cold (춥다).
    **Corrected:** 친구는 날씨가 춥다고 해요.
 2. **Prompt:** I heard that she went to the library after eating lunch.
@@ -13,6 +14,7 @@
    **Corrected:** 책을 끝낸 후에 친구한테 줬어요.
 
 ## Step 4: Active Production (Questions)
+
 1. **Q:** Where do people say Korean seaweed is good for?
    **A:** 미역은 피를 맑게 해 줘요.
 2. **Q:** What do you usually do after waking up?
@@ -21,6 +23,7 @@
    **A:** 오늘 좋은 날씨라고 해요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** The Health Nut (Eats veggies, walks after eating).
    **Corrected:** 친구가 매일 채소를 먹는다고 해요. 그리고 먹은 후에 산책해요.
 2. **Prompt:** The Movie Review (Scary movie, couldn't sleep after).

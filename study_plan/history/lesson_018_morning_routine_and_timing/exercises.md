@@ -1,6 +1,7 @@
 # Lesson 018: Morning Routine & Timing - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** I wake up around 7 o'clock.
    - **User:** 7시쯤에 일어나요 (Correct!)
 2. **Prompt:** As soon as I arrive home, I eat.
@@ -13,6 +14,7 @@
    - **User:** 영화가 시작하자마자 팝콘을 먹었어요 (Correct!)
 
 ## Round 2 (Compound Verbs)
+
 1. **Prompt:** I transfer to the subway.
    - **User:** 지하찰로 갈아타요 -> **지하철로**
 2. **Prompt:** I sleep around 11 PM.
@@ -25,6 +27,7 @@
    - **User:** 오우 6시쯤에 튀근해요 -> **오후... 퇴근해요**
 
 ## Round 3 (Immediate Sequence)
+
 1. **Prompt:** As soon as I finished the book, I bought a new one.
    - **User:** 책을 끝냈어자마자 세로 책을 샀어요 -> **끝내자마자 새 책을**
 2. **Prompt:** I wake up around 6:30 AM.
@@ -37,11 +40,13 @@
    - **User:** 비가 와자마자 집에 가요 -> **오자마자**
 
 ## Active Production
+
 1. **User:** 일어나자마자 아침을 먹어요 (Correct!)
 2. **User:** 보통 아침을 아침 8시쯤에 먹어요 (Correct!)
 3. **User:** 회사에 가자마자 PC를 켜요 (Correct!)
 
 ## Active Writing
+
 1. **User:** 공항에 도착하자마자 잔화애요 -> **전화해요**
 2. **User:** 친구를 3세쯤에 만나요 -> **3시쯤에**
 3. **User:** 옷을 갈아입고 잠을 자요 (Correct!)

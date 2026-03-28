@@ -1,6 +1,7 @@
 # Lesson 007: Health & Procedures - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** The doctor (who is) at the hospital is kind.
    - **User:** 병완에 있은 외사가 친절해요
    - **Correction:** **병원**에 **있는 의사**가 친절해요. (Modifier: 항상 -는 for 있다)
@@ -18,6 +19,7 @@
    - **Correction:** 친구가 **만드는** 빵을 좋아해요. (Present: 만드는)
 
 ## Round 2 (Translation)
+
 1. **Prompt:** The medicine (that) I take is good.
    - **User:** 먹는 약은 좋아요 (Correct!)
 2. **Prompt:** I write (my) address and wait.
@@ -33,6 +35,7 @@
    - **Correction:** **약국에 있는** 약사가 바빠요.
 
 ## Round 3 (Tricky Points)
+
 1. **Prompt:** I don't know the hospital's phone number.
    - **User:** 병원는 전화번호를 몰러요
    - **Correction:** 병원 전화번호를 **몰라요**. (르 Irregular: 모르다 -> 몰라요)
@@ -50,6 +53,7 @@
    - **Correction:** **만드는** 음식이 맛있어요. (ㄹ Irregular modifier)
 
 ## Round 4 (Review)
+
 1. **User:** 대기실에서 기대려야 돼요 -> **기다려야 돼요**
 2. **User:** 머르는 음식이 병환에 있어요 -> **모르는 음식이 병원**에 있어요
 3. **User:** 집에 가고 약을 막어요 -> **먹어요**
@@ -57,6 +61,7 @@
 5. **User:** 지금 보는 영화를 젛어해요 -> **좋아해요**
 
 ## Active Production
+
 1. **Prompt:** What must you do at the hospital?
    - **User:** 병완에서 약을 먹아야 돼요 -> **병원**에서...
 2. **Prompt:** Kind of food you like?

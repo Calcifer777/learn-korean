@@ -1,6 +1,7 @@
 # Lesson 005: Companionship & Social Life
 
 ## Exercises
+
 1. I go to the **market** with my **friend**.
    - **Answer:** 시장에 친구랑 같이 가요.
 2. I work at the **company** with my **colleague**.
@@ -23,6 +24,7 @@
     - **Answer:** 역 앞에서 동료랑 만나요.
 
 ## Active Production
+
 1. **Who do you live with?**
    - **User Answer:** 친구랑 같이 살아요.
 2. **Who do you want to travel with?**

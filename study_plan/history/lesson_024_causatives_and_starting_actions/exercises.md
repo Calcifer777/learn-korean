@@ -1,6 +1,7 @@
 # Lesson 024: Causatives & Starting Actions - Exercises
 
 ## Step 3: Guided Practice (Translation)
+
 1. **Prompt:** I make (하다) the coffee sweet (달다).
    **Corrected:** 커피를 달게 해요.
 2. **Prompt:** The movie makes me cry (울다).
@@ -13,6 +14,7 @@
    **Corrected:** 오늘 운동하기 시작했어요.
 
 ## Step 4: Active Production (Questions)
+
 1. **Q:** 누가 당신을 웃게 해요?
    **A:** 친구가 저를 웃게 해요.
 2. **Q:** 언제 한국어를 공부하기 시작했어요?
@@ -21,6 +23,7 @@
    **A:** 난로가 방을 따뜻하게 해 줘요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** The Healthy Habit (Start eating fruit, makes body healthy).
    **Corrected:** 매일 아침 과일을 먹기 시작했어요. 과일이 제 몸을 건강하게 해 줘요.
 2. **Prompt:** The Sad Story (Started watching movie, it made me sad).

@@ -1,6 +1,7 @@
 # Lesson 008: Opinions & Emotional Verbs - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** I like the kind doctor.
    - **User:** 이 친잘한 이 의사 좋아애요
    - **Correction:** (저는) 이 **친절한 의사를 좋아해요**.
@@ -17,6 +18,7 @@
    - **Correction:** 이 영화는 곧 **시작될** 거예요.
 
 ## Round 2 (Translation)
+
 1. **Prompt:** The difficult book is not good.
    - **User:** 이 어려온 잭은 한 좋어요
    - **Correction:** 이 **어려운 책은 안 좋아요**. (ㅂ irregular: 어렵다 -> 어려운)
@@ -34,6 +36,7 @@
    - **Correction:** **언제** 영화가 **시작돼요?**
 
 ## Round 3 (Modifiers & Verbs)
+
 1. **Prompt:** The cold water is good.
    - **User:** 차가운 물이 좋하요 -> **좋아요**
 2. **Prompt:** I like spicy food.
@@ -48,11 +51,13 @@
    - **User:** 친구가 바쁜 파머시를 싫어해요 -> **약국**을...
 
 ## Active Production
+
 1. **User:** 로맨틱 영화를 좋아해요 (Correct!)
 2. **User:** 친구는 무사운 영화를 싫어해요 -> **무서운**
 3. **User:** 한국 음식이 매우서 젛아해요 -> **매워서 좋아해요**
 
 ## Active Writing
+
 1. **User:** 좋아는 사람이 친잘해요 -> **좋은 사람**이 **친절해요**
 2. **User:** 바쁜 날이 싫어해요 -> 바쁜 **날을 싫어해요**
 3. **User:** 세 시 영화가 시잔돼요 -> 세 **시에** 영화가 **시작돼요**

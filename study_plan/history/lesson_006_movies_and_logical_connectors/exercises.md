@@ -1,6 +1,7 @@
 # Lesson 006: Movies & Logical Connections - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** The movie that the director made is a zombie movie.
    - **User:** 영화는 감독님이 만든 재미있었어요 (Incorrect structure)
    - **Correction:** 감독님이 **만든 영화**는 좀비 영화예요.
@@ -18,6 +19,7 @@
    - **Correction:** 제가 **어제 본** 애니메이션은 **좋았어요**.
 
 ## Round 2 (Translation)
+
 1. **Prompt:** The bread that I ate was delicious.
    - **User:** 방이 먹은 맛있었어요 (Word order/Spelling)
    - **Correction:** 제가 **먹은 빵은** 맛있었어요.
@@ -35,23 +37,25 @@
    - **Correction:** **친구하고 본 좀비 영화는 무서웠어요.**
 
 ## Round 3 (Fill-in-the-blank)
-1. **Prompt:** 친구가 _______ (**만들다** - *past modifier*) 빵이 정말 맛있어요.
+
+1. **Prompt:** 친구가 _______ (**만들다** - _past modifier_) 빵이 정말 맛있어요.
    - **User:** 친구가 만든 빤이 정말 맛닜어요 (Spelling)
    - **Correction:** 친구가 **만든 빵이** 정말 **맛있어요**.
-2. **Prompt:** 배가 _______ (**고프다** - *causal*) 빵을 먹었어요.
+2. **Prompt:** 배가 _______ (**고프다** - _causal_) 빵을 먹었어요.
    - **User:** 배사 고파서 빵을 맛었어요 (Spelling)
    - **Correction:** **배가 고파서** 빵을 **먹었어요**.
-3. **Prompt:** 한국에 _______ (**가다** - *before ...ing*) 한국어를 공부했어요.
+3. **Prompt:** 한국에 _______ (**가다** - _before ...ing_) 한국어를 공부했어요.
    - **User:** 한국에 가기 전에 한국어를 곰붛했어요 (Spelling)
    - **Correction:** 한국에 **가기 전에** 한국어를 **공부했어요**.
-4. **Prompt:** 어제 _______ (**보다** - *past modifier*) 영화에 대해서 이야기해요.
+4. **Prompt:** 어제 _______ (**보다** - _past modifier_) 영화에 대해서 이야기해요.
    - **User:** 어제 본 영화에 대해서 이야기애요 (Spelling)
    - **Correction:** 어제 **본** 영화에 대해서 **이야기해요**.
-5. **Prompt:** 좀비 영화가 _______ (**재미있다** - *causal*) 한 번 더 봤어요.
+5. **Prompt:** 좀비 영화가 _______ (**재미있다** - _causal_) 한 번 더 봤어요.
    - **User:** 좀비 영화가 제미있어서 한 번 더 봤어요 (Spelling)
    - **Correction:** 좀비 영화가 **재미있어서** 한 번 더 봤어요.
 
 ## Active Production
+
 1. **User:** 최근에 분 영화는 Batman-에요
    - **Correction:** 최근에 **본** 영화는 Batman이에요.
 2. **User:** 자기 잔에 보통 난은 이를 닦는어요
@@ -60,6 +64,7 @@
    - **Correction:** **한국**에 **가서 한국**어를 **공부**해요.
 
 ## Reading & Translation
+
 1. **Text A:** "감독님이 만든 좀비 영화가 정말 무서웠어요. 그래서 영화를 보기 전에 물을 많이 마셨어요. 영화에 대해서 기대를 많이 했지만, 너무 무서워서 다시 보고 싶지 않아요."
    - **User Translation:** Correctly captured "although" (-지만) and causal logic.
 2. **Text B:** "어제 친구하고 만든 빵에 대해서 이야기했어요. 그 빵은 제가 처음으로 만든 빵이에요. 빵이 맛있어서 친구가 좋아했어요."
@@ -67,6 +72,7 @@
    - **Correction:** "Because the bread was delicious, **my friend liked it.**"
 
 ## Active Writing
+
 1. **User:** 어제 막은 고기는 맛있었어요
    - **Correction:** 어제 **먹은** 고기는 맛있었어요.
 2. **User:** 공부하기 전에 차를 맛여요

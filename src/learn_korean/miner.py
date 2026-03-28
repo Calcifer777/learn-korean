@@ -1,11 +1,12 @@
 import re
 import pandas as pd
-from typing import List, Dict, Set
+
 from kiwipiepy import Kiwi
 from collections import Counter
+from tqdm import tqdm
 from .parser import POS_MAP
 
-def parse_lrc(file_path: str) -> List[str]:
+def parse_lrc(file_path: str) -> list[str]:
     """Extracts text lines from an LRC file, removing timestamps."""
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -23,7 +24,7 @@ def parse_lrc(file_path: str) -> List[str]:
             clean_lines.append(text)
     return clean_lines
 
-def parse_srt(file_path: str) -> List[str]:
+def parse_srt(file_path: str) -> list[str]:
     """Extracts text lines from an SRT file, removing timestamps and formatting."""
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -48,7 +49,7 @@ def parse_srt(file_path: str) -> List[str]:
                 
     return clean_lines
 
-def mine_subtitles(file_path: str, min_freq: int = 2, exclude_set: Set[str] = None) -> List[Dict[str, str]]:
+def mine_subtitles(file_path: str, min_freq: int = 2, exclude_set: set[str] | None = None) -> list[dict[str, str]]:
     kiwi = Kiwi()
     
     if file_path.lower().endswith('.lrc'):
@@ -86,7 +87,7 @@ def mine_subtitles(file_path: str, min_freq: int = 2, exclude_set: Set[str] = No
     target_words.sort(key=lambda x: word_counts[x], reverse=True)
 
     results = []
-    for word in target_words:
+    for word in tqdm(target_words, desc="Processing mined words", unit="word"):
         example_sentence = ""
         for line in lines:
             search_term = word[:-1] if word.endswith('다') and len(word) > 1 else word

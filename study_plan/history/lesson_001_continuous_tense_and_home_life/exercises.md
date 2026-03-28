@@ -5,7 +5,7 @@
 1. **Prompt:** Translate: "I am doing housework in the kitchen."
    **Corrected Answer:** 주방에서 가사를 하고 있어요.
 
-2. **Prompt:** Fill in the blank: "아버지는 지금 __________(living room)에서 TV를 보__________ (is watching)."
+2. **Prompt:** Fill in the blank: "아버지는 지금 **********(living room)에서 TV를 보********** (is watching)."
    **Corrected Answer:** 아버지는 지금 거실에서 TV를 보고 있어요.
 
 3. **Prompt:** Translate: "Where are you living now?" (To live = 살다)

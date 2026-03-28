@@ -1,4 +1,4 @@
-### Summary of *Fluent Forever* by Gabriel Wyner (Revised Edition, 2024)
+### Summary of _Fluent Forever_ by Gabriel Wyner (Revised Edition, 2024)
 
 **Fluent Forever** presents a scientifically grounded, practical, and personalized approach to language learning designed to help learners achieve fluency efficiently and enjoyably. Wyner combines insights from neuroscience, psychology, and his experience as a polyglot and opera singer to provide a method that rewires the brain for rapid language acquisition.
 
@@ -60,27 +60,27 @@
 
 ### Timeline Table: Language Learning Process
 
-| Stage                      | Description                                           | Tools/Methods                                   | Approximate Timeframe            |
-|----------------------------|-----------------------------------------------------|------------------------------------------------|---------------------------------|
-| **Sound Play**              | Master pronunciation, phonetics, and spelling       | IPA, minimal pair tests, pronunciation trainers | 3–5 weeks                      |
-| **Word Play**               | Learn first 625 high-frequency concrete words       | Flash cards, Google Images, personal mnemonics | 1–2 months                    |
-| **Sentence Play**           | Break down and learn grammar using sentences         | Grammar books, tutors, flash cards              | Weeks to months               |
-| **Building Vocabulary**     | Expand to Top 1000 words, customize topics           | Frequency dictionaries, AI tools, native tutors | Months                       |
-| **Fluency Journey**         | Balanced reading, listening, writing, speaking       | TV, podcasts, language exchanges, VR            | Ongoing                      |
-| **Fine-Tuning & Advanced**  | Minimize interference, use monolingual dictionaries  | Self-directed writing, immersion programs        | Advanced/intermediate level   |
-| **Maintenance**             | Stay fluent through TV, conversation, and reviews    | Regular practice, supplementary learning         | Lifetime                     |
+| Stage                      | Description                                         | Tools/Methods                                   | Approximate Timeframe       |
+| -------------------------- | --------------------------------------------------- | ----------------------------------------------- | --------------------------- |
+| **Sound Play**             | Master pronunciation, phonetics, and spelling       | IPA, minimal pair tests, pronunciation trainers | 3–5 weeks                   |
+| **Word Play**              | Learn first 625 high-frequency concrete words       | Flash cards, Google Images, personal mnemonics  | 1–2 months                  |
+| **Sentence Play**          | Break down and learn grammar using sentences        | Grammar books, tutors, flash cards              | Weeks to months             |
+| **Building Vocabulary**    | Expand to Top 1000 words, customize topics          | Frequency dictionaries, AI tools, native tutors | Months                      |
+| **Fluency Journey**        | Balanced reading, listening, writing, speaking      | TV, podcasts, language exchanges, VR            | Ongoing                     |
+| **Fine-Tuning & Advanced** | Minimize interference, use monolingual dictionaries | Self-directed writing, immersion programs       | Advanced/intermediate level |
+| **Maintenance**            | Stay fluent through TV, conversation, and reviews   | Regular practice, supplementary learning        | Lifetime                    |
 
 ---
 
 ### Markdown Table: SRS Flash Card Types Overview
 
-| Flash Card Type               | Purpose                                | Intensive Track             | Normal Track               | Refresher Track            |
-|------------------------------|--------------------------------------|-----------------------------|----------------------------|----------------------------|
-| **Sound/Spelling Cards**      | Learn sound and spelling of letters  | Yes (2 cards per sound)      | Yes (2 cards per sound)     | Yes (1 card per sound)       |
-| **Basic Vocabulary Cards**    | Connect word to meaning and sound    | 3 cards per word             | 2 cards per word            | 1 card per word             |
-| **Grammar/Sentence Cards**    | Learn new words, forms, and word order| 2–4 cards per word + order   | 2–3 cards per word + order  | 1 card per word + order     |
-| **Spelling Cards**            | Learn word spellings                  | Yes (for complex languages) | Optional                   | Optional                   |
-| **Mnemonic Imagery Cards**   | Remember abstract grammar concepts   | Optional                    | Optional                   | Optional                   |
+| Flash Card Type            | Purpose                                | Intensive Track             | Normal Track               | Refresher Track         |
+| -------------------------- | -------------------------------------- | --------------------------- | -------------------------- | ----------------------- |
+| **Sound/Spelling Cards**   | Learn sound and spelling of letters    | Yes (2 cards per sound)     | Yes (2 cards per sound)    | Yes (1 card per sound)  |
+| **Basic Vocabulary Cards** | Connect word to meaning and sound      | 3 cards per word            | 2 cards per word           | 1 card per word         |
+| **Grammar/Sentence Cards** | Learn new words, forms, and word order | 2–4 cards per word + order  | 2–3 cards per word + order | 1 card per word + order |
+| **Spelling Cards**         | Learn word spellings                   | Yes (for complex languages) | Optional                   | Optional                |
+| **Mnemonic Imagery Cards** | Remember abstract grammar concepts     | Optional                    | Optional                   | Optional                |
 
 ---
 
@@ -122,5 +122,4 @@
 
 ### Conclusion
 
-*Fluent Forever* offers a comprehensive, science-based roadmap for mastering any foreign language by leveraging **pronunciation mastery, spaced repetition, meaningful vocabulary acquisition, grammar through context, and sustained speaking practice**. Its focus on **personalization, engagement, and efficient memory techniques** makes it uniquely effective for busy learners who want to achieve **rapid, lasting fluency** without the frustration of traditional language methods. The book also highlights the **broader cognitive advantages and cultural richness** that come with learning a language, inspiring learners not only to succeed but to enjoy the journey.
-
+_Fluent Forever_ offers a comprehensive, science-based roadmap for mastering any foreign language by leveraging **pronunciation mastery, spaced repetition, meaningful vocabulary acquisition, grammar through context, and sustained speaking practice**. Its focus on **personalization, engagement, and efficient memory techniques** makes it uniquely effective for busy learners who want to achieve **rapid, lasting fluency** without the frustration of traditional language methods. The book also highlights the **broader cognitive advantages and cultural richness** that come with learning a language, inspiring learners not only to succeed but to enjoy the journey.

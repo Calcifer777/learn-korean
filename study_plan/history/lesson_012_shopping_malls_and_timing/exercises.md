@@ -1,6 +1,7 @@
 # Lesson 012: Shopping Malls & Timing - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** You can eat at the shopping mall.
    - **User:** 쇼핑몰에서 식사할 수 있어요 (Correct!)
 2. **Prompt:** When (it is) hot, I drink cold water.
@@ -13,6 +14,7 @@
    - **User:** 새로 생긴 옷가게는 궈요 -> **커요** (Spelling)
 
 ## Round 2 (Grammar Focus)
+
 1. **Prompt:** When it rains, I stay at home.
    - **User:** 비가 올 때는 집에서 쉬어요 (Perfect!)
 2. **Prompt:** I read books or sleep.
@@ -25,11 +27,13 @@
    - **User:** 새로 생긴 식당이 많아요 (Perfect!)
 
 ## Active Production
+
 1. **User:** 날시가 추을 때는 집에서 쉬어요 -> **날씨가 추울** (Spelling)
 2. **User:** 쇼핑몰에서 옷을 살 수 있어요 (Correct!)
 3. **User:** 주마레 온동하거나 친구를 만나요 -> **주말에 운동하거나** (Spelling)
 
 ## Active Writing
+
 1. **User:** 마기있는 믕식을 먹을 때 기분이 정말 촣아요 -> **맛있는 음식을... 좋아요**
 2. **User:** 영화를 보더나 책을 읽 보세요 -> **보거나... 읽어 보세요**
 3. **User:** 한둗어를 멀할 수 있어요 -> **한국어를 말할**

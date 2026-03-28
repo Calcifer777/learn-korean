@@ -2,10 +2,11 @@ from google import genai
 import os
 import json
 import re
-from typing import List, Dict
+
+from tqdm import tqdm
 
 
-def translate_with_gemini(words: List[Dict[str, str]]) -> List[Dict[str, str]]:
+def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         print("Warning: GEMINI_API_KEY not found. Skipping Gemini translation...")
@@ -24,7 +25,7 @@ def translate_with_gemini(words: List[Dict[str, str]]) -> List[Dict[str, str]]:
     batch_size = 30
     translated_all = []
 
-    for i in range(0, len(words), batch_size):
+    for i in tqdm(range(0, len(words), batch_size), desc="Translating (Gemini)", unit="batch"):
         batch = words[i : i + batch_size]
 
         prompt = """
@@ -33,7 +34,7 @@ def translate_with_gemini(words: List[Dict[str, str]]) -> List[Dict[str, str]]:
         For each entry:
         1.  Provide the English translation of the word that is most appropriate for that specific sentence context.
         2.  Provide the English translation of the entire example sentence.
-        3.  Provide the Etymology: Identify the Sino-Korean (Hanja) roots and their literal English meanings (e.g., '기 (steam) + 차 (car)'). If the word is a pure native Korean word without Hanja roots, simply output 'Pure Korean'. Always write the root words in the Korean alphabet, not the Hanja ideogram or the romanized form
+        3.  Provide the Etymology: Identify the Sino-Korean (Hanja) roots and their literal English meanings (e.g., '기 (steam) + 차 (car)'). If the word is a pure native Korean word without Hanja roots, simply output 'Pure Korean'.
         
         Output the result ONLY as a JSON list of objects, each containing:
         - "Korean": the original word
@@ -69,10 +70,7 @@ def translate_with_gemini(words: List[Dict[str, str]]) -> List[Dict[str, str]]:
                     for w in batch:
                         if w["Korean"] == r["Korean"]:
                             w["English"] = r.get("English", w.get("English", ""))
-                            w["Sentence Translation"] = r.get(
-                                "Sentence Translation",
-                                w.get("Sentence Translation", ""),
-                            )
+                            w["Sentence Translation"] = r.get("Sentence Translation", w.get("Sentence Translation", ""))
                             w["Etymology"] = r.get("Etymology", "")
             translated_all.extend(batch)
         except Exception as e:

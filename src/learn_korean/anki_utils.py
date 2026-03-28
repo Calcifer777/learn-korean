@@ -1,7 +1,9 @@
 import genanki
 import random
 import hashlib
-from typing import List, Dict
+
+from tqdm import tqdm
+import html
 
 # Define Card Styling (Catppuccin Frappe Theme)
 STYLE = """
@@ -150,7 +152,7 @@ def create_bidirectional_model():
 """,
     )
 
-def generate_anki_deck(words: List[Dict[str, str]], output_file: str, deck_name: str):
+def generate_anki_deck(words: list[dict[str, str]], output_file: str, deck_name: str):
     """
     words: List of dicts with keys: 'Korean', 'English', 'Part of Speech', 'Example Sentence', 'Sentence Translation', 'Etymology'
     """
@@ -159,7 +161,7 @@ def generate_anki_deck(words: List[Dict[str, str]], output_file: str, deck_name:
     my_model = create_bidirectional_model()
     my_deck = genanki.Deck(deck_id, deck_name)
 
-    for i, word in enumerate(words, 1):
+    for i, word in enumerate(tqdm(words, desc=f"Creating deck '{deck_name}'", unit="note"), 1):
         # Skip notes that have no Korean or English to avoid broken cards
         if not word.get("Korean") or not word.get("English"):
             continue

@@ -1,6 +1,7 @@
 # Lesson 014: Comparisons - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** Movies are more fun than books.
    - **User:** 책보다 영화를 더 재미있어요 -> **영화가** (Subject focus)
 2. **Prompt:** My house is bigger than the shopping mall.
@@ -13,6 +14,7 @@
    - **User:** 어늘 어제보다 더 추운이에요 -> **오늘... 추워요** (Spelling/Ending)
 
 ## Round 2 (가장/제일)
+
 1. **User:** 이게 제일 좋아요 (Correct!)
 2. **User:** 겨통 중에서, 버스가 가장 빨라요 -> **교통** (Spelling)
 3. **User:** 추은보다 매운 음식이 더 좋아요 -> **차가운 음식보다** (Noun comparison)
@@ -20,6 +22,7 @@
 5. **User:** 제 친구가 저보다 더 키카 커요 -> **키가** (Spelling)
 
 ## Round 3 (Complex Comparisons)
+
 1. **Prompt:** The bread the friend made is tastier than this bread.
    - **User:** 친구가 만들은 빵이 이 빵보다 도 마시있어요 -> **만든... 더 맛있어요**
 2. **Prompt:** Among Korean movies, "Train to Busan" is the most scary.
@@ -32,11 +35,13 @@
    - **User:** 어느 도 비싸요? -> **어느 것이 더**
 
 ## Active Production
+
 1. **User:** 네, 오늘이 어제보다 더 추워요 (Correct!)
 2. **User:** 지하철보다 버스를 더 좋아해요 (Correct!)
 3. **User:** 초콜릿이 제일 좋아요 (Correct!)
 
 ## Active Writing
+
 1. **User:** 여름 봄보다 더 더워요 -> **여름은**
 2. **User:** 과일 충에서, 달기가 가장 비싸요 -> **중에서, 딸기**
 3. **User:** 동생이 저보다 먹는 더 빠르게요 -> **더 빠르게 먹어요**

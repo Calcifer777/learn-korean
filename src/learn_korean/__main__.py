@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from elevenlabs.client import ElevenLabs
 from playsound3 import playsound
 import stable_whisper
+from tqdm import tqdm
 
 # New imports
 from .parser import (
@@ -20,7 +21,6 @@ from .parser import (
 )
 from .anki_utils import generate_anki_deck
 from .translator_llm import translate_with_gemini
-from .translator_ollama import translate_with_ollama
 from .miner import mine_subtitles
 
 # Load environment variables from .env if present
@@ -319,13 +319,13 @@ def align_all_audio_text(
         print(f"Error loading model: {e}", file=sys.stderr)
         sys.exit(1)
 
-    for audio_path in mp3_files:
+    for audio_path in tqdm(mp3_files, desc="Aligning audio files", unit="file"):
         lrc_path = audio_path.with_suffix(".lrc")
         if not lrc_path.exists():
-            print(f"Skipping '{audio_path.name}': No matching .lrc file found.")
+            # Using tqdm.write to avoid interfering with progress bar
+            tqdm.write(f"Skipping '{audio_path.name}': No matching .lrc file found.")
             continue
 
-        print(f"\nProcessing '{audio_path.name}'...")
         try:
             _process_alignment(
                 model,
@@ -335,9 +335,8 @@ def align_all_audio_text(
                 language,
                 offset_ms,
             )
-            print(f"Successfully aligned '{lrc_path.name}'.")
         except Exception as e:
-            print(f"Error processing '{audio_path.name}': {e}", file=sys.stderr)
+            tqdm.write(f"Error processing '{audio_path.name}': {e}")
 
     print("\nBulk alignment complete! ✨")
 
@@ -367,6 +366,35 @@ def main() -> None:
         dest="command", required=True, help="Available commands"
     )
 
+    # Command: Process Text (End-to-End Workflow)
+    process_parser = subparsers.add_parser(
+        "process-text", help="Extract, translate, and generate an Anki deck in one go"
+    )
+    process_parser.add_argument(
+        "--input", required=True, help="Path to the input text file"
+    )
+    process_parser.add_argument(
+        "--output-csv", required=True, help="Path to the output CSV file"
+    )
+    process_parser.add_argument(
+        "--output-anki", required=True, help="Path to the output .apkg file"
+    )
+    process_parser.add_argument(
+        "--deck-name", required=True, help="Name of the deck inside Anki"
+    )
+    process_parser.add_argument(
+        "--exclude", help="Optional CSV file of known words to exclude"
+    )
+    process_parser.add_argument(
+        "--exclude-common", action="store_true", help="Automatically exclude most common words (1k.csv)"
+    )
+    process_parser.add_argument(
+        "--llm", action="store_true", help="Use Gemini LLM for context-aware translation"
+    )
+    process_parser.add_argument(
+        "--dev", action="store_true", help="Development mode: process only a few items for testing"
+    )
+
     # Command: Extract Vocab
     extract_parser = subparsers.add_parser(
         "extract-vocab", help="Extract unique Korean words from text and save to CSV"
@@ -384,6 +412,9 @@ def main() -> None:
         "--exclude-common",
         action="store_true",
         help="Automatically exclude most common words (1k.csv)",
+    )
+    extract_parser.add_argument(
+        "--dev", action="store_true", help="Development mode: process only a few items for testing"
     )
 
     # Command: Mine Drama
@@ -410,6 +441,9 @@ def main() -> None:
         action="store_true",
         help="Automatically exclude most common words (1k.csv)",
     )
+    mine_parser.add_argument(
+        "--dev", action="store_true", help="Development mode: process only a few items for testing"
+    )
 
     # Command: Translate Vocab
     translate_parser = subparsers.add_parser(
@@ -425,14 +459,6 @@ def main() -> None:
         "--llm",
         action="store_true",
         help="Use Gemini LLM for context-aware translation",
-    )
-    translate_parser.add_argument(
-        "--ollama",
-        action="store_true",
-        help="Use local Ollama LLM for context-aware translation",
-    )
-    translate_parser.add_argument(
-        "--ollama-model", default="llama3", help="Ollama model to use (default: llama3)"
     )
 
     # Command: Anki Deck
@@ -450,12 +476,6 @@ def main() -> None:
     )
     anki_parser.add_argument(
         "--llm", action="store_true", help="Use Gemini LLM (if input is text)"
-    )
-    anki_parser.add_argument(
-        "--ollama", action="store_true", help="Use Ollama (if input is text)"
-    )
-    anki_parser.add_argument(
-        "--ollama-model", default="llama3", help="Ollama model to use"
     )
 
     # Command: List voices
@@ -532,20 +552,51 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    if args.command == "extract-vocab":
+    if args.command == "process-text":
         exclude_set = set()
         if args.exclude:
             exclude_set.update(load_exclusion_list(args.exclude))
         if args.exclude_common:
-            common_path = (
-                Path(__file__).parent.parent.parent / "resources" / "vocab" / "1k.csv"
-            ).as_posix()
+            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
+            if os.path.exists(common_path):
+                exclude_set.update(load_exclusion_list(common_path))
+            else:
+                print(f"Warning: Common words file '{common_path}' not found.")
+
+        print(f"Step 1/3: Extracting vocabulary from {args.input}...")
+        words = process_text_file(args.input, exclude_set=exclude_set)
+        if args.dev:
+            print(f"Dev mode: limiting extraction to first 5 words.")
+            words = words[:5]
+
+        print("Step 2/3: Translating and extracting etymology...")
+        if args.llm:
+            words = translate_with_gemini(words)
+        else:
+            words = translate_words_simple(words)
+
+        save_vocab_to_csv(words, args.output_csv)
+
+        print(f"Step 3/3: Generating Anki deck ({args.deck_name})...")
+        generate_anki_deck(words, args.output_anki, args.deck_name)
+        return
+
+    elif args.command == "extract-vocab":
+        exclude_set = set()
+        if args.exclude:
+            exclude_set.update(load_exclusion_list(args.exclude))
+        if args.exclude_common:
+            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
             if os.path.exists(common_path):
                 exclude_set.update(load_exclusion_list(common_path))
             else:
                 print(f"Warning: Common words file '{common_path}' not found.")
 
         words = process_text_file(args.input, exclude_set=exclude_set)
+        if args.dev:
+            print(f"Dev mode: limiting extraction to first 5 words.")
+            words = words[:5]
+
         save_vocab_to_csv(words, args.output)
         return
 
@@ -554,7 +605,7 @@ def main() -> None:
         if args.exclude:
             exclude_set.update(load_exclusion_list(args.exclude))
         if args.exclude_common:
-            common_path = "resources/vocab/1k.csv"
+            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
             if os.path.exists(common_path):
                 exclude_set.update(load_exclusion_list(common_path))
             else:
@@ -563,6 +614,10 @@ def main() -> None:
         words = mine_subtitles(
             args.input, min_freq=args.min_freq, exclude_set=exclude_set
         )
+        if args.dev:
+            print(f"Dev mode: limiting extraction to first 5 words.")
+            words = words[:5]
+
         save_vocab_to_csv(words, args.output)
         return
 
@@ -570,8 +625,6 @@ def main() -> None:
         words = load_vocab_from_csv(args.input)
         if args.llm:
             words = translate_with_gemini(words)
-        elif args.ollama:
-            words = translate_with_ollama(words, model=args.ollama_model)
         else:
             words = translate_words_simple(words)
         save_vocab_to_csv(words, args.output)
@@ -584,8 +637,6 @@ def main() -> None:
             words = process_text_file(args.input)
             if args.llm:
                 words = translate_with_gemini(words)
-            elif args.ollama:
-                words = translate_with_ollama(words, model=args.ollama_model)
             else:
                 words = translate_words_simple(words)
         generate_anki_deck(words, args.output, args.name)

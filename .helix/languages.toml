@@ -1,0 +1,12 @@
+[language-server.efm-korean]
+command = "efm-langserver"
+config = { languages = { markdown = [{ format-command = "uv tool run korector", format-stdin = true }] } }
+
+[[language]]
+name = "markdown"
+# This scope ensures it only triggers on .ko.md files
+# scope = "source.ko.md"
+# roots = [".helix"]
+# file-types = [".ko.md"]
+language-servers = ["efm-korean"]
+auto-format = true

@@ -1,6 +1,7 @@
 # Lesson 025: Orientation & Location - Exercises
 
 ## Step 4: Guided Practice (Translation)
+
 1. **Prompt:** The book is on top of the desk.
    **Corrected:** 책은 책상 위에 있어요.
 2. **Prompt:** The cat is under the chair.
@@ -17,6 +18,7 @@
    **Corrected:** 병원이 가까워요? 아니요, 멀어요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** Describing your desk (Laptop, phone, bottle, basketball).
    **Corrected:** 제 방에 책상이 있어요. 책상 위에 노트북이 있어요. 노트북 옆에 스마트폰이 있어요. 노트북하고 스마트폰 사이에 병이 있어요. 책상 아래에 농구공이 있어요.
 2. **Prompt:** Giving mini-directions (Right from school, cafe between bookstore/hospital).

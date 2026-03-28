@@ -1,6 +1,7 @@
 # Lesson 023: Suggestions & Emphasis - Exercises
 
 ## Step 3: Guided Practice (Translation)
+
 1. **Prompt:** Shall we (만나다) at the park?
    **Corrected:** 공원에서 만날까요?
 2. **Prompt:** I wonder if the food is delicious (맛있다).
@@ -13,6 +14,7 @@
    **Corrected:** 학생이잖아요.
 
 ## Step 4: Active Production (Questions)
+
 1. **Q:** 오늘 점심에 무엇을 먹을까요?
    **A:** 김밥을 먹을까요?
 2. **Q:** 내일 날씨가 어떨까요?
@@ -21,6 +23,7 @@
    **A:** 엄마가 나를 힘들게 낳아 줬잖아요.
 
 ## Step 6: Active Writing
+
 1. **Prompt:** Weekend Planning (What to do? Suggest cinema).
    **Corrected:** 이번 주말에 무엇을 할까요? 영화관에 영화 보러 갈까요?
 2. **Prompt:** The Opinion (I wonder if movie is scary. I'm a coward).

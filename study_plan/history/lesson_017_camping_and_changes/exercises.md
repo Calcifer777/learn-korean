@@ -1,6 +1,7 @@
 # Lesson 017: Camping & Changes - Exercises
 
 ## Round 1 (Translation)
+
 1. **Prompt:** The weather is getting cold.
    - **User:** 날씨가 추워져요 (Correct!)
 2. **Prompt:** There is a space where I can study.
@@ -13,6 +14,7 @@
    - **User:** 의사 선생님이 유명해졌어요 (Perfect!)
 
 ## Round 2 (Modifiers & Vowels)
+
 1. **Prompt:** The bread is becoming delicious.
    - **User:** 빵는 맛있어져요 -> **빵은**
 2. **Prompt:** There is a place where you can buy clothes.
@@ -25,6 +27,7 @@
    - **User:** 친구가 예뻐졌어요 (Perfect!)
 
 ## Round 3 (Past Change & Complex Modifiers)
+
 1. **User:** 닐씨가 다워졌어요 -> **날씨가 더워졌어요**
 2. **User:** 텐트를 칠 수 있는 공가이 찾았어요 -> **공간을 찾았어요**
 3. **User:** 운동하니까 겅강이 좋아하져요 -> **건강이 좋아져요**
@@ -32,11 +35,13 @@
 5. **User:** 여러 가기 유행이 있어요. 예어 들어서... -> **가지... 예를**
 
 ## Active Production
-1. **User:** 오줌 캠피이 요행이에요 -> **요즘... 유행** (*Warning: 오줌 means urine!*)
+
+1. **User:** 오줌 캠피이 요행이에요 -> **요즘... 유행** (_Warning: 오줌 means urine!_)
 2. **User:** 셔워를 할 수 있어요 -> **샤워**
 3. **User:** 날씨가 추워졌어요 (Correct!)
 
 ## Active Writing
+
 1. **User:** 방이 깨끗하졌어요 -> **깨끗해졌어요**
 2. **User:** 수영할 수 있어요 공가를 -> **수영할 수 있는 곳(공간)을**
 3. **User:** 예를 들러서 -> **들어서**
