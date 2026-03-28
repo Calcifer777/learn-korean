@@ -20,7 +20,7 @@ from .parser import (
     load_vocab_from_csv,
 )
 from .anki_utils import generate_anki_deck
-from .translator_llm import translate_with_gemini
+from .translator_llm import translate_with_gemini, extract_phrases_with_gemini
 from .miner import mine_subtitles
 
 # Load environment variables from .env if present
@@ -39,7 +39,7 @@ def get_preview_path(name: str) -> Path:
 def play_audio(path: Path) -> None:
     """Plays the audio file using playsound3."""
     try:
-        print(f"Playing sample...")
+        print("Playing sample...")
         playsound(str(path))
     except Exception as e:
         print(f"Warning: Could not play audio using playsound3: {e}", file=sys.stderr)
@@ -54,7 +54,7 @@ def resolve_voice_id(client: ElevenLabs, voice_input: str) -> str:
     try:
         saved = client.voices.get_all()
         for v in saved.voices:
-            if v.name.lower() == voice_input.lower():
+            if v.name and v.name.lower() == voice_input.lower():
                 print(f"Resolved name '{voice_input}' to saved voice ID '{v.voice_id}'")
                 return v.voice_id
     except Exception:
@@ -152,13 +152,13 @@ def download_sample(
             return target_path
 
         print(f"Fetching metadata for voice ID '{resolved_id}'...")
-        preview_url = None
-        voice_name = "Unknown Voice"
+        preview_url: str | None = None
+        voice_name: str = "Unknown Voice"
 
         try:
             voice = client.voices.get(voice_id=resolved_id)
             preview_url = getattr(voice, "preview_url", None)
-            voice_name = voice.name
+            voice_name = voice.name or "Unknown Voice"
         except Exception:
             pass
 
@@ -283,7 +283,7 @@ def align_audio_text(
 ) -> None:
     """Aligns audio with text using stable-ts and faster-whisper, generating an LRC file."""
     try:
-        print(f"Loading faster-whisper 'base' model via stable-ts...")
+        print("Loading faster-whisper 'base' model via stable-ts...")
         # Use compute_type='int8' to ensure it runs comfortably on most machines
         model = stable_whisper.load_faster_whisper("base", compute_type="int8")
 
@@ -386,13 +386,30 @@ def main() -> None:
         "--exclude", help="Optional CSV file of known words to exclude"
     )
     process_parser.add_argument(
-        "--exclude-common", action="store_true", help="Automatically exclude most common words (1k.csv)"
+        "--exclude-common",
+        action="store_true",
+        help="Automatically exclude most common words (1k.csv)",
     )
     process_parser.add_argument(
-        "--llm", action="store_true", help="Use Gemini LLM for context-aware translation"
+        "--llm",
+        action="store_true",
+        help="Use Gemini LLM for context-aware translation",
     )
     process_parser.add_argument(
-        "--dev", action="store_true", help="Development mode: process only a few items for testing"
+        "--dev",
+        action="store_true",
+        help="Development mode: process only a few items for testing",
+    )
+    process_parser.add_argument(
+        "--phrases",
+        action="store_true",
+        help="Also extract common/idiomatic phrases (blocks) from the text",
+    )
+    process_parser.add_argument(
+        "--phrases-limit",
+        type=int,
+        default=10,
+        help="Maximum number of phrases to extract (default: 10)",
     )
 
     # Command: Extract Vocab
@@ -414,7 +431,9 @@ def main() -> None:
         help="Automatically exclude most common words (1k.csv)",
     )
     extract_parser.add_argument(
-        "--dev", action="store_true", help="Development mode: process only a few items for testing"
+        "--dev",
+        action="store_true",
+        help="Development mode: process only a few items for testing",
     )
 
     # Command: Mine Drama
@@ -442,7 +461,9 @@ def main() -> None:
         help="Automatically exclude most common words (1k.csv)",
     )
     mine_parser.add_argument(
-        "--dev", action="store_true", help="Development mode: process only a few items for testing"
+        "--dev",
+        action="store_true",
+        help="Development mode: process only a few items for testing",
     )
 
     # Command: Translate Vocab
@@ -566,8 +587,20 @@ def main() -> None:
         print(f"Step 1/3: Extracting vocabulary from {args.input}...")
         words = process_text_file(args.input, exclude_set=exclude_set)
         if args.dev:
-            print(f"Dev mode: limiting extraction to first 5 words.")
+            print("Dev mode: limiting extraction to first 5 words.")
             words = words[:5]
+
+        if args.phrases:
+            with open(args.input, "r", encoding="utf-8") as f:
+                raw_text = f.read()
+            # Remove LRC timestamps from raw text for better LLM processing
+            clean_raw_text = re.sub(r"\[\d{2}:\d{2}\.\d{2}\]", "", raw_text)
+            phrases = extract_phrases_with_gemini(
+                clean_raw_text, limit=args.phrases_limit
+            )
+            if phrases:
+                print(f"Adding {len(phrases)} idiomatic phrases to the list.")
+                words.extend(phrases)
 
         print("Step 2/3: Translating and extracting etymology...")
         if args.llm:
@@ -594,7 +627,7 @@ def main() -> None:
 
         words = process_text_file(args.input, exclude_set=exclude_set)
         if args.dev:
-            print(f"Dev mode: limiting extraction to first 5 words.")
+            print("Dev mode: limiting extraction to first 5 words.")
             words = words[:5]
 
         save_vocab_to_csv(words, args.output)
@@ -615,7 +648,7 @@ def main() -> None:
             args.input, min_freq=args.min_freq, exclude_set=exclude_set
         )
         if args.dev:
-            print(f"Dev mode: limiting extraction to first 5 words.")
+            print("Dev mode: limiting extraction to first 5 words.")
             words = words[:5]
 
         save_vocab_to_csv(words, args.output)

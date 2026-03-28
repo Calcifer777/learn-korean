@@ -1,6 +1,6 @@
 # Korean Learning resources
 
-## 
+##
 
 https://github.com/movemin03/korector
 https://konlpy.org/en/latest/index.html

@@ -1,9 +1,7 @@
 import genanki
-import random
 import hashlib
 
 from tqdm import tqdm
-import html
 
 # Define Card Styling (Catppuccin Frappe Theme)
 STYLE = """
@@ -11,7 +9,7 @@ STYLE = """
  font-family: arial;
  font-size: 20px;
  text-align: center;
- background-color: transparent; 
+ background-color: transparent;
  color: #C6D0F5; /* Frappé Text */
 }
 
@@ -75,9 +73,11 @@ hr {
 }
 """
 
+
 def get_stable_id(name: str) -> int:
     """Generate a stable 10-digit integer ID from a string."""
-    return int(hashlib.sha256(name.encode('utf-8')).hexdigest(), 16) % (10**10)
+    return int(hashlib.sha256(name.encode("utf-8")).hexdigest(), 16) % (10**10)
+
 
 def create_bidirectional_model():
     # Use a stable ID so re-importing doesn't create duplicate models in Anki
@@ -109,12 +109,12 @@ def create_bidirectional_model():
                     {{#Etymology}}
                     <div class="etymology">{{Etymology}}</div>
                     {{/Etymology}}
-                    
+
                     <div class="sentence-container">
                         <div class="sentence-kr">{{Example Sentence}}</div>
                         <div class="sentence-en">{{Sentence Translation}}</div>
                     </div>
-                    
+
                     <div class="rank">Rank: #{{Rank}}</div>
                 """,
             },
@@ -132,17 +132,18 @@ def create_bidirectional_model():
                     {{#Etymology}}
                     <div class="etymology">{{Etymology}}</div>
                     {{/Etymology}}
-                    
+
                     <div class="sentence-container">
                         <div class="sentence-kr">{{Example Sentence}}</div>
                         <div class="sentence-en">{{Sentence Translation}}</div>
                     </div>
-                    
+
                     <div class="rank">Rank: #{{Rank}}</div>
                 """,
             },
         ],
-        css=STYLE + """
+        css=STYLE
+        + """
 .etymology {
     font-size: 14px;
     font-style: italic;
@@ -151,6 +152,7 @@ def create_bidirectional_model():
 }
 """,
     )
+
 
 def generate_anki_deck(words: list[dict[str, str]], output_file: str, deck_name: str):
     """
@@ -161,14 +163,16 @@ def generate_anki_deck(words: list[dict[str, str]], output_file: str, deck_name:
     my_model = create_bidirectional_model()
     my_deck = genanki.Deck(deck_id, deck_name)
 
-    for i, word in enumerate(tqdm(words, desc=f"Creating deck '{deck_name}'", unit="note"), 1):
+    for i, word in enumerate(
+        tqdm(words, desc=f"Creating deck '{deck_name}'", unit="note"), 1
+    ):
         # Skip notes that have no Korean or English to avoid broken cards
         if not word.get("Korean") or not word.get("English"):
             continue
-            
+
         # Use a stable GUID for each note to prevent duplicates on re-import
         note_guid = genanki.guid_for(word["Korean"], word.get("Part of Speech", ""))
-        
+
         note = genanki.Note(
             model=my_model,
             fields=[
@@ -180,9 +184,11 @@ def generate_anki_deck(words: list[dict[str, str]], output_file: str, deck_name:
                 word.get("Sentence Translation", ""),
                 word.get("Etymology", ""),
             ],
-            guid=note_guid
+            guid=note_guid,
         )
         my_deck.add_note(note)
 
     genanki.Package(my_deck).write_to_file(output_file)
-    print(f"Successfully created context-aware deck: {output_file} with {len(my_deck.notes)} notes.")
+    print(
+        f"Successfully created context-aware deck: {output_file} with {len(my_deck.notes)} notes."
+    )
