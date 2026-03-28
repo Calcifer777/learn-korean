@@ -16,8 +16,16 @@ def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
     # Using the latest stable model
     model_id = "gemini-2.5-flash"
 
+    # Filter out words that are already translated (like phrases)
+    to_translate = [w for w in words if not w.get("English") or not w.get("Etymology")]
+
+    already_translated = [w for w in words if w.get("English") and w.get("Etymology")]
+
+    if not to_translate:
+        return words
+
     print(
-        f"Translating {len(words)} words with Gemini ({model_id}) context-aware logic..."
+        f"Translating {len(to_translate)} words with Gemini ({model_id}) context-aware logic..."
     )
 
     # Process in batches to be more efficient
@@ -25,9 +33,11 @@ def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
     translated_all = []
 
     for i in tqdm(
-        range(0, len(words), batch_size), desc="Translating (Gemini)", unit="batch"
+        range(0, len(to_translate), batch_size),
+        desc="Translating (Gemini)",
+        unit="batch",
     ):
-        batch = words[i : i + batch_size]
+        batch = to_translate[i : i + batch_size]
 
         prompt = """
         You are a Korean-English dictionary expert. I will provide you with a list of Korean words, their part of speech, and the sentence they were found in.
@@ -50,9 +60,9 @@ def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
         for w in batch:
             input_data.append(
                 {
-                    "Word": w["Korean"],
-                    "POS": w["Part of Speech"],
-                    "Sentence": w["Example Sentence"],
+                    "Word": w.get("Korean", ""),
+                    "POS": w.get("Part of Speech", "unknown"),
+                    "Sentence": w.get("Example Sentence", ""),
                 }
             )
 
@@ -82,7 +92,8 @@ def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
             print(f"Error during Gemini translation batch {i // batch_size}: {e}")
             translated_all.extend(batch)  # Keep going anyway
 
-    return translated_all
+    # Combine back the already translated phrases and newly translated words
+    return already_translated + translated_all
 
 
 def extract_phrases_with_gemini(text: str, limit: int = 10) -> list[dict[str, str]]:

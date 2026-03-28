@@ -393,7 +393,14 @@ def main() -> None:
     process_parser.add_argument(
         "--llm",
         action="store_true",
-        help="Use Gemini LLM for context-aware translation",
+        default=True,
+        help="Use Gemini LLM for context-aware translation (default: True)",
+    )
+    process_parser.add_argument(
+        "--no-llm",
+        action="store_false",
+        dest="llm",
+        help="Disable LLM and use simple translation instead",
     )
     process_parser.add_argument(
         "--dev",
@@ -479,7 +486,14 @@ def main() -> None:
     translate_parser.add_argument(
         "--llm",
         action="store_true",
-        help="Use Gemini LLM for context-aware translation",
+        default=True,
+        help="Use Gemini LLM for context-aware translation (default: True)",
+    )
+    translate_parser.add_argument(
+        "--no-llm",
+        action="store_false",
+        dest="llm",
+        help="Disable LLM and use simple translation instead",
     )
 
     # Command: Anki Deck
@@ -496,7 +510,16 @@ def main() -> None:
         "--name", default="Korean Vocabulary", help="Name of the deck inside Anki"
     )
     anki_parser.add_argument(
-        "--llm", action="store_true", help="Use Gemini LLM (if input is text)"
+        "--llm",
+        action="store_true",
+        default=True,
+        help="Use Gemini LLM (if input is text) (default: True)",
+    )
+    anki_parser.add_argument(
+        "--no-llm",
+        action="store_false",
+        dest="llm",
+        help="Disable LLM and use simple translation instead",
     )
 
     # Command: List voices
