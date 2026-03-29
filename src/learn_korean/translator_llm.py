@@ -43,9 +43,9 @@ def translate_with_gemini(words: list[dict[str, str]]) -> list[dict[str, str]]:
         You are a Korean-English dictionary expert. I will provide you with a list of Korean words, their part of speech, and the sentence they were found in.
 
         For each entry:
-        1.  Provide the English translation of the word that is most appropriate for that specific sentence context.
+        1.  Provide the English translation of the word that is most appropriate for that specific sentence context. In the case of verbs, provide the translation in the basic form (e.g. for a verb, in its infinitive tense).
         2.  Provide the English translation of the entire example sentence.
-        3.  Provide the Etymology: Identify the Sino-Korean (Hanja) roots and their literal English meanings (e.g., '기 (steam) + 차 (car)'). If the word is a pure native Korean word without Hanja roots, simply output 'Pure Korean'.
+        3.  Provide the Etymology: Identify the Sino-Korean (Hanja) roots and their literal English meanings (e.g. 사용 -> 使 (사: use, employ) + 用 (용: use)). If the word is a pure native Korean word without Hanja roots, simply output 'Pure Korean'. .
 
         Output the result ONLY as a JSON list of objects, each containing:
         - "Korean": the original word
