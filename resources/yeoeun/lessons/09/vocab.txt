@@ -1,0 +1,35 @@
+Front (Korean),Back (English),Conjugation (Polite)
+멋있다,cool / stylish,멋있어요
+사다,to buy,사요
+싸다,cheap,싸요
+비싸다,expensive,비싸요
+높다,high / tall,높아요
+낮다,low,낮아요
+크다,big,커요
+작다,small,작아요
+예쁘다,pretty,예뻐요
+기쁘다,happy / glad,기쁘요
+슬프다,sad,슬퍼요
+아프다,sick / painful,아파요
+배고프다,hungry,배고파요
+짧다,short,짧아요
+길다,long,길어요
+어렵다,difficult,어려워요
+쉽다,easy,쉬워요
+맛있다,delicious / tasty,맛있어요
+맛없다,tastes bad,맛없어요
+좋다,good / liked,좋아요
+나쁘다,bad,나빠요
+많다,a lot / many,많아요
+적다,few / little,적요
+빠르다,fast,빨라요
+느리다,slow,느려요
+덥다,hot (weather),더워요
+춥다,cold (weather),추워요
+가깝다,near / close,가까워요
+멀다,far,멀어요
+재미있다,fun / interesting,재미있어요
+재미없다,boring,재미없어요
+깨끗하다,clean,깨끗해요
+아름답다,beautiful,아름다워요
+따뜻하다,warm,따뜻해요
