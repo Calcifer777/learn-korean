@@ -16,24 +16,24 @@ def create_deck(input_csv, output_file, deck_name="Korean Top 1000"):
      font-family: arial;
      font-size: 20px;
      text-align: center;
-     background-color: transparent; 
+     background-color: transparent;
      color: #C6D0F5; /* Frappé Text */
     }
-    
+
     .korean {
      font-size: 40px;
      font-weight: bold;
      color: #F4B8E4; /* Frappé Pink */
      margin-bottom: 20px;
     }
-    
+
     .english {
      color: #C6D0F5; /* Frappé Text */
      font-size: 24px;
      font-weight: bold;
      margin-bottom: 10px;
     }
-    
+
     .pos {
      font-size: 14px;
      color: #A6D189; /* Frappé Green */
@@ -43,7 +43,7 @@ def create_deck(input_csv, output_file, deck_name="Korean Top 1000"):
      display: inline-block;
      margin-top: 10px;
     }
-    
+
     .rank {
      font-size: 12px;
      color: #838BA7; /* Frappé Overlay1 */

@@ -1,5 +1,5 @@
 소년은 오늘도 끔찍한 악몽에서 깨어났어요.
-The boy woke up again today from a terrible nightmare. 
+The boy woke up again today from a terrible nightmare.
 
 잊고 싶은 과거의 나쁜 기억들이 매일 밤마다 꿈속에 다시 나타나서 소년을 계속해서 괴롭혔죠.
 The bad memories of the past that he wanted to forget reappeared in his dreams every night, continuing to torment him.
@@ -14,7 +14,7 @@ Terrified of falling asleep, the boy eventually went to a witch and pleaded:
 Years passed and the boy became an adult; he no longer had nightmares, but for some reason, he was not the least bit happier.
 
 붉은 보름달이 뜨던 밤, 소원의 대가를 받기 위해 드디어 마녀가 다시 그 앞에 모습을 드러내자,
-On a night when a red full moon rose, the witch finally reappeared before him to collect the price for his wish, 
+On a night when a red full moon rose, the witch finally reappeared before him to collect the price for his wish,
 
 그는 원망 어린 목소리로 외쳤어요.
 He shouted in a voice full of resentment:

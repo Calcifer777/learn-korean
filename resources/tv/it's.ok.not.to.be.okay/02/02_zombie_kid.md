@@ -9,7 +9,7 @@ He was a pretty child with pale skin and very large eyes.
 아이가 크면서 엄마는 자연스럽게 알게 됐어.
 As the child grew up, the mother naturally came to realize something.
 
-이 아이는 감정이 전혀 없고  그저 식욕만 있는 좀비였다는 걸.
+이 아이는 감정이 전혀 없고 그저 식욕만 있는 좀비였다는 걸.
 This child had no emotions and only an appetite; he was a 'zombie'.
 
 그래서 엄마는 마을 사람들 눈을 피해 아이를 지하실에 가두고는,
@@ -36,7 +36,7 @@ Eventually, to the crying, starving child, the mother cut off one of her legs an
 다음엔 팔 한쪽을 잘라 주고,
 Next, one of her arms,
 
-그렇게 다 주고, 결국엔 몸통만 남아서는 마지막으로 아이의 품속에  스스로 들어가
+그렇게 다 주고, 결국엔 몸통만 남아서는 마지막으로 아이의 품속에 스스로 들어가
 After giving everything like that, only her torso remained, and finally, she climbed into the child's arms herself.
 
 자기의 남은 몸을 맡기지 몸통만 남은 엄마를 아이가 양팔로 꽉 끌어안으며 처음으로 한마디를 해.
