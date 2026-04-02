@@ -388,7 +388,14 @@ def main() -> None:
     process_parser.add_argument(
         "--exclude-common",
         action="store_true",
-        help="Automatically exclude most common words (1k.csv)",
+        help="Automatically exclude most common words (1k.csv) (default: True)",
+        default=True,
+    )
+    process_parser.add_argument(
+        "--no-exclude-common",
+        action="store_false",
+        dest="exclude_common",
+        help="Do not exclude common words",
     )
     process_parser.add_argument(
         "--llm",
@@ -410,13 +417,20 @@ def main() -> None:
     process_parser.add_argument(
         "--phrases",
         action="store_true",
-        help="Also extract common/idiomatic phrases (blocks) from the text",
+        help="Also extract common/idiomatic phrases (blocks) from the text (default: True)",
+        default=True,
+    )
+    process_parser.add_argument(
+        "--no-phrases",
+        action="store_false",
+        dest="phrases",
+        help="Disable phrase extraction",
     )
     process_parser.add_argument(
         "--phrases-limit",
         type=int,
-        default=10,
-        help="Maximum number of phrases to extract (default: 10)",
+        default=20,
+        help="Maximum number of phrases to extract (default: 20)",
     )
 
     # Command: Extract Vocab
@@ -435,7 +449,14 @@ def main() -> None:
     extract_parser.add_argument(
         "--exclude-common",
         action="store_true",
-        help="Automatically exclude most common words (1k.csv)",
+        help="Automatically exclude most common words (1k.csv) (default: True)",
+        default=True,
+    )
+    extract_parser.add_argument(
+        "--no-exclude-common",
+        action="store_false",
+        dest="exclude_common",
+        help="Do not exclude common words",
     )
     extract_parser.add_argument(
         "--dev",
@@ -465,7 +486,14 @@ def main() -> None:
     mine_parser.add_argument(
         "--exclude-common",
         action="store_true",
-        help="Automatically exclude most common words (1k.csv)",
+        help="Automatically exclude most common words (1k.csv) (default: True)",
+        default=True,
+    )
+    mine_parser.add_argument(
+        "--no-exclude-common",
+        action="store_false",
+        dest="exclude_common",
+        help="Do not exclude common words",
     )
     mine_parser.add_argument(
         "--dev",

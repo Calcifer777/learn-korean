@@ -113,12 +113,18 @@ def extract_phrases_with_gemini(text: str, limit: int = 10) -> list[dict[str, st
     prompt = f"""
     You are a Korean linguistics expert. I will provide you with a Korean text.
     Your task is to extract the top {limit} most useful 2- or 3-word 'blocks' from the text.
-    These should be common collocations (e.g., '자리를 잡다'), idiomatic expressions, or frequent word pairings that are more meaningful when learned together than as individual words.
+
+    You must specifically target:
+    - **Idiomatic expressions & Collocations** (e.g., '자리를 잡다', '영향을 받다')
+    - **Composed Verbs** (e.g., '겪어보다' - to experience and see)
+    - **Complex Verb Phrases / Auxiliary Verbs** (e.g., '차단해 버리다' - to completely block out)
+
+    These blocks are more meaningful when learned together than as individual words.
 
     For each block, output:
-    1.  "Korean": The phrase exactly as it appears or its dictionary form (e.g., '자리를 잡다').
+    1.  "Korean": The phrase exactly as it appears or its dictionary form (e.g., '자리를 잡다', '차단해 버리다').
     2.  "English": A natural English translation.
-    3.  "Etymology": A brief breakdown of the literal meaning of the components (e.g., '자리 (place/seat) + 잡다 (to catch/take)').
+    3.  "Etymology": A brief breakdown of the literal meaning of the components (e.g., '자리 (place/seat) + 잡다 (to catch/take)' or '차단하다 (to block) + -아/어 버리다 (auxiliary verb for completion)').
     4.  "Part of Speech": Always set to 'Phrase'.
     5.  "Example Sentence": The full sentence from the text where you found it.
     6.  "Sentence Translation": English translation of that sentence.
