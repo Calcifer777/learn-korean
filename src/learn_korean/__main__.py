@@ -282,10 +282,11 @@ def align_audio_text(
     offset_ms: int = -200,
 ) -> None:
     """Aligns audio with text using stable-ts and faster-whisper, generating an LRC file."""
+    model_name = "base"
     try:
-        print("Loading faster-whisper 'base' model via stable-ts...")
+        print(f"Loading faster-whisper '{model_name}' model_name via stable-ts...")
         # Use compute_type='int8' to ensure it runs comfortably on most machines
-        model = stable_whisper.load_faster_whisper("base", compute_type="int8")
+        model = stable_whisper.load_faster_whisper(model_name, compute_type="int8")
 
         _process_alignment(
             model, audio_file, text_file, output_file, language, offset_ms
@@ -339,6 +340,46 @@ def align_all_audio_text(
             tqdm.write(f"Error processing '{audio_path.name}': {e}")
 
     print("\nBulk alignment complete! ✨")
+
+
+def transcribe_all_audio(
+    directory: str, language: str = "ko", limit: int | None = None
+) -> None:
+    """Transcribes all .mp3 files in a directory and saves as .lrc files."""
+    dir_path = Path(directory)
+    if not dir_path.is_dir():
+        print(f"Error: '{directory}' is not a valid directory.", file=sys.stderr)
+        sys.exit(1)
+
+    mp3_files = sorted(dir_path.glob("*.mp3"))
+    if limit is not None and limit > 0:
+        mp3_files = mp3_files[:limit]
+    if not mp3_files:
+        print(f"No .mp3 files found in '{directory}'.")
+        return
+
+    print(f"Found {len(mp3_files)} .mp3 files. Loading faster-whisper 'base' model...")
+    try:
+        model = stable_whisper.load_faster_whisper("base", compute_type="int8")
+    except Exception as e:
+        print(f"Error loading model: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    for audio_path in tqdm(mp3_files, desc="Transcribing audio files", unit="file"):
+        lrc_path = audio_path.with_suffix(".lrc")
+
+        try:
+            # Using tqdm.write for cleaner output
+            tqdm.write(f"Transcribing '{audio_path.name}'...")
+            result = model.transcribe(str(audio_path), language=language)
+            with open(str(lrc_path), "w", encoding="utf-8") as f:
+                for segment in result.segments:  # type: ignore
+                    timestamp = format_timestamp(max(0, segment.start))
+                    f.write(f"{timestamp} {segment.text.strip()}\n")
+        except Exception as e:
+            tqdm.write(f"Error processing '{audio_path.name}': {e}")
+
+    print("\nBulk transcription complete! ✨")
 
 
 def load_exclusion_list(exclude_csv: str | None) -> set[str]:
@@ -396,6 +437,12 @@ def main() -> None:
         action="store_false",
         dest="exclude_common",
         help="Do not exclude common words",
+    )
+    process_parser.add_argument(
+        "-i",
+        "--interactive",
+        action="store_true",
+        help="Interactively confirm before excluding common words",
     )
     process_parser.add_argument(
         "--llm",
@@ -459,6 +506,12 @@ def main() -> None:
         help="Do not exclude common words",
     )
     extract_parser.add_argument(
+        "-i",
+        "--interactive",
+        action="store_true",
+        help="Interactively confirm before excluding common words",
+    )
+    extract_parser.add_argument(
         "--dev",
         action="store_true",
         help="Development mode: process only a few items for testing",
@@ -494,6 +547,12 @@ def main() -> None:
         action="store_false",
         dest="exclude_common",
         help="Do not exclude common words",
+    )
+    mine_parser.add_argument(
+        "-i",
+        "--interactive",
+        action="store_true",
+        help="Interactively confirm before excluding common words",
     )
     mine_parser.add_argument(
         "--dev",
@@ -622,6 +681,25 @@ def main() -> None:
         help="Offset in milliseconds to shift timestamps (default: -200)",
     )
 
+    # Command: Transcribe All
+    transcribe_all_parser = subparsers.add_parser(
+        "transcribe-all",
+        help="Transcribe all MP3 files in a directory to LRC using stable-ts",
+    )
+    transcribe_all_parser.add_argument(
+        "--dir",
+        required=True,
+        help="Path to the directory containing MP3 files",
+    )
+    transcribe_all_parser.add_argument(
+        "--language", default="ko", help="Language code of the audio (default: ko)"
+    )
+    transcribe_all_parser.add_argument(
+        "--limit",
+        type=int,
+        help="Maximum number of files to process",
+    )
+
     args = parser.parse_args()
 
     if args.command == "process-text":
@@ -629,14 +707,23 @@ def main() -> None:
         if args.exclude:
             exclude_set.update(load_exclusion_list(args.exclude))
         if args.exclude_common:
-            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
+            common_path = (
+                Path(__file__).resolve().parent.parent.parent
+                / "resources"
+                / "vocab"
+                / "1k.csv"
+            ).as_posix()
             if os.path.exists(common_path):
                 exclude_set.update(load_exclusion_list(common_path))
             else:
                 print(f"Warning: Common words file '{common_path}' not found.")
 
         print(f"Step 1/3: Extracting vocabulary from {args.input}...")
-        words = process_text_file(args.input, exclude_set=exclude_set)
+        words = process_text_file(
+            args.input,
+            exclude_set=exclude_set,
+            interactive=getattr(args, "interactive", False),
+        )
         if args.dev:
             print("Dev mode: limiting extraction to first 5 words.")
             words = words[:5]
@@ -670,13 +757,22 @@ def main() -> None:
         if args.exclude:
             exclude_set.update(load_exclusion_list(args.exclude))
         if args.exclude_common:
-            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
+            common_path = (
+                Path(__file__).resolve().parent.parent.parent
+                / "resources"
+                / "vocab"
+                / "1k.csv"
+            ).as_posix()
             if os.path.exists(common_path):
                 exclude_set.update(load_exclusion_list(common_path))
             else:
                 print(f"Warning: Common words file '{common_path}' not found.")
 
-        words = process_text_file(args.input, exclude_set=exclude_set)
+        words = process_text_file(
+            args.input,
+            exclude_set=exclude_set,
+            interactive=getattr(args, "interactive", False),
+        )
         if args.dev:
             print("Dev mode: limiting extraction to first 5 words.")
             words = words[:5]
@@ -689,14 +785,22 @@ def main() -> None:
         if args.exclude:
             exclude_set.update(load_exclusion_list(args.exclude))
         if args.exclude_common:
-            common_path = (Path.cwd() / "resources" / "vocab" / "1k.csv").as_posix()
+            common_path = (
+                Path(__file__).resolve().parent.parent.parent
+                / "resources"
+                / "vocab"
+                / "1k.csv"
+            ).as_posix()
             if os.path.exists(common_path):
                 exclude_set.update(load_exclusion_list(common_path))
             else:
                 print(f"Warning: Common words file '{common_path}' not found.")
 
         words = mine_subtitles(
-            args.input, min_freq=args.min_freq, exclude_set=exclude_set
+            args.input,
+            min_freq=args.min_freq,
+            exclude_set=exclude_set,
+            interactive=getattr(args, "interactive", False),
         )
         if args.dev:
             print("Dev mode: limiting extraction to first 5 words.")
@@ -732,6 +836,9 @@ def main() -> None:
         return
     elif args.command == "align-all":
         align_all_audio_text(args.dir, args.language, args.offset)
+        return
+    elif args.command == "transcribe-all":
+        transcribe_all_audio(args.dir, args.language, args.limit)
         return
 
     # Initialize ElevenLabs client for voice commands

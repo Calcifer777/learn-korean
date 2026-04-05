@@ -18,7 +18,7 @@ POS_MAP = {
 
 
 def extract_words_with_context(
-    text: str, exclude_set: set[str] | None = None
+    text: str, exclude_set: set[str] | None = None, interactive: bool = False
 ) -> list[dict[str, str]]:
     kiwi = Kiwi()
     # Split text into sentences using Kiwi
@@ -38,7 +38,7 @@ def extract_words_with_context(
                 if token.tag in ["VV", "VA"] and not lemma.endswith("다"):  # type: ignore
                     lemma += "다"
 
-                if lemma not in unique_words and lemma not in exclude_set:
+                if lemma not in unique_words:
                     unique_words[lemma] = {
                         "Korean": lemma,
                         "Part of Speech": POS_MAP[token.tag],  # type: ignore
@@ -48,7 +48,29 @@ def extract_words_with_context(
                         "Etymology": "",
                     }
 
-    return list(unique_words.values())
+    results = list(unique_words.values())
+
+    if not exclude_set:
+        return results
+
+    filtered = []
+    for w in results:
+        lemma = w["Korean"]
+        if lemma in exclude_set:
+            if interactive:
+                ans = (
+                    input(
+                        f"Exclude common word '{lemma}'? (Context: {w['Example Sentence']}) [Y/n]: "
+                    )
+                    .strip()
+                    .lower()
+                )
+                if ans == "n":
+                    filtered.append(w)
+        else:
+            filtered.append(w)
+
+    return filtered
 
 
 def translate_words_simple(words: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -72,12 +94,12 @@ def translate_words_simple(words: list[dict[str, str]]) -> list[dict[str, str]]:
 
 
 def process_text_file(
-    file_path: str, exclude_set: set[str] | None = None
+    file_path: str, exclude_set: set[str] | None = None, interactive: bool = False
 ) -> list[dict[str, str]]:
     with open(file_path, "r", encoding="utf-8") as f:
         text = f.read()
     text = re.sub(r"\[\d{2}:\d{2}\.\d{2}\]", "", text)
-    return extract_words_with_context(text, exclude_set)
+    return extract_words_with_context(text, exclude_set, interactive)
 
 
 def save_vocab_to_csv(words: list[dict[str, str]], output_path: str):

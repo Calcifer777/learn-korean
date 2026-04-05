@@ -52,7 +52,10 @@ def parse_srt(file_path: str) -> list[str]:
 
 
 def mine_subtitles(
-    file_path: str, min_freq: int = 2, exclude_set: set[str] | None = None
+    file_path: str,
+    min_freq: int = 2,
+    exclude_set: set[str] | None = None,
+    interactive: bool = False,
 ) -> list[dict[str, str]]:
     kiwi = Kiwi()
 
@@ -83,15 +86,30 @@ def mine_subtitles(
             if len(lemma) < 2 and lemma not in ["가", "오", "내"]:
                 continue
 
-            if lemma not in exclude_set:
-                word_counts[lemma] += 1
-                lemma_to_pos[lemma] = POS_MAP[token.tag]
+            word_counts[lemma] += 1
+            lemma_to_pos[lemma] = POS_MAP[token.tag]
 
     target_words = [word for word, count in word_counts.items() if count >= min_freq]
     target_words.sort(key=lambda x: word_counts[x], reverse=True)
 
+    filtered_targets = []
+    for word in target_words:
+        if exclude_set and word in exclude_set:
+            if interactive:
+                ans = (
+                    input(
+                        f"Exclude common word '{word}' (Freq: {word_counts[word]})? [Y/n]: "
+                    )
+                    .strip()
+                    .lower()
+                )
+                if ans == "n":
+                    filtered_targets.append(word)
+        else:
+            filtered_targets.append(word)
+
     results = []
-    for word in tqdm(target_words, desc="Processing mined words", unit="word"):
+    for word in tqdm(filtered_targets, desc="Processing mined words", unit="word"):
         example_sentence = ""
         for line in lines:
             search_term = word[:-1] if word.endswith("다") and len(word) > 1 else word

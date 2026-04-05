@@ -170,8 +170,11 @@ def generate_anki_deck(words: list[dict[str, str]], output_file: str, deck_name:
         if not word.get("Korean") or not word.get("English"):
             continue
 
-        # Use a stable GUID for each note to prevent duplicates on re-import
-        note_guid = genanki.guid_for(word["Korean"], word.get("Part of Speech", ""))
+        # Use a stable GUID for each note to prevent duplicates on re-import,
+        # but scope it to the specific deck so the same word can appear in different decks.
+        note_guid = genanki.guid_for(
+            deck_name, word["Korean"], word.get("Part of Speech", "")
+        )
 
         note = genanki.Note(
             model=my_model,
