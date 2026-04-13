@@ -282,7 +282,7 @@ def align_audio_text(
     offset_ms: int = -200,
 ) -> None:
     """Aligns audio with text using stable-ts and faster-whisper, generating an LRC file."""
-    model_name = "base"
+    model_name = "small"
     try:
         print(f"Loading faster-whisper '{model_name}' model_name via stable-ts...")
         # Use compute_type='int8' to ensure it runs comfortably on most machines
