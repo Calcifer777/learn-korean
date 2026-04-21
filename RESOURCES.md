@@ -1,8 +1,22 @@
 # Learning resources
 
+## General
+
+- https://www.90daykorean.com
+- talktomeinkorean
+
 ## Books
 
-## Stories
+## Readings
+
+- https://www.fluentu.com/blog/korean/korean-graded-readers/
+
+## Articles
+
+- https://www.womansense.co.kr/
+- https://www.dailian.co.kr/
+
+### Stories
 
 - https://annyeongoppa.com/2020/08/12/recollecting-the-16-fairy-tale-stories-in-its-okay-to-not-be-okay/
 - Korean Short Stories (Intermediate/ B1-B2): https://www.youtube.com/playlist?list=PLr7BTDhDckaJ02K1-8RQvdBhmUS1co8RN
