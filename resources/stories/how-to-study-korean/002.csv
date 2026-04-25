@@ -1,0 +1,169 @@
+﻿Korean,Part of Speech,Example Sentence,English,Sentence Translation,Etymology
+동물원,Noun,동물원에서의 하루,zoo,A day at the zoo.,"動物園 -> 動 (동: move) + 物 (물: thing, creature) + 園 (원: garden, park)"
+펭귄,Noun,"나는 펭귄을 제일 좋아하는 일곱 살, 소희이다.",penguin,"I am seven-year-old Sohee, who likes penguins the most.",Pure Korean
+제일,Adverb,"나는 펭귄을 제일 좋아하는 일곱 살, 소희이다.",most,"I am seven-year-old Sohee, who likes penguins the most.","第一 -> 第 (제: order, sequence) + 一 (일: one, first)"
+살,Noun,"나는 펭귄을 제일 좋아하는 일곱 살, 소희이다.",years old,"I am seven-year-old Sohee, who likes penguins the most.",Pure Korean
+소희,Noun,"나는 펭귄을 제일 좋아하는 일곱 살, 소희이다.",Sohee,"I am seven-year-old Sohee, who likes penguins the most.",Pure Korean
+인형,Noun,나는 펭귄이 좋아서 펭귄 인형이 다섯 개가 있다.,doll,"I like penguins, so I have five penguin dolls.","人形 -> 人 (인: person, human) + 形 (형: shape, form)"
+드디어,Adverb,오늘은 드디어 처음으로 아빠랑 펭귄을 보러 동물원에 가는 날이라 너무 기대됐다.,finally,"Today was finally the day I was going to the zoo with Dad to see penguins for the first time, so I was really excited.",Pure Korean
+기대,Noun,오늘은 드디어 처음으로 아빠랑 펭귄을 보러 동물원에 가는 날이라 너무 기대됐다.,expectation,"Today was finally the day I was going to the zoo with Dad to see penguins for the first time, so I was really excited.","期待 -> 期 (기: expect, hope) + 待 (대: wait, expect)"
+저번,Noun,저번 주에 동물원에 가려고 했지만 내가 갑자기 감기에 걸려서 갈 수 없었다.,last,"I was going to go to the zoo last week, but I suddenly caught a cold and couldn't go.",Pure Korean
+주,Noun,저번 주에 동물원에 가려고 했지만 내가 갑자기 감기에 걸려서 갈 수 없었다.,week,"I was going to go to the zoo last week, but I suddenly caught a cold and couldn't go.","週 -> 週 (주: week, circumference)"
+갑자기,Adverb,저번 주에 동물원에 가려고 했지만 내가 갑자기 감기에 걸려서 갈 수 없었다.,suddenly,"I was going to go to the zoo last week, but I suddenly caught a cold and couldn't go.",Pure Korean
+감기,Noun,저번 주에 동물원에 가려고 했지만 내가 갑자기 감기에 걸려서 갈 수 없었다.,cold (illness),"I was going to go to the zoo last week, but I suddenly caught a cold and couldn't go.","感氣 -> 感 (감: feel, sense) + 氣 (기: air, spirit)"
+도시락,Noun,엄마는 나와 아빠를 위해 도시락을 만들어서 점심으로 그 도시락을 먹을 거다.,lunchbox,"Mom made a lunchbox for Dad and me, and we're going to eat it for lunch.",Pure Korean
+출발,Noun,나는 아빠와 9 시에 동물원으로 출발했고 엄마는 회사에 갔다.,departure,"Dad and I departed for the zoo at 9 o'clock, and Mom went to work.","出發 -> 出 (출: go out) + 發 (발: start, depart)"
+당연히,Adverb,당연히 엄마와 가고 싶었지만 어차피 엄마가 일해야 되어서 어쩔 수 없었다.,of course,"Of course, I wanted to go with Mom, but she had to work anyway, so it couldn't be helped.","當然 -> 當 (당: ought, be) + 然 (연: so, like)"
+어차피,Adverb,당연히 엄마와 가고 싶었지만 어차피 엄마가 일해야 되어서 어쩔 수 없었다.,anyway,"Of course, I wanted to go with Mom, but she had to work anyway, so it couldn't be helped.","於此彼 -> 於 (어: in, at) + 此 (차: this) + 彼 (피: that)"
+어쩌다,Verb,당연히 엄마와 가고 싶었지만 어차피 엄마가 일해야 되어서 어쩔 수 없었다.,to be unable to help,"Of course, I wanted to go with Mom, but she had to work anyway, so it couldn't be helped.",Pure Korean
+도착,Noun,동물원에 도착해서 내가 아빠와 제일 먼저 하고 싶은 것은 펭귄을 보는 것이었다.,arrival,"After arriving at the zoo, the first thing Dad and I wanted to do was see the penguins.","到着 -> 到 (도: arrive, reach) + 着 (착: attach, arrive)"
+입구,Noun,하지만 펭귄이 있는 곳은 동물원 입구에서 멀다고 하니 아빠와 나는 우선 다른 동물들을 먼저 보기로 했다.,entrance,"However, since they said the penguins' area was far from the zoo entrance, Dad and I decided to see other animals first.","入口 -> 入 (입: enter) + 口 (구: mouth, opening)"
+코끼리,Noun,우리가 처음으로 만난 동물은 코끼리였다.,elephant,The first animal we met was an elephant.,Pure Korean
+훨씬,Adverb,코끼리는 책에서 본 것보다 훨씬 컸다.,much,The elephant was much bigger than what I had seen in books.,Pure Korean
+아기,Noun,특히 아기 코끼리는 너무 귀여웠다.,baby,Especially the baby elephant was so cute.,Pure Korean
+어리다,Adjective,"소희: “아기 코끼리야, 너는 몇 살이야?”
+아빠: “소희야, 아직 아기 코끼리가 어려서 말을 못 해. 아기 코끼리는 태어난 지 두 달 됐대. 귀엽지?”
+소희: “아빠! 너무 귀여워! 나 빨리 다른 동물 친구들도 보고 싶어! 빨리 걷자!”",to be young,"Sohee: “Baby elephant, how old are you?” Dad: “Sohee, the baby elephant is still young, so it can't talk. It's only two months old. Isn't it cute?” Sohee: “Dad! It's so cute! I want to see other animal friends quickly! Let's walk fast!”",Pure Korean
+지,Noun,"소희: “아기 코끼리야, 너는 몇 살이야?”
+아빠: “소희야, 아직 아기 코끼리가 어려서 말을 못 해. 아기 코끼리는 태어난 지 두 달 됐대. 귀엽지?”
+소희: “아빠! 너무 귀여워! 나 빨리 다른 동물 친구들도 보고 싶어! 빨리 걷자!”",since (time elapsed),"Sohee: “Baby elephant, how old are you?” Dad: “Sohee, the baby elephant is still young, so it can't talk. It's only two months old. Isn't it cute?” Sohee: “Dad! It's so cute! I want to see other animal friends quickly! Let's walk fast!”",Pure Korean
+기린,Noun,아빠와 나는 코끼리를 본 다음에 기린을 보기 위해 빨리 걸었다.,giraffe,"After seeing the elephants, Dad and I walked quickly to see the giraffes.",麒麟 -> 麒 (기: male qilin) + 麟 (린: female qilin)
+목,Noun,"‘기린은 목이 긴 동물인데, 진짜 사진에서처럼 목이 길까’",neck,"‘Giraffes are animals with long necks, is their neck really as long as in the pictures?’",Pure Korean
+진짜,Noun,"‘기린은 목이 긴 동물인데, 진짜 사진에서처럼 목이 길까’",really,"‘Giraffes are animals with long necks, is their neck really as long as in the pictures?’",Pure Korean
+스스로,Noun,나는 스스로한테 질문을 했다.,oneself,I asked myself a question.,Pure Korean
+멀리,Adverb,나는 멀리서 기린 네 마리가 천천히 풀을 먹고 있는 것을 봤다.,far away,"From afar, I saw four giraffes slowly eating grass.",Pure Korean
+천천히,Adverb,나는 멀리서 기린 네 마리가 천천히 풀을 먹고 있는 것을 봤다.,slowly,"From afar, I saw four giraffes slowly eating grass.",Pure Korean
+풀,Noun,나는 멀리서 기린 네 마리가 천천히 풀을 먹고 있는 것을 봤다.,grass,I saw four giraffes slowly eating grass from a distance.,Pure Korean
+비교,Noun,내 목과 비교해 보면 열 배는 더 긴 것 같았다.,comparison,"Compared to my neck, it seemed about ten times longer.","比 (비: compare, contrast) + 較 (교: compare)"
+배,Noun,내 목과 비교해 보면 열 배는 더 긴 것 같았다.,times (as in 'ten times'),"Compared to my neck, it seemed about ten times longer.","倍 (배: times, multiply)"
+나중,Noun,"소희: “아빠! 어떻게 저렇게 목이 길 수가 있어?”
+아빠: “하하, 아빠도 잘 모르겠어, 소희가 나중에 책을 읽고 알려줘!”",later,"Sohee: “Dad! How can its neck be so long?” Dad: “Haha, I don't know either. Sohee, read a book later and tell me!”",Pure Korean
+알리다,Verb,"소희: “아빠! 어떻게 저렇게 목이 길 수가 있어?”
+아빠: “하하, 아빠도 잘 모르겠어, 소희가 나중에 책을 읽고 알려줘!”","to inform, to let know","Sohee: “Dad! How can its neck be so long?” Dad: “Haha, I don't know either. Sohee, read a book later and tell me!”",Pure Korean
+털,Noun,기린의 털 때문에 기린이 노란색 옷을 입은 것 같이 보였다.,fur,"Because of the giraffe's fur, it looked as if the giraffe was wearing a yellow coat.",Pure Korean
+때문,Noun,기린의 털 때문에 기린이 노란색 옷을 입은 것 같이 보였다.,"reason, cause","Because of the giraffe's fur, it looked as if the giraffe was wearing a yellow coat.",Pure Korean
+노란색,Noun,기린의 털 때문에 기린이 노란색 옷을 입은 것 같이 보였다.,yellow color,"Because of the giraffe's fur, it looked as if the giraffe was wearing a yellow coat.",Pure Korean (노란) + 色 (색: color)
+오히려,Adverb,나는 기린이 목이 길어서 무서울 줄 알았는데 오히려 귀여웠다.,"rather, on the contrary","I thought giraffes would be scary because of their long necks, but they were rather cute.",Pure Korean
+찍다,Verb,사진을 많이 찍고 집에 가면 엄마에게 기린의 목이 얼마나 긴지 보여주고 싶었다.,to take (a photo),I wanted to take many pictures and show my mom how long the giraffes' necks were when I got home.,Pure Korean
+싸다,Verb,아빠가 엄마가 싸 준 도시락을 가방에서 꺼내 우리는 맛있게 먹었다.,"to pack, to wrap","Dad took out the lunchbox Mom had packed from his bag, and we ate it deliciously.",Pure Korean
+가방,Noun,아빠가 엄마가 싸 준 도시락을 가방에서 꺼내 우리는 맛있게 먹었다.,bag,"Dad took out the lunchbox Mom had packed from his bag, and we ate it deliciously.",Pure Korean
+꺼내다,Verb,아빠가 엄마가 싸 준 도시락을 가방에서 꺼내 우리는 맛있게 먹었다.,"to take out, to pull out","Dad took out the lunchbox Mom had packed from his bag, and we ate it deliciously.",Pure Korean
+샌드위치,Noun,샌드위치를 먹고 아빠한테 아이스크림을 사 달라고 했다.,sandwich,"After eating the sandwich, I asked Dad to buy me ice cream.",Pure Korean
+사다,Verb,샌드위치를 먹고 아빠한테 아이스크림을 사 달라고 했다.,to buy,"After eating the sandwich, I asked Dad to buy me ice cream.",Pure Korean
+세상,Noun,아빠가 세상에서 가장 사랑하는 사람이 나이기 때문에 당연히 아빠는 나를 위해 아이스크림도 샀다.,world,"Since I am the person Dad loves most in the world, of course, he bought me ice cream.","世 (세: world, generation) + 上 (상: above, top, on)"
+사자,Noun,우리는 점심을 먹고 사자를 보러 갔다.,lion,"After eating lunch, we went to see the lions.","獅 (사: lion) + 子 (자: child, offspring)"
+때,Noun,처음에 아빠가 사자 이야기를 했을 때 힘도 세고 크고 무섭다고 했기 때문에 나는 너무 무서웠다.,"time, moment","When Dad first told me about lions, he said they were strong, big, and scary, so I was very scared.",Pure Korean
+힘,Noun,처음에 아빠가 사자 이야기를 했을 때 힘도 세고 크고 무섭다고 했기 때문에 나는 너무 무서웠다.,"strength, power","When Dad first told me about lions, he said they were strong, big, and scary, so I was very scared.",Pure Korean
+세다,Adjective,처음에 아빠가 사자 이야기를 했을 때 힘도 세고 크고 무섭다고 했기 때문에 나는 너무 무서웠다.,"to be strong, to be powerful","When Dad first told me about lions, he said they were strong, big, and scary, so I was very scared.",Pure Korean
+어쨌든,Adverb,나는 사자를 보는 게 무서웠지만 어쨌든 우리는 사자가 있는 곳에 도착했다.,"anyway, in any case","I was scared to see the lions, but anyway, we arrived at the place where the lions were.",Pure Korean
+낮잠,Noun,하지만 사자는 낮잠을 자고 있었다.,"nap, daytime sleep",But the lion was taking a nap.,Pure Korean
+빠르다,Adjective,나는 아빠와 빠르게 펭귄이 있는 곳으로 걸어갔다.,"to be fast, to be quick",Dad and I quickly walked to where the penguins were.,Pure Korean
+걸어가다,Verb,나는 아빠와 빠르게 펭귄이 있는 곳으로 걸어갔다.,to walk,Dad and I quickly walked to where the penguins were.,Pure Korean
+넘어지다,Verb,나는 너무 빨리 걸어서 넘어질 뻔 했다.,"to fall down, to stumble",I walked too fast and almost fell.,Pure Korean
+뻔,Noun,나는 너무 빨리 걸어서 넘어질 뻔 했다.,verge (as in 'almost did'),I walked too fast and almost fell.,Pure Korean
+물놀이,Noun,나는 걸어가면서 멀리서 펭귄들이 물놀이하는 것을 봤다.,"playing in the water, water play","As I walked, I saw penguins playing in the water from a distance.",Pure Korean
+대로,Noun,펭귄은 내가 생각한 대로 작고 엄청 귀여웠다.,"as, according to","The penguins were small and incredibly cute, just as I had imagined.",Pure Korean
+엄청,Adverb,펭귄은 내가 생각한 대로 작고 엄청 귀여웠다.,"incredibly, tremendously","The penguins were small and incredibly cute, just as I had imagined.",Pure Korean
+부탁,Noun,나는 아빠에게 부탁해서 펭귄 먹이를 사달라고 했다.,"request, favor",I asked Dad for a favor and requested him to buy penguin food.,"付 (부: give, entrust) + 託 (탁: entrust, commit)"
+먹이,Noun,나는 아빠에게 부탁해서 펭귄 먹이를 사달라고 했다.,food,I asked my dad to buy penguin food for me.,Pure Korean
+생선,Noun,"나는 펭귄이 먹이로 생선을 먹는 줄 알았지만, 이렇게 큰 생선을 먹는 줄 몰랐다.",fish,"I thought penguins ate fish as food, but I didn't know they ate such big fish.","生 (saeng: life, live, fresh) + 鮮 (seon: fresh, fish)"
+입,Noun,작은 입으로 큰 생선을 먹을 수 있다는 게 너무 신기했다.,mouth,It was so amazing that they could eat such big fish with their small mouths.,Pure Korean
+다가가다,Verb,나는 펭귄에게 먹이를 주기 위해 천천히 다가갔다.,to approach,I slowly approached the penguins to feed them.,Pure Korean
+주위,Noun,펭귄들은 내가 먹이를 가지고 있자 내 주위로 다가왔다.,around,"When the penguins saw I had food, they came around me.","周 (ju: circumference, around) + 圍 (wi: surround, encircle)"
+다가오다,Verb,펭귄들은 내가 먹이를 가지고 있자 내 주위로 다가왔다.,to come closer,"When the penguins saw I had food, they came around me.",Pure Korean
+서다,Verb,"소희: ""아! 귀여워! 한 마리씩 줄게! 펭귄들아! 줄 서!""
+아빠: ""하하! 소희야, 펭귄들은 한국어 못 해, 우리 소희 너무 귀여워!""
+소희: ""아빠! 그럼 펭귄들은 무슨 말 해? 펭귄 말? 왜 한국어 안 해?""
+아빠: ""펭귄들은 남극에서 왔잖아. 그리고 펭귄들은 말이 아니라 몸으로 이야기해.""
+소희: ""신기해! 아빠 나도 펭귄들의 말을 배우고 싶어!""",to stand,"Sohee: ""Ah! How cute! I'll give you one each! Penguins! Line up!""
+Dad: ""Haha! Sohee, penguins don't speak Korean. Our Sohee is so cute!""
+Sohee: ""Dad! Then what do penguins say? Penguin language? Why don't they speak Korean?""
+Dad: ""Penguins came from the South Pole. And penguins communicate with their bodies, not words.""
+Sohee: ""That's amazing! Dad, I want to learn penguin language too!""",Pure Korean
+하하,Adverb,"소희: ""아! 귀여워! 한 마리씩 줄게! 펭귄들아! 줄 서!""
+아빠: ""하하! 소희야, 펭귄들은 한국어 못 해, 우리 소희 너무 귀여워!""
+소희: ""아빠! 그럼 펭귄들은 무슨 말 해? 펭귄 말? 왜 한국어 안 해?""
+아빠: ""펭귄들은 남극에서 왔잖아. 그리고 펭귄들은 말이 아니라 몸으로 이야기해.""
+소희: ""신기해! 아빠 나도 펭귄들의 말을 배우고 싶어!""",haha (laughter),"Sohee: ""Ah! How cute! I'll give you one each! Penguins! Line up!""
+Dad: ""Haha! Sohee, penguins don't speak Korean. Our Sohee is so cute!""
+Sohee: ""Dad! Then what do penguins say? Penguin language? Why don't they speak Korean?""
+Dad: ""Penguins came from the South Pole. And penguins communicate with their bodies, not words.""
+Sohee: ""That's amazing! Dad, I want to learn penguin language too!""",Pure Korean
+한국어,Noun,"소희: ""아! 귀여워! 한 마리씩 줄게! 펭귄들아! 줄 서!""
+아빠: ""하하! 소희야, 펭귄들은 한국어 못 해, 우리 소희 너무 귀여워!""
+소희: ""아빠! 그럼 펭귄들은 무슨 말 해? 펭귄 말? 왜 한국어 안 해?""
+아빠: ""펭귄들은 남극에서 왔잖아. 그리고 펭귄들은 말이 아니라 몸으로 이야기해.""
+소희: ""신기해! 아빠 나도 펭귄들의 말을 배우고 싶어!""",Korean language,"Sohee: ""Ah! How cute! I'll give you one each! Penguins! Line up!""
+Dad: ""Haha! Sohee, penguins don't speak Korean. Our Sohee is so cute!""
+Sohee: ""Dad! Then what do penguins say? Penguin language? Why don't they speak Korean?""
+Dad: ""Penguins came from the South Pole. And penguins communicate with their bodies, not words.""
+Sohee: ""That's amazing! Dad, I want to learn penguin language too!""",韓 (han: Korea) + 國 (guk: country) + 語 (eo: language)
+남극,Noun,"소희: ""아! 귀여워! 한 마리씩 줄게! 펭귄들아! 줄 서!""
+아빠: ""하하! 소희야, 펭귄들은 한국어 못 해, 우리 소희 너무 귀여워!""
+소희: ""아빠! 그럼 펭귄들은 무슨 말 해? 펭귄 말? 왜 한국어 안 해?""
+아빠: ""펭귄들은 남극에서 왔잖아. 그리고 펭귄들은 말이 아니라 몸으로 이야기해.""
+소희: ""신기해! 아빠 나도 펭귄들의 말을 배우고 싶어!""",South Pole,"Sohee: ""Ah! How cute! I'll give you one each! Penguins! Line up!""
+Dad: ""Haha! Sohee, penguins don't speak Korean. Our Sohee is so cute!""
+Sohee: ""Dad! Then what do penguins say? Penguin language? Why don't they speak Korean?""
+Dad: ""Penguins came from the South Pole. And penguins communicate with their bodies, not words.""
+Sohee: ""That's amazing! Dad, I want to learn penguin language too!""","南 (nam: south) + 極 (geuk: pole, extreme)"
+신기하다,Adjective,"소희: ""아! 귀여워! 한 마리씩 줄게! 펭귄들아! 줄 서!""
+아빠: ""하하! 소희야, 펭귄들은 한국어 못 해, 우리 소희 너무 귀여워!""
+소희: ""아빠! 그럼 펭귄들은 무슨 말 해? 펭귄 말? 왜 한국어 안 해?""
+아빠: ""펭귄들은 남극에서 왔잖아. 그리고 펭귄들은 말이 아니라 몸으로 이야기해.""
+소희: ""신기해! 아빠 나도 펭귄들의 말을 배우고 싶어!""",to be amazing,"Sohee: ""Ah! How cute! I'll give you one each! Penguins! Line up!""
+Dad: ""Haha! Sohee, penguins don't speak Korean. Our Sohee is so cute!""
+Sohee: ""Dad! Then what do penguins say? Penguin language? Why don't they speak Korean?""
+Dad: ""Penguins came from the South Pole. And penguins communicate with their bodies, not words.""
+Sohee: ""That's amazing! Dad, I want to learn penguin language too!""","神 (sin: god, spirit, mysterious) + 奇 (gi: strange, wonderful)"
+게다가,Adverb,게다가 펭귄들은 내가 준 먹이를 먹고 있었다.,furthermore,"Furthermore, the penguins were eating the food I gave them.",Pure Korean
+만지다,Verb,나는 펭귄을 만져보고 싶어서 먹이를 먹고 있을 때 펭귄 머리를 쓰다듬었다.,to touch,"I wanted to touch a penguin, so I stroked its head while it was eating.",Pure Korean
+쓰다듬다,Verb,나는 펭귄을 만져보고 싶어서 먹이를 먹고 있을 때 펭귄 머리를 쓰다듬었다.,to stroke,"I wanted to touch a penguin, so I stroked its head while it was eating.",Pure Korean
+느낌,Noun,매우 부드럽고도 이상한 느낌이었다.,feeling,It was a very soft and strange feeling.,Pure Korean
+나오다,Verb,아빠와 나는 펭귄을 다 보고 동물원을 나왔다.,to come out,"After seeing all the penguins, my dad and I left the zoo.",Pure Korean
+다리,Noun,나는 더 있고 싶었지만 다리가 너무 아팠고 아빠도 조금 피곤해 보였다.,leg,"I wanted to stay longer, but my legs hurt too much and my dad also looked a little tired.",Pure Korean
+피곤,Noun,나는 더 있고 싶었지만 다리가 너무 아팠고 아빠도 조금 피곤해 보였다.,tiredness,"I wanted to stay longer, but my legs hurt too much and my dad also looked a little tired.","疲 (pi: tired, weary) + 困 (gon: tired, distressed)"
+고프다,Adjective,집으로 가는 길에 나는 배가 고파서 아빠와 나는 피자를 먹었다.,to be hungry,"On the way home, I was hungry, so my dad and I ate pizza.",Pure Korean
+피자,Noun,집으로 가는 길에 나는 배가 고파서 아빠와 나는 피자를 먹었다.,pizza,"On the way home, I was hungry, so my dad and I ate pizza.",Pure Korean
+대하다,Verb,피자를 먹으면서 나는 아빠에게 계속 펭귄에 대해 말을 했다.,to talk about/regarding,"While eating pizza, I kept talking to my dad about the penguins.","對 (dae: confront, oppose, regarding) + 하다 (hada: to do)"
+왜냐하면,Adverb,왜냐하면 계속해서 나를 보면서 웃고 있었기 때문이다.,because,Because he kept looking at me and laughing.,Pure Korean
+간식,Noun,피자를 다 먹고 나는 엄마에게 줄 간식을 사서 집에 갔다.,snack,"After finishing the pizza, I bought snacks for my mom and went home.","間 (gan: interval, in-between) + 食 (sik: food, eat)"
+설명,Noun,나는 20 분 동안 오늘 본 동물들에 대해 엄마에게 설명해줬다.,explanation,"For 20 minutes, I explained to my mom about the animals I saw today.","說 (seol: speak, explain) + 明 (myeong: bright, clear, explain)"
+약속,Noun,"소희: “엄마! 나 오늘 사자랑, 기린 그리고 펭귄 봤어! 얼마나 귀여운지 몰라! 나중에는 꼭 엄마도 같이 동물원에 가자! 나랑 약속해!”
+엄마: “알았어. 즐거운 시간 보냈구나?”
+소희: “응!",promise,"Sohee: “Mom! Today I saw lions, giraffes, and penguins! You wouldn't believe how cute they were! Next time, let's definitely go to the zoo together! Promise me!”
+Mom: “Okay. Did you have a fun time?”
+Sohee: “Yes!","約 (yak: promise, covenant) + 束 (sok: bind, control)"
+보내다,Verb,"소희: “엄마! 나 오늘 사자랑, 기린 그리고 펭귄 봤어! 얼마나 귀여운지 몰라! 나중에는 꼭 엄마도 같이 동물원에 가자! 나랑 약속해!”
+엄마: “알았어. 즐거운 시간 보냈구나?”
+소희: “응!",to spend,"Sohee: “Mom! Today I saw lions, giraffes, and penguins! You wouldn't believe how cute they were! Next time, let's definitely go to the zoo together! Promise me!”
+Mom: “Okay. Did you have a fun time?”
+Sohee: “Yes!",Pure Korean
+또,Adverb,나 빨리 또 동물원에 가고 싶어! “,again,I want to go to the zoo again soon!”,Pure Korean
+또한,Adverb,또한 펭귄을 만졌을 때의 느낌도 설명했다.,also,I also explained the feeling of touching the penguins.,Pure Korean
+결심,Noun,그리고 결심했다.,decision,And I made a decision.,"決 (gyeol: decide, determine) + 心 (sim: heart, mind)"
+미래,Noun,미래에 나는 사육사가 될 것이다!,future,"In the future, I will become a zookeeper!",未 (mi: not yet) + 來 (rae: come)
+사육사,Noun,미래에 나는 사육사가 될 것이다!,animal keeper,"In the future, I will become an animal keeper!","飼 (사: feed, raise) + 育 (육: raise, nurture) + 士 (사: person, specialist)"
+항상,Adverb,그래서 항상 동물들과 함께 있을 것이다!,always,So I will always be with animals!,"恒 (항: constant, regular) + 常 (상: constant, always)"
+가슴,Noun,그 생각 만으로 나는 가슴이 설레었다.,heart (figurative),Just thinking about it made my heart flutter.,Pure Korean
+설레다,Verb,그 생각 만으로 나는 가슴이 설레었다.,to flutter (with excitement),Just thinking about it made my heart flutter.,Pure Korean
+날이라,because it is the day,날 (day) + 이다 (to be) + -(이)라서 (because),Grammar,오늘은 동물원에 가는 날이라 너무 기대됐다.,Today was the day we go to the zoo so I was so excited.
+-(으)ㄹ 거다,will / going to,-(으)ㄹ (future modifier) + 것 (thing) + 이다 (to be),Grammar,점심으로 그 도시락을 먹을 거다.,We are going to eat that lunchbox for lunch.
+-기로 하다,to decide to,-기 (nominalizer) + 로 (direction) + 하다 (to do),Grammar,다른 동물들을 먼저 보기로 했다.,We decided to see other animals first.
+-ㄴ 것 같다,it seems like / I think,-ㄴ (modifier) + 것 (thing) + 같다 (to be like),Grammar,내 목보다 열 배는 더 긴 것 같았다.,It seemed ten times longer than my neck.
+-(으)ㄹ 수 있다,can / to be able to,-(으)ㄹ (modifier) + 수 (possibility) + 있다 (exist),Grammar,어떻게 저렇게 목이 길 수가 있어?,How can the neck be that long?
+오히려,on the contrary / actually,오히려 (adverb of contrast),Adverb,무서울 줄 알았는데 오히려 귀여웠다.,I thought it would be scary but on the contrary it was cute.
+-고 나서,after finishing,-고 (and) + 나서 (to finish/emerge),Grammar,기린을 보고 나서 점심을 먹었다.,After finishing seeing the giraffes we ate lunch.
+-자고 하다,to suggest doing / 'let's...',-자 (let's) + 고 (quotation) + 하다 (to say),Grammar,아빠가 점심을 먹자고 했다.,Dad suggested that we eat lunch.
+생각한 대로,just as I thought,생각하다 (think) + -ㄴ (past) + 대로 (as/like),Phrase,펭귄은 내가 생각한 대로 작고 귀여웠다.,The penguins were small and cute just as I thought.
+만져보고 싶다,to want to try touching,만지다 (touch) + -어 보다 (try) + -고 싶다 (want),Phrase,펭귄을 만져보고 싶어서 머리를 쓰다듬었다.,I wanted to try touching the penguin so I stroked its head.
+어쩔 수 없다,it can't be helped / unavoidable,어찌 (how) + ㄹ 수 (way) + 없다 (none),Idiom,엄마가 일해야 되어서 어쩔 수 없었다.,Mom had to work so it couldn't be helped.
+넘어질 뻔했다,almost fell / nearly tripped,넘어지다 (fall) + ㄹ (modifier) + 뻔 (brink) + 하다,Grammar,나는 너무 빨리 걸어서 넘어질 뻔했다.,I walked so fast I almost fell.
+줄 서!,Line up!,줄 (line) + 서다 (to stand),Expression,펭귄들아! 줄 서!,Penguins! Line up!
+가슴이 설레다,to be thrilled / heart flutters,가슴 (chest/heart) + 설레다 (flutter),Idiom,미래에 사육사가 될 생각에 가슴이 설레었다.,My heart fluttered at the thought of becoming a zookeeper.
+입에 맞다,to suit one's taste,입 (mouth) + 맞다 (to fit),Idiom,엄마가 싸 준 도시락이 내 입에 딱 맞았다.,The lunchbox Mom packed suited my taste perfectly.
+믿을 수가 없다,can't believe it,믿다 (believe) + ㄹ 수 없다 (cannot),Phrase,나는 눈앞의 풍경을 믿을 수가 없었다.,I couldn't believe the sight before my eyes.
+본 것보다,than what I saw,보다 (see) + -ㄴ 것 (thing) + 보다 (than),Grammar,책에서 본 것보다 훨씬 컸다.,It was much bigger than what I saw in books.
+-고 있었다,was doing (past continuous),-고 있다 (is doing) + 었다 (past),Grammar,사자는 낮잠을 자고 있었다.,The lion was taking a nap.
+말을 배우다,to learn a language,말 (words/speech) + 배우다 (learn),Phrase,나도 펭귄들의 말을 배우고 싶어!,I want to learn the penguins' language too!
+눈 앞에 있다,to be right before one's eyes,눈 (eye) + 앞 (front) + 있다 (to be),
