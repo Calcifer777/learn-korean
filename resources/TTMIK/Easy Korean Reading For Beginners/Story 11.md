@@ -10,16 +10,16 @@ Because of this, the number of campgrounds has increased.
 If you go to a campground, there is space where you can pitch a tent.
 
 그리고 캠핑장에는 화장실과 샤워실도 있어요.
-Also, campgrounds have restrooms and shower rooms. 
+Also, campgrounds have restrooms and shower rooms.
 
 전기도 사용할 수 있어요.
 You can use electricity as well.
 
 어떤 캠핑장에는 놀이터나 작은 수영장도 있어요.
-Some campgrounds even have playgrounds or small swimming pools. 
+Some campgrounds even have playgrounds or small swimming pools.
 
 여러 가지 체험도 할 수 있어요.
-You can also participate in various experiences. 
+You can also participate in various experiences.
 
 예를 들어 땅콩도 캘 수 있고 물고기를 잡을 수도 있어요.
 For example, you can dig up peanuts or catch fish.

@@ -23,4 +23,3 @@
 
 여섯: 자기 전에 따뜻한 우유를 한 잔 드세요.
 (Six: Have a cup of warm milk before going to bed.)
-

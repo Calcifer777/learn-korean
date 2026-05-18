@@ -1,4 +1,4 @@
-# 영화관 
+# 영화관
 
 친구랑 영화를 볼 거예요.
 I'm going to watch a movie with a friend.
@@ -26,4 +26,3 @@ The movie will start soon.
 
 너무 기대돼요.
 I'm so excited.
-

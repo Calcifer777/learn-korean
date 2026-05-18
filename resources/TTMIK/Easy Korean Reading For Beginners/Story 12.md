@@ -99,6 +99,7 @@ Company / Office
 To go
 
 ---
+
 Learn More (Additional Verbs)
 
 일어나다
