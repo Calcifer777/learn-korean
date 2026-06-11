@@ -21,6 +21,7 @@ from .parser import (
 )
 from .anki_utils import generate_anki_deck
 from .translator_llm import translate_with_gemini, extract_phrases_with_gemini
+from .translator_claude import translate_with_claude, extract_phrases_with_claude
 from .miner import mine_subtitles
 
 # Load environment variables from .env if present
@@ -399,6 +400,22 @@ def load_exclusion_list(exclude_csv: str | None) -> set[str]:
     return known_words
 
 
+def _translate(words: list[dict[str, str]], translator: str) -> list[dict[str, str]]:
+    if translator == "claude":
+        return translate_with_claude(words)
+    if translator == "gemini":
+        return translate_with_gemini(words)
+    return translate_words_simple(words)
+
+
+def _extract_phrases(text: str, translator: str, limit: int) -> list[dict[str, str]]:
+    if translator == "claude":
+        return extract_phrases_with_claude(text, limit=limit)
+    if translator == "gemini":
+        return extract_phrases_with_gemini(text, limit=limit)
+    return []
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="ElevenLabs TTS & Subtitle Alignment Tool"
@@ -445,16 +462,10 @@ def main() -> None:
         help="Interactively confirm before excluding common words",
     )
     process_parser.add_argument(
-        "--llm",
-        action="store_true",
-        default=True,
-        help="Use Gemini LLM for context-aware translation (default: True)",
-    )
-    process_parser.add_argument(
-        "--no-llm",
-        action="store_false",
-        dest="llm",
-        help="Disable LLM and use simple translation instead",
+        "--translator",
+        choices=["claude", "gemini", "simple"],
+        default="claude",
+        help="Translation backend: claude (default), gemini, or simple (Google Translate)",
     )
     process_parser.add_argument(
         "--dev",
@@ -571,16 +582,10 @@ def main() -> None:
         "--output", required=True, help="Path to save the translated CSV file"
     )
     translate_parser.add_argument(
-        "--llm",
-        action="store_true",
-        default=True,
-        help="Use Gemini LLM for context-aware translation (default: True)",
-    )
-    translate_parser.add_argument(
-        "--no-llm",
-        action="store_false",
-        dest="llm",
-        help="Disable LLM and use simple translation instead",
+        "--translator",
+        choices=["claude", "gemini", "simple"],
+        default="claude",
+        help="Translation backend: claude (default), gemini, or simple (Google Translate)",
     )
 
     # Command: Anki Deck
@@ -597,16 +602,10 @@ def main() -> None:
         "--name", default="Korean Vocabulary", help="Name of the deck inside Anki"
     )
     anki_parser.add_argument(
-        "--llm",
-        action="store_true",
-        default=True,
-        help="Use Gemini LLM (if input is text) (default: True)",
-    )
-    anki_parser.add_argument(
-        "--no-llm",
-        action="store_false",
-        dest="llm",
-        help="Disable LLM and use simple translation instead",
+        "--translator",
+        choices=["claude", "gemini", "simple"],
+        default="claude",
+        help="Translation backend: claude (default), gemini, or simple (Google Translate)",
     )
 
     # Command: List voices
@@ -733,18 +732,15 @@ def main() -> None:
                 raw_text = f.read()
             # Remove LRC timestamps from raw text for better LLM processing
             clean_raw_text = re.sub(r"\[\d{2}:\d{2}\.\d{2}\]", "", raw_text)
-            phrases = extract_phrases_with_gemini(
-                clean_raw_text, limit=args.phrases_limit
+            phrases = _extract_phrases(
+                clean_raw_text, args.translator, args.phrases_limit
             )
             if phrases:
                 print(f"Adding {len(phrases)} idiomatic phrases to the list.")
                 words.extend(phrases)
 
         print("Step 2/3: Translating and extracting etymology...")
-        if args.llm:
-            words = translate_with_gemini(words)
-        else:
-            words = translate_words_simple(words)
+        words = _translate(words, args.translator)
 
         save_vocab_to_csv(words, args.output_csv)
 
@@ -811,10 +807,7 @@ def main() -> None:
 
     elif args.command == "translate-vocab":
         words = load_vocab_from_csv(args.input)
-        if args.llm:
-            words = translate_with_gemini(words)
-        else:
-            words = translate_words_simple(words)
+        words = _translate(words, args.translator)
         save_vocab_to_csv(words, args.output)
         return
 
@@ -823,10 +816,7 @@ def main() -> None:
             words = load_vocab_from_csv(args.input)
         else:
             words = process_text_file(args.input)
-            if args.llm:
-                words = translate_with_gemini(words)
-            else:
-                words = translate_words_simple(words)
+            words = _translate(words, args.translator)
         generate_anki_deck(words, args.output, args.name)
         return
 
