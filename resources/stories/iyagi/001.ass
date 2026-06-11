@@ -1,0 +1,385 @@
+[Script Info]
+Title: Bilingual Korean/English
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Korean,Noto Sans CJK KR,58,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,40,40,25,1
+Style: English,Arial,40,&H00FFE8D0,&H000000FF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,2,1,8,40,40,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.64,Korean,,0,0,0,,안녕하세요.
+Dialogue: 0,0:00:00.64,0:00:04.36,Korean,,0,0,0,,Talk To Me In Korean의 이야기 첫 번째 시간입니다.
+Dialogue: 0,0:00:04.36,0:00:05.08,Korean,,0,0,0,,안녕하세요.
+Dialogue: 0,0:00:05.08,0:00:06.62,Korean,,0,0,0,,최경은입니다.
+Dialogue: 0,0:00:06.62,0:00:07.36,Korean,,0,0,0,,네, 안녕하세요.
+Dialogue: 0,0:00:07.36,0:00:08.54,Korean,,0,0,0,,진석진입니다.
+Dialogue: 0,0:00:08.54,0:00:09.74,Korean,,0,0,0,,네, 석진 씨?
+Dialogue: 0,0:00:09.74,0:00:12.40,Korean,,0,0,0,,(네) 오늘 우리 뭐에 대해서 이야기 할까요?
+Dialogue: 0,0:00:12.40,0:00:13.10,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:13.10,0:00:16.16,Korean,,0,0,0,,오늘은 노약자석에 대해서 한번 얘기해 봐요.
+Dialogue: 0,0:00:16.16,0:00:16.86,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:00:16.86,0:00:18.56,Korean,,0,0,0,,노약자석.
+Dialogue: 0,0:00:18.56,0:00:19.06,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:19.02,0:00:20.06,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:00:20.06,0:00:22.40,Korean,,0,0,0,,(네) 오늘 출근 할 때 뭐 타고 오셨어요?
+Dialogue: 0,0:00:22.40,0:00:25.96,Korean,,0,0,0,,저는 출근할 때 전철도 타고 버스도 타요.
+Dialogue: 0,0:00:25.96,0:00:26.58,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:26.58,0:00:29.74,Korean,,0,0,0,,버스 안에 보면 (네) 왠지 좌석 색깔이 다르잖아요.
+Dialogue: 0,0:00:29.74,0:00:30.24,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:30.24,0:00:31.22,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:00:31.22,0:00:34.82,Korean,,0,0,0,,버스 안에는 노약자를 위한 자리가 따로 있어요.
+Dialogue: 0,0:00:34.82,0:00:36.12,Korean,,0,0,0,,네, 맞아요.
+Dialogue: 0,0:00:36.12,0:00:38.40,Korean,,0,0,0,,그러면 노약자가 뭔데요?
+Dialogue: 0,0:00:38.40,0:00:39.76,Korean,,0,0,0,,노약자.
+Dialogue: 0,0:00:39.76,0:00:41.04,Korean,,0,0,0,,모르세요, 진짜?
+Dialogue: 0,0:00:41.04,0:00:41.54,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:41.52,0:00:43.06,Korean,,0,0,0,,모르겠는데요.
+Dialogue: 0,0:00:43.06,0:00:43.56,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:00:43.24,0:00:44.18,Korean,,0,0,0,,정말 ...
+Dialogue: 0,0:00:44.18,0:00:46.14,Korean,,0,0,0,,) 석진 씨가 설명해 주세요.
+Dialogue: 0,0:00:46.14,0:00:47.94,Korean,,0,0,0,,네, 알겠습니다.
+Dialogue: 0,0:00:47.94,0:00:48.94,Korean,,0,0,0,,노약자.
+Dialogue: 0,0:00:48.94,0:00:52.72,Korean,,0,0,0,,이게 한자로 이루어진 말인데, (네) 제가 아주 쉽게 풀어드릴게요.
+Dialogue: 0,0:00:52.72,0:00:56.88,Korean,,0,0,0,,(네) "노"자는 나이가 들었다는 뜻을 나타냅니다.
+Dialogue: 0,0:00:56.88,0:00:57.38,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:00:56.88,0:01:00.08,Korean,,0,0,0,,) 그리고 "약"자는 몸이 약하다는 뜻을 나타내요.
+Dialogue: 0,0:01:00.08,0:01:00.58,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:01:00.08,0:01:03.40,Korean,,0,0,0,,) "자"는 놈(놈?) 원래 "놈 자" 자인데 (네)
+Dialogue: 0,0:01:03.40,0:01:06.04,Korean,,0,0,0,,사람을 나타내죠.
+Dialogue: 0,0:01:06.04,0:01:06.54,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:01:06.10,0:01:09.32,Korean,,0,0,0,,그러면 나이 들고 (네) 약한 사람을 말하는 건가요?
+Dialogue: 0,0:01:09.32,0:01:10.24,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:01:10.24,0:01:12.72,Korean,,0,0,0,,(그러면) 나이가 들었거나 몸이 약한 사람.
+Dialogue: 0,0:01:12.72,0:01:14.46,Korean,,0,0,0,,임산부들은요?
+Dialogue: 0,0:01:14.46,0:01:18.48,Korean,,0,0,0,,임산부도 뱃속에 아기가 있으니까 몸이 무겁잖아요.
+Dialogue: 0,0:01:18.48,0:01:18.98,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:01:18.78,0:01:23.70,Korean,,0,0,0,,뱃속에 아기가 있는 임신한 사람을 '임산부'라고 말하죠?
+Dialogue: 0,0:01:23.70,0:01:26.38,Korean,,0,0,0,,(그렇죠) 임산부도 '노약자'에 들어가네요?
+Dialogue: 0,0:01:26.38,0:01:27.62,Korean,,0,0,0,,맞아요, 맞아요.
+Dialogue: 0,0:01:27.62,0:01:28.12,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:01:27.72,0:01:32.10,Korean,,0,0,0,,) 그런 노약자들이 앉는 자리를 '노약자석'이라고 합니다.
+Dialogue: 0,0:01:32.10,0:01:32.60,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:01:32.40,0:01:36.96,Korean,,0,0,0,,근데 석진 씨, (네) 버스에만 있는 게 아니라 전철에도 있잖아요.
+Dialogue: 0,0:01:36.96,0:01:38.60,Korean,,0,0,0,,전철에도 있죠.
+Dialogue: 0,0:01:38.60,0:01:39.56,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:01:39.56,0:01:42.48,Korean,,0,0,0,,전철이랑 버스에 '노약자석'이 있죠?
+Dialogue: 0,0:01:42.48,0:01:43.32,Korean,,0,0,0,,네.
+Dialogue: 0,0:01:43.32,0:01:47.70,Korean,,0,0,0,,대한민국 사람들 중에 지하철을 타 본 사람은 다 아실 거예요.
+Dialogue: 0,0:01:47.70,0:01:49.08,Korean,,0,0,0,,네, 맞아요.
+Dialogue: 0,0:01:49.08,0:01:52.28,Korean,,0,0,0,,석진 씨는 노약자석에 자주 앉아 봤어요?
+Dialogue: 0,0:01:52.28,0:01:56.68,Korean,,0,0,0,,네, 버스는 자주 앉아 봤는데 지하철에서는 못 앉겠더라고요.
+Dialogue: 0,0:01:56.68,0:01:58.06,Korean,,0,0,0,,왜요?
+Dialogue: 0,0:01:58.06,0:01:58.60,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:01:58.60,0:01:59.96,Korean,,0,0,0,,너무 눈치가 보여요.
+Dialogue: 0,0:01:59.96,0:02:01.92,Korean,,0,0,0,,눈치가 보여요?
+Dialogue: 0,0:02:01.92,0:02:02.58,Korean,,0,0,0,,(네) 아 ...
+Dialogue: 0,0:02:02.58,0:02:03.32,Korean,,0,0,0,,그래요?
+Dialogue: 0,0:02:03.32,0:02:04.16,Korean,,0,0,0,,사람들이 많이 쳐다봐서 (아 ...
+Dialogue: 0,0:02:04.16,0:02:05.30,Korean,,0,0,0,,사람들이 많이 쳐다봐서 (아 ...
+Dialogue: 0,0:02:05.30,0:02:06.96,Korean,,0,0,0,,) 부끄러울 것 같아요.
+Dialogue: 0,0:02:06.96,0:02:09.48,Korean,,0,0,0,,저는 아직 안 앉아 봐서 모르겠는데 ...
+Dialogue: 0,0:02:09.48,0:02:16.68,Korean,,0,0,0,,근데 진짜 신기한 게 (네) 전철에 아무리 사람이 많아도 (네) 노약자석은 항상 비어 있잖아요.
+Dialogue: 0,0:02:16.68,0:02:17.26,Korean,,0,0,0,,음 ...
+Dialogue: 0,0:02:17.26,0:02:21.12,Korean,,0,0,0,,비어 있거나 아니면 정말 노약자 분들이 앉아 있죠.
+Dialogue: 0,0:02:21.12,0:02:25.04,Korean,,0,0,0,,주로 할머니, (그렇죠) 할아버지들이 앉아 계시죠?
+Dialogue: 0,0:02:25.04,0:02:29.66,Korean,,0,0,0,,(네) 사실 저도 예전에 강남으로 출근을 한 적이 있었는데요.
+Dialogue: 0,0:02:29.66,0:02:33.10,Korean,,0,0,0,,(네) 보통 2호선을 타면 강남으로 가잖아요.
+Dialogue: 0,0:02:33.10,0:02:33.76,Korean,,0,0,0,,아 …….
+Dialogue: 0,0:02:33.76,0:02:36.98,Korean,,0,0,0,,그 '지옥철'이라고 불리는 2호선이군요.
+Dialogue: 0,0:02:36.98,0:02:37.68,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:02:37.68,0:02:39.82,Korean,,0,0,0,,왜 '지옥철'이라고 하죠?
+Dialogue: 0,0:02:39.82,0:02:41.32,Korean,,0,0,0,,사람이 너무 많죠.
+Dialogue: 0,0:02:41.32,0:02:42.54,Korean,,0,0,0,,출근 시간 때는.
+Dialogue: 0,0:02:42.54,0:02:43.10,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:43.10,0:02:45.24,Korean,,0,0,0,,사람이 너무 많은 지하철.
+Dialogue: 0,0:02:45.24,0:02:48.30,Korean,,0,0,0,,(네) '지옥 같은 지하철'이라고 해서 (네,
+Dialogue: 0,0:02:48.30,0:02:49.68,Korean,,0,0,0,,너무 불편해요) 네,
+Dialogue: 0,0:02:49.68,0:02:52.02,Korean,,0,0,0,,'지옥철'이라고 해요.
+Dialogue: 0,0:02:52.02,0:02:59.08,Korean,,0,0,0,,(네) 출근 시간에는 정말 너무 사람이 많아서 제 발이 좀 떠 있는 듯 한 기분이 들 때도 있어요.
+Dialogue: 0,0:02:59.08,0:03:00.72,Korean,,0,0,0,,발이 떠 있어요?
+Dialogue: 0,0:03:00.72,0:03:01.46,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:01.46,0:03:05.22,Korean,,0,0,0,,사람이 너무 많아서 (네) 서 있는 채로 잘 수도 있어요.
+Dialogue: 0,0:03:05.22,0:03:06.04,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:03:06.04,0:03:08.36,Korean,,0,0,0,,너무 이제 (네) 사람들이 너무 많으니까.
+Dialogue: 0,0:03:08.36,0:03:08.88,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:08.88,0:03:15.42,Korean,,0,0,0,,꽉 차 있기 때문에 (네) 그런 지옥철에서도 노약자석에는 젊은 사람들은 안 앉죠?
+Dialogue: 0,0:03:15.42,0:03:15.92,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:15.88,0:03:16.92,Korean,,0,0,0,,앉으면 안 돼요.
+Dialogue: 0,0:03:16.92,0:03:19.00,Korean,,0,0,0,,앉으면 어떻게 돼요?
+Dialogue: 0,0:03:19.00,0:03:20.28,Korean,,0,0,0,,혼나요.
+Dialogue: 0,0:03:20.28,0:03:22.08,Korean,,0,0,0,,혼나요?
+Dialogue: 0,0:03:22.08,0:03:26.52,Korean,,0,0,0,,(네) 그러면 석진 씨는 안 혼나면 노약자석에 앉을 거예요?
+Dialogue: 0,0:03:26.52,0:03:27.06,Korean,,0,0,0,,음 ...
+Dialogue: 0,0:03:27.06,0:03:29.24,Korean,,0,0,0,,사람들이 없으면 앉을 수도 있겠죠.
+Dialogue: 0,0:03:29.24,0:03:30.82,Korean,,0,0,0,,저는 착한 사람이니까,
+Dialogue: 0,0:03:30.82,0:03:33.54,Korean,,0,0,0,,네, 사람들이 없어도 노약자석은 안 앉아요.
+Dialogue: 0,0:03:33.54,0:03:35.46,Korean,,0,0,0,,아, 그래요?
+Dialogue: 0,0:03:35.46,0:03:39.04,Korean,,0,0,0,,하지만 가끔 보면, (네) 어린 애들이 앉는 경우도 있어요.
+Dialogue: 0,0:03:39.04,0:03:39.54,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:03:39.54,0:03:40.90,Korean,,0,0,0,,맞아요, 맞아요.
+Dialogue: 0,0:03:40.90,0:03:41.48,Korean,,0,0,0,,근데 그럴 경우는 (네) 어머니가 (네) 같이 데리고 앉는 경우니까.
+Dialogue: 0,0:03:41.48,0:03:44.62,Korean,,0,0,0,,근데 그럴 경우는 (네) 어머니가 (네) 같이 데리고 앉는 경우니까.
+Dialogue: 0,0:03:44.62,0:03:47.90,Korean,,0,0,0,,아, 정말 어린 아기들.
+Dialogue: 0,0:03:47.90,0:03:48.48,Korean,,0,0,0,,(네, 네.
+Dialogue: 0,0:03:48.48,0:03:50.06,Korean,,0,0,0,,맞아요) 그렇죠?
+Dialogue: 0,0:03:50.06,0:03:50.60,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:50.60,0:03:52.20,Korean,,0,0,0,,그럴 때는 봐 줘야 되요.
+Dialogue: 0,0:03:52.20,0:03:57.74,Korean,,0,0,0,,근데 저는 사실 정말 몸이 아플 때 (네) 노약자석에 앉고 싶은데,
+Dialogue: 0,0:03:57.74,0:04:02.24,Korean,,0,0,0,,사실 거기 노약자석에 앉아 있으면 제가 마음이 불편해요.
+Dialogue: 0,0:04:02.24,0:04:05.00,Korean,,0,0,0,,사람들이 제가 아픈지 알 수가 없잖아요.
+Dialogue: 0,0:04:05.00,0:04:06.24,Korean,,0,0,0,,(맞아요, 맞아요)
+Dialogue: 0,0:04:06.24,0:04:11.20,Korean,,0,0,0,,그래서 아무리 아파도 꾹 참고 노약자석에는 안 앉아요.
+Dialogue: 0,0:04:11.20,0:04:12.00,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:04:12.00,0:04:12.62,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:04:12.62,0:04:20.50,Korean,,0,0,0,,(네?) 다음에 아플 때 (네) 다른 사람이 봐도 아프다라고 알 수 있을 만큼 (네) 어디 다리가 부러지던가 (아 ...
+Dialogue: 0,0:04:20.50,0:04:21.10,Korean,,0,0,0,,네 ...
+Dialogue: 0,0:04:21.10,0:04:23.12,Korean,,0,0,0,,) 그렇게 크게 다치세요.
+Dialogue: 0,0:04:23.12,0:04:25.08,Korean,,0,0,0,,그런 일은 없는 게 좋겠죠?
+Dialogue: 0,0:04:25.08,0:04:26.08,Korean,,0,0,0,,그럼요.
+Dialogue: 0,0:04:26.08,0:04:28.06,Korean,,0,0,0,,저 다치라고 하는 거 아니죠?
+Dialogue: 0,0:04:28.06,0:04:29.78,Korean,,0,0,0,,아니요, 아니요, 아니에요.
+Dialogue: 0,0:04:29.78,0:04:30.56,Korean,,0,0,0,,아, 아니에요?
+Dialogue: 0,0:04:30.56,0:04:31.92,Korean,,0,0,0,,(네, 네)
+Dialogue: 0,0:04:31.92,0:04:37.78,Korean,,0,0,0,,근데 저도 사실은 석진 씨처럼 지하철에서는 절대 노약자석에 안 앉는데 (네)
+Dialogue: 0,0:04:37.78,0:04:40.70,Korean,,0,0,0,,버스에서는 사실 좀 사람들이 앉잖아요.
+Dialogue: 0,0:04:40.70,0:04:41.30,Korean,,0,0,0,,그럼요.
+Dialogue: 0,0:04:41.30,0:04:42.16,Korean,,0,0,0,,좀 앉죠.
+Dialogue: 0,0:04:42.16,0:04:43.26,Korean,,0,0,0,,네, 네.
+Dialogue: 0,0:04:43.26,0:04:49.52,Korean,,0,0,0,,그런데 제가 예전에 (네) 버스를 탔다가 너무 피곤해서 노약자석에 앉았었어요.
+Dialogue: 0,0:04:49.52,0:04:50.34,Korean,,0,0,0,,(음 ...
+Dialogue: 0,0:04:50.34,0:04:54.80,Korean,,0,0,0,,) 근데 제가 일부러 잔 건 아닌데 (네) 잠이 들어 버린 거예요.
+Dialogue: 0,0:04:54.80,0:04:55.80,Korean,,0,0,0,,(네, 네)
+Dialogue: 0,0:04:55.80,0:04:59.34,Korean,,0,0,0,,그리고 나서 눈을 떴는데 제 앞에 할머니가 (아 ...
+Dialogue: 0,0:04:59.34,0:05:01.02,Korean,,0,0,0,,) 딱 서 있으신 거죠.
+Dialogue: 0,0:05:01.02,0:05:01.52,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:05:01.48,0:05:02.78,Korean,,0,0,0,,맙소사)
+Dialogue: 0,0:05:02.78,0:05:04.56,Korean,,0,0,0,,그래서 눈을 떴는데,
+Dialogue: 0,0:05:04.56,0:05:05.26,Korean,,0,0,0,,너무 ...
+Dialogue: 0,0:05:05.26,0:05:07.94,Korean,,0,0,0,,창피했어요, 사실은.
+Dialogue: 0,0:05:07.94,0:05:15.34,Korean,,0,0,0,,일부러 잔 게 아닌데도 (네) 왠지 모르게 (네) 빨리 비켜 드렸어야 됐는데 못 비켜 드렸으니까 (네.
+Dialogue: 0,0:05:15.34,0:05:22.02,Korean,,0,0,0,,맞아요, 맞아요) 창피해서 벌떡 일어났는데 버스가 덜컹 흔들리는 거예요.
+Dialogue: 0,0:05:22.02,0:05:27.16,Korean,,0,0,0,,그래서 저도 모르게 벌떡 일어났다가 (다시) 다시 딱 앉아 버렸어요.
+Dialogue: 0,0:05:27.16,0:05:32.24,Korean,,0,0,0,,그래서 제 얼굴이 정말 빨개져서 (네) 더 창피한 거죠.
+Dialogue: 0,0:05:32.24,0:05:36.16,Korean,,0,0,0,,그래서 벌떡 일어나서 도망갔던 기억이 있어요.
+Dialogue: 0,0:05:36.16,0:05:37.54,Korean,,0,0,0,,아, 참 ...
+Dialogue: 0,0:05:37.54,0:05:45.36,Korean,,0,0,0,,버스에 탔을 때 (네) 정말 노약자 분들이 눈에 보이자마자 바로 양보할 때 (네) 그게 제일 좋은 거예요.
+Dialogue: 0,0:05:45.36,0:05:47.06,Korean,,0,0,0,,(맞아요)
+Dialogue: 0,0:05:47.06,0:05:51.98,Korean,,0,0,0,,하지만 저 같은 경우에는 조금만 더 앉아 있다가 양보해 드려야지 (아 ...
+Dialogue: 0,0:05:51.98,0:05:53.44,Korean,,0,0,0,,) 그런 생각을 하다가 ...
+Dialogue: 0,0:05:53.44,0:05:54.34,Korean,,0,0,0,,석진 씨 때문에 그래요.
+Dialogue: 0,0:05:54.34,0:05:55.86,Korean,,0,0,0,,석진 씨 때문에 그래요.
+Dialogue: 0,0:05:55.86,0:05:57.34,Korean,,0,0,0,,(맞아요)
+Dialogue: 0,0:05:57.34,0:06:02.70,Korean,,0,0,0,,사람들이, 일부러 자는 척을 하는 사람도 있기 때문에 혼나는 거예요.
+Dialogue: 0,0:06:02.70,0:06:03.40,Korean,,0,0,0,,(네, 맞아요.
+Dialogue: 0,0:06:03.40,0:06:04.86,Korean,,0,0,0,,그러면 혼나요)
+Dialogue: 0,0:06:04.86,0:06:09.58,Korean,,0,0,0,,일부러 자는 척을 하지 않고 정말 잠들어도 혼나기 때문에.
+Dialogue: 0,0:06:09.58,0:06:12.08,Korean,,0,0,0,,(네) 그러지 마세요, 석진 씨.
+Dialogue: 0,0:06:12.08,0:06:13.52,Korean,,0,0,0,,맞아요, 맞아요.
+Dialogue: 0,0:06:13.52,0:06:17.38,Korean,,0,0,0,,혹시 노약자석이나 (네) 아니면 그냥 일반석에 앉아 있더라도
+Dialogue: 0,0:06:17.38,0:06:22.64,Korean,,0,0,0,,(네) 노약자 분들이 보이면 바로 자리를 양보해 주는 게 좋습니다.
+Dialogue: 0,0:06:22.64,0:06:23.72,Korean,,0,0,0,,네, 맞아요.
+Dialogue: 0,0:06:23.72,0:06:29.14,Korean,,0,0,0,,한국에서는 (네) 노약자석이 아니어도 (네) 그냥 앉아 있다가 할머니,
+Dialogue: 0,0:06:29.14,0:06:32.66,Korean,,0,0,0,,할아버지가 앞에 오시면 자리를 비켜 주는 게 예의죠.
+Dialogue: 0,0:06:32.66,0:06:34.30,Korean,,0,0,0,,(네, 맞아요)
+Dialogue: 0,0:06:34.30,0:06:34.80,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:34.78,0:06:40.80,Korean,,0,0,0,,그런데 (네) 여러분들의 나라에서는 노약자석이 있는지 궁금해지는데요?
+Dialogue: 0,0:06:40.80,0:06:45.64,Korean,,0,0,0,,혹시 여러분들의 나라에서는 (네) 노약자석이 있는지 저희
+Dialogue: 0,0:06:45.64,0:06:49.28,Korean,,0,0,0,,TalkToMelnKorean.com 으로 오셔서 코멘트 남겨주세요.
+Dialogue: 0,0:06:49.28,0:06:50.48,Korean,,0,0,0,,(네)
+Dialogue: 0,0:06:50.48,0:06:56.28,Korean,,0,0,0,,그리고 노약자석이 있으면 자리를 비켜 주시는 지도 꼭 코멘트로 남겨 주세요.
+Dialogue: 0,0:06:56.28,0:06:56.78,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:56.74,0:06:59.30,Korean,,0,0,0,,노약자 마크를 꼭 확인해 주세요.
+Dialogue: 0,0:06:59.30,0:06:59.80,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:59.78,0:07:01.50,Korean,,0,0,0,,들어 주셔서 감사합니다.
+Dialogue: 0,0:07:01.50,0:07:02.00,Korean,,0,0,0,,네.
+Dialogue: 0,0:07:01.82,0:07:03.18,Korean,,0,0,0,,지금까지 이야기였습니다.
+Dialogue: 0,0:07:03.18,0:07:04.38,Korean,,0,0,0,,안녕히 계세요.
+Dialogue: 0,0:07:04.38,0:07:09.38,Korean,,0,0,0,,안녕히 계세요
+Dialogue: 1,0:00:00.12,0:00:00.64,English,,0,0,0,,Hello.
+Dialogue: 1,0:00:00.64,0:00:04.36,English,,0,0,0,,This is the first episode of Talk To Me In Korean's Iyagi (Stories).
+Dialogue: 1,0:00:04.36,0:00:05.08,English,,0,0,0,,Hello.
+Dialogue: 1,0:00:05.08,0:00:06.62,English,,0,0,0,,I'm Choi Kyung-eun.
+Dialogue: 1,0:00:06.62,0:00:07.36,English,,0,0,0,,Yes, hello.
+Dialogue: 1,0:00:07.36,0:00:08.54,English,,0,0,0,,I'm Jin Seok-jin.
+Dialogue: 1,0:00:08.54,0:00:09.74,English,,0,0,0,,Yes, Seok-jin?
+Dialogue: 1,0:00:09.74,0:00:12.40,English,,0,0,0,,(Yes) What shall we talk about today?
+Dialogue: 1,0:00:12.40,0:00:13.10,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:13.10,0:00:16.16,English,,0,0,0,,Today, let's talk about priority seating.
+Dialogue: 1,0:00:16.16,0:00:16.86,English,,0,0,0,,Ah...
+Dialogue: 1,0:00:16.86,0:00:18.56,English,,0,0,0,,Priority seating.
+Dialogue: 1,0:00:18.56,0:00:19.06,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:19.02,0:00:20.06,English,,0,0,0,,Kyung-eun.
+Dialogue: 1,0:00:20.06,0:00:22.40,English,,0,0,0,,(Yes) What did you ride when coming to work today?
+Dialogue: 1,0:00:22.40,0:00:25.96,English,,0,0,0,,When I commute to work, I take both the subway and the bus.
+Dialogue: 1,0:00:25.96,0:00:26.58,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:26.58,0:00:29.74,English,,0,0,0,,If you look inside the bus, (yes) the seat colors are somehow different, right?
+Dialogue: 1,0:00:29.74,0:00:30.24,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:30.24,0:00:31.22,English,,0,0,0,,That's right.
+Dialogue: 1,0:00:31.22,0:00:34.82,English,,0,0,0,,Inside the bus, there are separate seats for the elderly and weak.
+Dialogue: 1,0:00:34.82,0:00:36.12,English,,0,0,0,,Yes, that's right.
+Dialogue: 1,0:00:36.12,0:00:38.40,English,,0,0,0,,Then, what exactly does "noyakja" mean?
+Dialogue: 1,0:00:38.40,0:00:39.76,English,,0,0,0,,Noyakja.
+Dialogue: 1,0:00:39.76,0:00:41.04,English,,0,0,0,,Do you really not know?
+Dialogue: 1,0:00:41.04,0:00:41.54,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:41.52,0:00:43.06,English,,0,0,0,,I don't really know.
+Dialogue: 1,0:00:43.06,0:00:43.56,English,,0,0,0,,(Ah...
+Dialogue: 1,0:00:43.24,0:00:44.18,English,,0,0,0,,Really...
+Dialogue: 1,0:00:44.18,0:00:46.14,English,,0,0,0,,) Seok-jin, please explain it.
+Dialogue: 1,0:00:46.14,0:00:47.94,English,,0,0,0,,Yes, I understand.
+Dialogue: 1,0:00:47.94,0:00:48.94,English,,0,0,0,,Noyakja.
+Dialogue: 1,0:00:48.94,0:00:52.72,English,,0,0,0,,This is a word made up of Hanja, (yes) but I will break it down very easily for you.
+Dialogue: 1,0:00:52.72,0:00:56.88,English,,0,0,0,,(Yes) The letter "No" indicates the meaning of being aged.
+Dialogue: 1,0:00:56.88,0:00:57.38,English,,0,0,0,,(Ah...
+Dialogue: 1,0:00:56.88,0:01:00.08,English,,0,0,0,,) And the letter "Yak" indicates the meaning of having a weak body.
+Dialogue: 1,0:01:00.08,0:01:00.58,English,,0,0,0,,(Ah...
+Dialogue: 1,0:01:00.08,0:01:03.40,English,,0,0,0,,) "Ja" means guy (guy?) originally it's the Hanja for "guy ja" (yes)
+Dialogue: 1,0:01:03.40,0:01:06.04,English,,0,0,0,,but it represents a person.
+Dialogue: 1,0:01:06.04,0:01:06.54,English,,0,0,0,,Ah...
+Dialogue: 1,0:01:06.10,0:01:09.32,English,,0,0,0,,Then does it refer to people who are old (yes) and weak?
+Dialogue: 1,0:01:09.32,0:01:10.24,English,,0,0,0,,That's right.
+Dialogue: 1,0:01:10.24,0:01:12.72,English,,0,0,0,,(Then) People who are old or have weak bodies.
+Dialogue: 1,0:01:12.72,0:01:14.46,English,,0,0,0,,What about pregnant women?
+Dialogue: 1,0:01:14.46,0:01:18.48,English,,0,0,0,,Pregnant women also have heavy bodies since they have a baby in their belly, right?
+Dialogue: 1,0:01:18.48,0:01:18.98,English,,0,0,0,,Ah...
+Dialogue: 1,0:01:18.78,0:01:23.70,English,,0,0,0,,A pregnant person with a baby in their belly is called an 'imsanbu', right?
+Dialogue: 1,0:01:23.70,0:01:26.38,English,,0,0,0,,(That's right) So pregnant women are also included in 'noyakja'?
+Dialogue: 1,0:01:26.38,0:01:27.62,English,,0,0,0,,Correct, correct.
+Dialogue: 1,0:01:27.62,0:01:28.12,English,,0,0,0,,(Ah...
+Dialogue: 1,0:01:27.72,0:01:32.10,English,,0,0,0,,) The seats where those elderly, weak, and pregnant individuals sit are called 'noyakjaseok' (priority seating).
+Dialogue: 1,0:01:32.10,0:01:32.60,English,,0,0,0,,Ah...
+Dialogue: 1,0:01:32.40,0:01:36.96,English,,0,0,0,,But Seok-jin, (yes) they aren't only on buses, they are on subways too, right?
+Dialogue: 1,0:01:36.96,0:01:38.60,English,,0,0,0,,They are on subways too.
+Dialogue: 1,0:01:38.60,0:01:39.56,English,,0,0,0,,Right.
+Dialogue: 1,0:01:39.56,0:01:42.48,English,,0,0,0,,There are 'priority seats' on both subways and buses, right?
+Dialogue: 1,0:01:42.48,0:01:43.32,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:43.32,0:01:47.70,English,,0,0,0,,Anyone among South Koreans who has ridden the subway will know this.
+Dialogue: 1,0:01:47.70,0:01:49.08,English,,0,0,0,,Yes, that's right.
+Dialogue: 1,0:01:49.08,0:01:52.28,English,,0,0,0,,Seok-jin, have you sat in priority seating often?
+Dialogue: 1,0:01:52.28,0:01:56.68,English,,0,0,0,,Yes, I've sat there often on buses, but I couldn't bring myself to sit there on the subway.
+Dialogue: 1,0:01:56.68,0:01:58.06,English,,0,0,0,,Why?
+Dialogue: 1,0:01:58.06,0:01:58.60,English,,0,0,0,,Ah...
+Dialogue: 1,0:01:58.60,0:01:59.96,English,,0,0,0,,I feel so much pressure from others' stares (nunchi).
+Dialogue: 1,0:01:59.96,0:02:01.92,English,,0,0,0,,You feel self-conscious about their stares?
+Dialogue: 1,0:02:01.92,0:02:02.58,English,,0,0,0,,(Yes) Ah...
+Dialogue: 1,0:02:02.58,0:02:03.32,English,,0,0,0,,Is that so?
+Dialogue: 1,0:02:03.32,0:02:04.16,English,,0,0,0,,Because so many people stare, (Ah...
+Dialogue: 1,0:02:04.16,0:02:05.30,English,,0,0,0,,Because so many people stare, (Ah...
+Dialogue: 1,0:02:05.30,0:02:06.96,English,,0,0,0,,) I think it would be embarrassing.
+Dialogue: 1,0:02:06.96,0:02:09.48,English,,0,0,0,,I haven't sat there yet, so I wouldn't know...
+Dialogue: 1,0:02:09.48,0:02:16.68,English,,0,0,0,,But what's really fascinating is (yes) no matter how crowded the subway is, (yes) the priority seats are always empty, right?
+Dialogue: 1,0:02:16.68,0:02:17.26,English,,0,0,0,,Hmm...
+Dialogue: 1,0:02:17.26,0:02:21.12,English,,0,0,0,,They are either empty, or the truly elderly and weak are sitting there.
+Dialogue: 1,0:02:21.12,0:02:25.04,English,,0,0,0,,Mostly elderly ladies (right) and elderly gentlemen are seated there, right?
+Dialogue: 1,0:02:25.04,0:02:29.66,English,,0,0,0,,(Yes) Actually, I also used to commute to Gangnam in the past.
+Dialogue: 1,0:02:29.66,0:02:33.10,English,,0,0,0,,(Yes) Usually, if you take Line 2, it goes to Gangnam, right?
+Dialogue: 1,0:02:33.10,0:02:33.76,English,,0,0,0,,Ah...
+Dialogue: 1,0:02:33.76,0:02:36.98,English,,0,0,0,,That's Line 2, which is called the 'Hell Subway'.
+Dialogue: 1,0:02:36.98,0:02:37.68,English,,0,0,0,,Right.
+Dialogue: 1,0:02:37.68,0:02:39.82,English,,0,0,0,,Why is it called 'Hell Subway'?
+Dialogue: 1,0:02:39.82,0:02:41.32,English,,0,0,0,,There are just too many people.
+Dialogue: 1,0:02:41.32,0:02:42.54,English,,0,0,0,,During rush hour.
+Dialogue: 1,0:02:42.54,0:02:43.10,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:43.10,0:02:45.24,English,,0,0,0,,A subway with way too many people.
+Dialogue: 1,0:02:45.24,0:02:48.30,English,,0,0,0,,(Yes) They call it 'Hell Subway' because (yes,
+Dialogue: 1,0:02:48.30,0:02:49.68,English,,0,0,0,,it's so uncomfortable) yes,
+Dialogue: 1,0:02:49.68,0:02:52.02,English,,0,0,0,,it's like a 'subway from hell'.
+Dialogue: 1,0:02:52.02,0:02:59.08,English,,0,0,0,,(Yes) During rush hour, there are really so many people that there are even times when I feel like my feet are floating a bit off the ground.
+Dialogue: 1,0:02:59.08,0:03:00.72,English,,0,0,0,,Your feet are floating?
+Dialogue: 1,0:03:00.72,0:03:01.46,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:01.46,0:03:05.22,English,,0,0,0,,Because there are too many people, (yes) you can even sleep while standing up.
+Dialogue: 1,0:03:05.22,0:03:06.04,English,,0,0,0,,Ah...
+Dialogue: 1,0:03:06.04,0:03:08.36,English,,0,0,0,,Because now there are just (yes) so many people.
+Dialogue: 1,0:03:08.36,0:03:08.88,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:08.88,0:03:15.42,English,,0,0,0,,Because it's completely packed, (yes) even on a 'Hell Subway' like that, young people don't sit in the priority seating, right?
+Dialogue: 1,0:03:15.42,0:03:15.92,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:15.88,0:03:16.92,English,,0,0,0,,You shouldn't sit there.
+Dialogue: 1,0:03:16.92,0:03:19.00,English,,0,0,0,,What happens if you sit there?
+Dialogue: 1,0:03:19.00,0:03:20.28,English,,0,0,0,,You get scolded.
+Dialogue: 1,0:03:20.28,0:03:22.08,English,,0,0,0,,You get scolded?
+Dialogue: 1,0:03:22.08,0:03:26.52,English,,0,0,0,,(Yes) Then Seok-jin, would you sit in a priority seat if you wouldn't get scolded?
+Dialogue: 1,0:03:26.52,0:03:27.06,English,,0,0,0,,Hmm...
+Dialogue: 1,0:03:27.06,0:03:29.24,English,,0,0,0,,If there are no people around, I suppose I could sit.
+Dialogue: 1,0:03:29.24,0:03:30.82,English,,0,0,0,,Since I am a good person,
+Dialogue: 1,0:03:30.82,0:03:33.54,English,,0,0,0,,yes, even if there are no people, I don't sit in priority seats.
+Dialogue: 1,0:03:33.54,0:03:35.46,English,,0,0,0,,Oh, really?
+Dialogue: 1,0:03:35.46,0:03:39.04,English,,0,0,0,,But if you look occasionally, (yes) there are also cases where young kids sit there.
+Dialogue: 1,0:03:39.04,0:03:39.54,English,,0,0,0,,Ah...
+Dialogue: 1,0:03:39.54,0:03:40.90,English,,0,0,0,,Right, right.
+Dialogue: 1,0:03:40.90,0:03:41.48,English,,0,0,0,,But in those cases, (yes) since it's a situation where their mother (yes) brings them along and sits them down...
+Dialogue: 1,0:03:41.48,0:03:44.62,English,,0,0,0,,But in those cases, (yes) since it's a situation where their mother (yes) brings them along and sits them down...
+Dialogue: 1,0:03:44.62,0:03:47.90,English,,0,0,0,,Ah, really young babies.
+Dialogue: 1,0:03:47.90,0:03:50.06,English,,0,0,0,,(Yes, yes. That's right) Right?
+Dialogue: 1,0:03:50.06,0:03:50.60,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:50.60,0:03:52.20,English,,0,0,0,,In those times, we should give them a pass.
+Dialogue: 1,0:03:52.20,0:03:57.74,English,,0,0,0,,But to be honest, when my body is really aching, (yes) I do want to sit in a priority seat,
+Dialogue: 1,0:03:57.74,0:04:02.24,English,,0,0,0,,but actually, if I am sitting there in a priority seat, my heart feels uneasy.
+Dialogue: 1,0:04:02.24,0:04:05.00,English,,0,0,0,,Because people can't tell whether I am sick or not, you know.
+Dialogue: 1,0:04:05.00,0:04:06.24,English,,0,0,0,,(Right, right)
+Dialogue: 1,0:04:06.24,0:04:11.20,English,,0,0,0,,So no matter how sick I am, I just endure it and do not sit in the priority seats.
+Dialogue: 1,0:04:11.20,0:04:12.00,English,,0,0,0,,Kyung-eun.
+Dialogue: 1,0:04:12.00,0:04:12.62,English,,0,0,0,,Kyung-eun.
+Dialogue: 1,0:04:12.62,0:04:20.50,English,,0,0,0,,(Yes?) Next time you are sick, (yes) to the point where other people can see you are sick, (yes) like breaking a leg or something, (Ah...
+Dialogue: 1,0:04:20.50,0:04:21.10,English,,0,0,0,,yes...
+Dialogue: 1,0:04:21.10,0:04:23.12,English,,0,0,0,,) get hurt in a big way like that.
+Dialogue: 1,0:04:23.12,0:04:25.08,English,,0,0,0,,It would be better if things like that didn't happen, right?
+Dialogue: 1,0:04:25.08,0:04:26.08,English,,0,0,0,,Of course.
+Dialogue: 1,0:04:26.08,0:04:28.06,English,,0,0,0,,You aren't telling me to go get hurt, right?
+Dialogue: 1,0:04:28.06,0:04:29.78,English,,0,0,0,,No, no, not at all.
+Dialogue: 1,0:04:29.78,0:04:30.56,English,,0,0,0,,Oh, it's not?
+Dialogue: 1,0:04:30.56,0:04:31.92,English,,0,0,0,,(Yes, yes)
+Dialogue: 1,0:04:31.92,0:04:37.78,English,,0,0,0,,But actually, just like Seok-jin, I never sit in the priority seats on the subway either, (yes)
+Dialogue: 1,0:04:37.78,0:04:40.70,English,,0,0,0,,but on the bus, people actually do sit there a bit.
+Dialogue: 1,0:04:40.70,0:04:41.30,English,,0,0,0,,Of course.
+Dialogue: 1,0:04:41.30,0:04:42.16,English,,0,0,0,,They sit there a bit.
+Dialogue: 1,0:04:42.16,0:04:43.26,English,,0,0,0,,Yes, yes.
+Dialogue: 1,0:04:43.26,0:04:49.52,English,,0,0,0,,However, in the past, (yes) I took a bus and was so tired that I sat in a priority seat.
+Dialogue: 1,0:04:49.52,0:04:50.34,English,,0,0,0,,(Hmm...
+Dialogue: 1,0:04:50.34,0:04:54.80,English,,0,0,0,,) But even though it's not like I fell asleep on purpose, (yes) I just ended up falling asleep.
+Dialogue: 1,0:04:54.80,0:04:55.80,English,,0,0,0,,(Yes, yes)
+Dialogue: 1,0:04:55.80,0:04:59.34,English,,0,0,0,,And after that, I opened my eyes and an elderly lady was (Ah...
+Dialogue: 1,0:04:59.34,0:05:01.02,English,,0,0,0,,) standing right in front of me.
+Dialogue: 1,0:05:01.02,0:05:02.78,English,,0,0,0,,(Ah... oh my goodness)
+Dialogue: 1,0:05:02.78,0:05:04.56,English,,0,0,0,,So I opened my eyes,
+Dialogue: 1,0:05:04.56,0:05:05.26,English,,0,0,0,,and it was so...
+Dialogue: 1,0:05:05.26,0:05:07.94,English,,0,0,0,,embarrassing, honestly.
+Dialogue: 1,0:05:07.94,0:05:22.02,English,,0,0,0,,Even though it's not like I fell asleep on purpose, (yes) I somehow felt like (yes) I should have moved out of the way quickly for her but couldn't, (Yes. Right, right) so because I felt embarrassed, I jumped right up—but right then, the bus gave a sudden rattle and shook.
+Dialogue: 1,0:05:22.02,0:05:27.16,English,,0,0,0,,So without realizing it, I jumped right up and then sat right back down again.
+Dialogue: 1,0:05:27.16,0:05:32.24,English,,0,0,0,,So my face turned completely red, (yes) which made it even more embarrassing.
+Dialogue: 1,0:05:32.24,0:05:36.16,English,,0,0,0,,So I have a memory of springing up and running away.
+Dialogue: 1,0:05:36.16,0:05:37.54,English,,0,0,0,,Ah, dear...
+Dialogue: 1,0:05:37.54,0:05:45.36,English,,0,0,0,,When you get on a bus, (yes) the moment you spot an elderly or weak person, yielding right away (yes) is the absolute best thing to do.
+Dialogue: 1,0:05:45.36,0:05:47.06,English,,0,0,0,,(True)
+Dialogue: 1,0:05:47.06,0:05:51.98,English,,0,0,0,,But in a case like mine, I think, 'Let me just sit here for a tiny bit longer and then I should yield my seat to them,' (Ah...
+Dialogue: 1,0:05:51.98,0:05:53.44,English,,0,0,0,,) while having thoughts like that...
+Dialogue: 1,0:05:53.44,0:05:54.34,English,,0,0,0,,That's why it happens, Seok-jin.
+Dialogue: 1,0:05:54.34,0:05:55.86,English,,0,0,0,,That's why it happens, Seok-jin.
+Dialogue: 1,0:05:55.86,0:05:57.34,English,,0,0,0,,(True)
+Dialogue: 1,0:05:57.34,0:06:02.70,English,,0,0,0,,Because there are people who intentionally pretend to sleep, that's why people get scolded.
+Dialogue: 1,0:06:02.70,0:06:04.86,English,,0,0,0,,(Yes, right. Then they get scolded)
+Dialogue: 1,0:06:04.86,0:06:09.58,English,,0,0,0,,Because even if you don't pretend to sleep on purpose and truly fall asleep, you still get scolded.
+Dialogue: 1,0:06:09.58,0:06:12.08,English,,0,0,0,,(Yes) Don't do that, Seok-jin.
+Dialogue: 1,0:06:12.08,0:06:13.52,English,,0,0,0,,Right, right.
+Dialogue: 1,0:06:13.52,0:06:17.38,English,,0,0,0,,Whether you are sitting in a priority seat (yes) or just a regular standard seat,
+Dialogue: 1,0:06:17.38,0:06:22.64,English,,0,0,0,,(yes) if you spot an elderly or weak person, it is best to yield your seat to them immediately.
+Dialogue: 1,0:06:22.64,0:06:23.72,English,,0,0,0,,Yes, that's right.
+Dialogue: 1,0:06:23.72,0:06:32.66,English,,0,0,0,,In Korea, (yes) even if it's not the priority seating, (yes) if an elderly lady or gentleman comes and stands in front of you while you're just sitting there, it's proper etiquette to vacate your seat for them, right?
+Dialogue: 1,0:06:32.66,0:06:34.30,English,,0,0,0,,(Yes, that's right)
+Dialogue: 1,0:06:34.30,0:06:34.80,English,,0,0,0,,Yes.
+Dialogue: 1,0:06:34.78,0:06:40.80,English,,0,0,0,,But (yes) it makes me curious whether there are priority seats in your countries too?
+Dialogue: 1,0:06:40.80,0:06:49.28,English,,0,0,0,,If there are priority seats in your country, (yes) please come over to TalkToMeInKorean.com and leave a comment.
+Dialogue: 1,0:06:49.28,0:06:50.48,English,,0,0,0,,(Yes)
+Dialogue: 1,0:06:50.48,0:06:56.28,English,,0,0,0,,And if there are priority seats, please also make sure to leave a comment about whether you vacate your seat or not.
+Dialogue: 1,0:06:56.28,0:06:56.78,English,,0,0,0,,Yes.
+Dialogue: 1,0:06:56.74,0:06:59.78,English,,0,0,0,,Please make sure to check for the priority seating mark.
+Dialogue: 1,0:06:59.78,0:07:01.50,English,,0,0,0,,Thank you for listening.
+Dialogue: 1,0:07:01.50,0:07:02.00,English,,0,0,0,,Yes.
+Dialogue: 1,0:07:01.82,0:07:03.18,English,,0,0,0,,This has been Iyagi.
+Dialogue: 1,0:07:03.18,0:07:04.38,English,,0,0,0,,Goodbye.
+Dialogue: 1,0:07:04.38,0:07:09.38,English,,0,0,0,,Goodbye.

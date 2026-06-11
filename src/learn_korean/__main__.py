@@ -23,6 +23,7 @@ from .anki_utils import generate_anki_deck
 from .translator_llm import translate_with_gemini, extract_phrases_with_gemini
 from .translator_claude import translate_with_claude, extract_phrases_with_claude
 from .miner import mine_subtitles
+from .subtitle import build_ass, mux_mka
 
 # Load environment variables from .env if present
 load_dotenv()
@@ -699,6 +700,26 @@ def main() -> None:
         help="Maximum number of files to process",
     )
 
+    # Command: LRC to MKA
+    lrc_mka_parser = subparsers.add_parser(
+        "lrc-to-mka",
+        help="Combine two LRC subtitle files and an MP3 into a bilingual MKA",
+    )
+    lrc_mka_parser.add_argument("--mp3", required=True, help="Input MP3 audio file")
+    lrc_mka_parser.add_argument(
+        "--korean-lrc", required=True, help="Korean subtitle LRC file"
+    )
+    lrc_mka_parser.add_argument(
+        "--english-lrc", required=True, help="English subtitle LRC file"
+    )
+    lrc_mka_parser.add_argument(
+        "--output", help="Output MKA file (default: <mp3 stem>.mka)"
+    )
+    lrc_mka_parser.add_argument(
+        "--ass-output",
+        help="Where to save the intermediate ASS file (default: <output stem>.ass)",
+    )
+
     args = parser.parse_args()
 
     if args.command == "process-text":
@@ -829,6 +850,29 @@ def main() -> None:
         return
     elif args.command == "transcribe-all":
         transcribe_all_audio(args.dir, args.language, args.limit)
+        return
+
+    elif args.command == "lrc-to-mka":
+        mp3 = Path(args.mp3)
+        kr_lrc = Path(args.korean_lrc)
+        en_lrc = Path(args.english_lrc)
+        output = Path(args.output) if args.output else mp3.with_suffix(".mka")
+        ass_out = (
+            Path(args.ass_output) if args.ass_output else output.with_suffix(".ass")
+        )
+
+        for p in (mp3, kr_lrc, en_lrc):
+            if not p.exists():
+                print(f"Error: {p} not found", file=sys.stderr)
+                sys.exit(1)
+
+        print("Parsing subtitles …")
+        ass_out.write_text(build_ass(kr_lrc, en_lrc), encoding="utf-8")
+        print(f"ASS written  → {ass_out}")
+
+        print("Muxing MKA …")
+        mux_mka(mp3, ass_out, output)
+        print(f"Done         → {output}")
         return
 
     # Initialize ElevenLabs client for voice commands
