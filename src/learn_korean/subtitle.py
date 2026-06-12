@@ -85,29 +85,49 @@ def build_ass(kr_path: Path, en_path: Path) -> str:
     return "\n".join(lines)
 
 
-def mux_mka(mp3: Path, ass: Path, output: Path) -> None:
-    """Mux mp3 + ass into an MKA container using ffmpeg."""
+def mux_mka(mp3: Path, ass: Path, kr_lrc: Path, en_lrc: Path, output: Path) -> None:
+    """Mux mp3 + bilingual ASS + two original LRC tracks into an MKA container."""
     cmd = [
         "ffmpeg",
         "-y",
         "-i",
-        str(mp3),
+        str(mp3),  # 0: audio
         "-i",
-        str(ass),
+        str(ass),  # 1: bilingual ASS
+        "-i",
+        str(kr_lrc),  # 2: Korean LRC
+        "-i",
+        str(en_lrc),  # 3: English LRC
         "-c:a",
         "copy",
-        "-c:s",
-        "ass",
+        "-c:s:0",
+        "ass",  # keep bilingual track as ASS
+        "-c:s:1",
+        "subrip",  # LRC → SRT for Korean
+        "-c:s:2",
+        "subrip",  # LRC → SRT for English
         "-map",
-        "0:a",
+        "0:a:0",
         "-map",
-        "1:s",
+        "1:s:0",
+        "-map",
+        "2:s:0",
+        "-map",
+        "3:s:0",
         "-metadata:s:a:0",
         "language=kor",
         "-metadata:s:s:0",
         "language=und",
         "-metadata:s:s:0",
         "title=Korean / English",
+        "-metadata:s:s:1",
+        "language=kor",
+        "-metadata:s:s:1",
+        "title=Korean",
+        "-metadata:s:s:2",
+        "language=eng",
+        "-metadata:s:s:2",
+        "title=English",
         str(output),
     ]
     try:

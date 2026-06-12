@@ -871,7 +871,7 @@ def main() -> None:
         print(f"ASS written  → {ass_out}")
 
         print("Muxing MKA …")
-        mux_mka(mp3, ass_out, output)
+        mux_mka(mp3, ass_out, kr_lrc, en_lrc, output)
         print(f"Done         → {output}")
         return
 
