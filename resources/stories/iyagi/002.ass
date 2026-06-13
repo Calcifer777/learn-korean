@@ -1,0 +1,308 @@
+[Script Info]
+Title: Bilingual Korean/English
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Korean,Noto Sans CJK KR,58,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,40,40,25,1
+Style: English,Arial,40,&H00FFE8D0,&H000000FF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,2,1,8,40,40,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.70,Korean,,0,0,0,,이야기 2화 '서점'에 대해서 선현우 & 최경은 최경은: 안녕하세요.
+Dialogue: 0,0:00:00.70,0:00:04.74,Korean,,0,0,0,,Talk To Me In Korean의 이야기 두번째 시간입니다.
+Dialogue: 0,0:00:04.74,0:00:07.22,Korean,,0,0,0,,선현우: 안녕하세요.
+Dialogue: 0,0:00:07.22,0:00:08.02,Korean,,0,0,0,,최경은: 안녕하세요.
+Dialogue: 0,0:00:08.02,0:00:09.60,Korean,,0,0,0,,선현우: 선현우입니다.
+Dialogue: 0,0:00:09.60,0:00:10.50,Korean,,0,0,0,,최경은: 안녕하세요.
+Dialogue: 0,0:00:10.50,0:00:12.10,Korean,,0,0,0,,최경은입니다.
+Dialogue: 0,0:00:12.10,0:00:14.76,Korean,,0,0,0,,선현우: 네, 여러분, 반갑습니다.
+Dialogue: 0,0:00:14.76,0:00:17.94,Korean,,0,0,0,,지금은 이야기 두번째 시간(네)이죠?
+Dialogue: 0,0:00:17.94,0:00:19.56,Korean,,0,0,0,,최경은: 네, 맞아요.
+Dialogue: 0,0:00:19.56,0:00:23.80,Korean,,0,0,0,,선현우: 오늘은 서점에 대해서 이야기를 해 볼 거예요.
+Dialogue: 0,0:00:23.80,0:00:25.34,Korean,,0,0,0,,최경은: 서점이요?
+Dialogue: 0,0:00:25.34,0:00:26.96,Korean,,0,0,0,,선현우: 네, 서점.
+Dialogue: 0,0:00:26.96,0:00:28.58,Korean,,0,0,0,,최경은: 서점.
+Dialogue: 0,0:00:28.58,0:00:30.92,Korean,,0,0,0,,선현우: 네, 책을 파는 곳이죠?
+Dialogue: 0,0:00:30.92,0:00:33.08,Korean,,0,0,0,,최경은: 네, 맞아요.
+Dialogue: 0,0:00:33.08,0:00:33.58,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:00:33.52,0:00:39.58,Korean,,0,0,0,,서점에서는 책을 파는데 사실 책이 아닌 (네) 다른 물건들도 많이 팔잖아요?
+Dialogue: 0,0:00:39.58,0:00:41.38,Korean,,0,0,0,,최경은: 네, 맞아요.
+Dialogue: 0,0:00:41.38,0:00:44.18,Korean,,0,0,0,,선현우: 경은 씨 서점에 자주 가세요?
+Dialogue: 0,0:00:44.18,0:00:45.08,Korean,,0,0,0,,최경은: 아니요.
+Dialogue: 0,0:00:45.08,0:00:46.36,Korean,,0,0,0,,자주 못 가요.
+Dialogue: 0,0:00:46.36,0:00:47.94,Korean,,0,0,0,,선현우: 자주 못가요?
+Dialogue: 0,0:00:47.94,0:00:49.86,Korean,,0,0,0,,아니면 자주 안 가요?
+Dialogue: 0,0:00:49.86,0:00:51.48,Korean,,0,0,0,,최경은: 자주 못가요.
+Dialogue: 0,0:00:51.48,0:00:53.60,Korean,,0,0,0,,가고 싶은데 못 가요.
+Dialogue: 0,0:00:53.60,0:00:55.16,Korean,,0,0,0,,(아, 그래요?) 시간이 없어요.
+Dialogue: 0,0:00:55.16,0:00:57.04,Korean,,0,0,0,,선현우: 시간이 없어요?
+Dialogue: 0,0:00:57.04,0:00:57.88,Korean,,0,0,0,,최경은: 네.
+Dialogue: 0,0:00:57.88,0:00:59.16,Korean,,0,0,0,,(음~) 너무 바빠요.
+Dialogue: 0,0:00:59.16,0:01:00.60,Korean,,0,0,0,,선현우: 그래요?
+Dialogue: 0,0:01:00.60,0:01:02.16,Korean,,0,0,0,,최경은: 현우 씨는요?
+Dialogue: 0,0:01:02.16,0:01:04.30,Korean,,0,0,0,,선현우: 저는 서점에 자주 가요.
+Dialogue: 0,0:01:04.30,0:01:06.92,Korean,,0,0,0,,최경은: 아, 얼마나 자주 가요?
+Dialogue: 0,0:01:06.92,0:01:07.57,Korean,,0,0,0,,선현우: 음 ...
+Dialogue: 0,0:01:07.57,0:01:09.34,Korean,,0,0,0,,일주일에 두 번?
+Dialogue: 0,0:01:09.34,0:01:11.26,Korean,,0,0,0,,최경은: 와, 진짜요?
+Dialogue: 0,0:01:11.26,0:01:11.90,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:01:11.90,0:01:13.78,Korean,,0,0,0,,일주일에 두 번 가고,
+Dialogue: 0,0:01:13.78,0:01:19.02,Korean,,0,0,0,,그리고 그냥 실제 서점 말고 (네) 인터넷 서점도 자주 가는 것 같아요.
+Dialogue: 0,0:01:19.02,0:01:22.66,Korean,,0,0,0,,(아~) 그런데 인터넷 서점에서는 책을 안 사요.
+Dialogue: 0,0:01:22.66,0:01:23.82,Korean,,0,0,0,,최경은: 왜요?
+Dialogue: 0,0:01:23.82,0:01:25.80,Korean,,0,0,0,,선현우: 그냥 책은 음 ...
+Dialogue: 0,0:01:25.80,0:01:31.32,Korean,,0,0,0,,직접 손으로 (네) 만져 보고 (네) 직접 그 자리에서 읽어 보고 (아~) 사는 편이어서 (아~)
+Dialogue: 0,0:01:31.32,0:01:31.82,Korean,,0,0,0,,예.
+Dialogue: 0,0:01:31.32,0:01:36.70,Korean,,0,0,0,,최경은: 근데 저도 서점에 가는 거 좋지만, (네) 인터넷 서점이 훨씬 싸요.
+Dialogue: 0,0:01:36.70,0:01:38.74,Korean,,0,0,0,,(그래요?) 한국에서는요.
+Dialogue: 0,0:01:38.74,0:01:39.60,Korean,,0,0,0,,선현우: 맞아요.
+Dialogue: 0,0:01:39.60,0:01:40.92,Korean,,0,0,0,,그건 알고 있어요.
+Dialogue: 0,0:01:40.92,0:01:43.24,Korean,,0,0,0,,알고 있는데 (네) 음 ...
+Dialogue: 0,0:01:43.24,0:01:49.72,Korean,,0,0,0,,그냥 서점에서 직접 책을 보고 (네) 조금 읽어 보고 (네) 사고 싶어서 (아~) 서점에서 책을 사요.
+Dialogue: 0,0:01:49.72,0:01:55.36,Korean,,0,0,0,,(네) 그런데 제가 젤 좋아하는 서점은 종각에 있는
+Dialogue: 0,0:01:55.36,0:01:57.66,Korean,,0,0,0,,영풍문고인데, 최경은: 아~ 영풍문고.
+Dialogue: 0,0:01:57.66,0:01:59.10,Korean,,0,0,0,,선현우: 네, 아세요?
+Dialogue: 0,0:01:59.10,0:02:00.78,Korean,,0,0,0,,최경은: 유명하죠.
+Dialogue: 0,0:02:00.78,0:02:01.46,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:02:01.46,0:02:03.78,Korean,,0,0,0,,영풍문고 정말 좋아요.
+Dialogue: 0,0:02:03.78,0:02:07.02,Korean,,0,0,0,,(아~) 좋은데 (네) 얼마 전에 큰 공사를 했어요.
+Dialogue: 0,0:02:07.02,0:02:08.94,Korean,,0,0,0,,최경은: 아, 그래요?
+Dialogue: 0,0:02:08.94,0:02:09.48,Korean,,0,0,0,,선현우: 네,
+Dialogue: 0,0:02:09.48,0:02:12.24,Korean,,0,0,0,,그래서 영풍문고가 지하 1층,
+Dialogue: 0,0:02:12.24,0:02:18.02,Korean,,0,0,0,,지하 2층에 있는데 (아~) 지하 2층은 전부 (네) 책이 아니라 (네) 문구 (아,
+Dialogue: 0,0:02:18.02,0:02:19.66,Korean,,0,0,0,,정말요?)
+Dialogue: 0,0:02:19.66,0:02:26.06,Korean,,0,0,0,,그러니까 공책, (아~) 연필, 펜 또는 카메라, 스피커, 뭐, 컴퓨터 ...
+Dialogue: 0,0:02:26.06,0:02:27.34,Korean,,0,0,0,,최경은: 서점 맞아요?
+Dialogue: 0,0:02:27.34,0:02:28.06,Korean,,0,0,0,,선현우:
+Dialogue: 0,0:02:28.06,0:02:28.60,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:28.60,0:02:31.16,Korean,,0,0,0,,지하 1층만 서점이에요.
+Dialogue: 0,0:02:31.16,0:02:34.98,Korean,,0,0,0,,(아~) 그런데 제 생각에는 (네) 지하 2층에 그렇게 문구,
+Dialogue: 0,0:02:34.98,0:02:38.16,Korean,,0,0,0,,(네) 전자 제품 이런 것들이 정말 많아서,
+Dialogue: 0,0:02:38.16,0:02:40.64,Korean,,0,0,0,,더 돈을 많이 벌고 있는 것 같아요.
+Dialogue: 0,0:02:40.64,0:02:42.60,Korean,,0,0,0,,최경은: 아, 그렇군요.
+Dialogue: 0,0:02:42.60,0:02:44.12,Korean,,0,0,0,,선현우: 그렇지 않아요?
+Dialogue: 0,0:02:44.12,0:02:45.70,Korean,,0,0,0,,최경은: 그런 것 같아요.
+Dialogue: 0,0:02:45.70,0:02:46.66,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:02:46.66,0:02:48.82,Korean,,0,0,0,,사람들은 책도 보고 싶지만,
+Dialogue: 0,0:02:48.82,0:02:50.78,Korean,,0,0,0,,(네) 서점에 갈 때는 그냥,
+Dialogue: 0,0:02:50.78,0:02:53.58,Korean,,0,0,0,,그냥 무언가를 보고 싶어서 가잖아요?
+Dialogue: 0,0:02:53.58,0:02:54.10,Korean,,0,0,0,,최경은:
+Dialogue: 0,0:02:54.10,0:02:55.54,Korean,,0,0,0,,네, 그렇죠.
+Dialogue: 0,0:02:55.54,0:02:58.80,Korean,,0,0,0,,선현우: 그리고 돈을 쓰고 싶어서 가잖아요?
+Dialogue: 0,0:02:58.80,0:03:00.10,Korean,,0,0,0,,최경은: 그래요?
+Dialogue: 0,0:03:00.10,0:03:00.74,Korean,,0,0,0,,선현우: 음 ...
+Dialogue: 0,0:03:00.74,0:03:04.10,Korean,,0,0,0,,돈을 쓰고 싶어서 가는 거 아닌가요?
+Dialogue: 0,0:03:04.10,0:03:04.62,Korean,,0,0,0,,최경은: 아니죠.
+Dialogue: 0,0:03:04.62,0:03:12.62,Korean,,0,0,0,,그게 아니라 그냥 (뭔가 가지고 싶어서) 그냥 갔는데 그런 너무 예쁜 것들이 많아서 유혹에 빠져서 사는 거에요.
+Dialogue: 0,0:03:12.62,0:03:14.32,Korean,,0,0,0,,돈을 쓰는 거죠.
+Dialogue: 0,0:03:14.32,0:03:14.82,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:03:14.60,0:03:15.86,Korean,,0,0,0,,그럴 수도)
+Dialogue: 0,0:03:15.86,0:03:17.50,Korean,,0,0,0,,저는 그래요.
+Dialogue: 0,0:03:17.50,0:03:20.56,Korean,,0,0,0,,(있어요?) 선현우: 저도 물론 돈을 쓰고 싶지는 않아요.
+Dialogue: 0,0:03:20.56,0:03:25.14,Korean,,0,0,0,,(네) 그런데 돈을 쓰면 내 것으로 (네) 물건을 가져올 수 있잖아요?
+Dialogue: 0,0:03:25.14,0:03:26.82,Korean,,0,0,0,,(아~ 예.)
+Dialogue: 0,0:03:26.82,0:03:28.44,Korean,,0,0,0,,그래서 살 수 있잖아요.
+Dialogue: 0,0:03:28.44,0:03:31.64,Korean,,0,0,0,,(네, 맞아요.) 그런 느낌 때문에 가고,
+Dialogue: 0,0:03:31.64,0:03:33.86,Korean,,0,0,0,,(음~) 사실 보고 다 사지는 않아요.
+Dialogue: 0,0:03:33.86,0:03:36.50,Korean,,0,0,0,,최경은: 다 사면 큰일나죠.
+Dialogue: 0,0:03:36.50,0:03:37.36,Korean,,0,0,0,,선현우: 맞아요.
+Dialogue: 0,0:03:37.36,0:03:38.98,Korean,,0,0,0,,돈이 없겠죠?
+Dialogue: 0,0:03:38.98,0:03:40.82,Korean,,0,0,0,,최경은: 네, 큰일나요.
+Dialogue: 0,0:03:40.82,0:03:44.60,Korean,,0,0,0,,선현우: 네, 그래서 서점에 가서 책도 보고, 문구도 보고,
+Dialogue: 0,0:03:44.60,0:03:46.36,Korean,,0,0,0,,컴퓨터도 보고,
+Dialogue: 0,0:03:46.36,0:03:48.48,Korean,,0,0,0,,(아~) 새로 나온 카메라도 보고.
+Dialogue: 0,0:03:48.48,0:03:50.16,Korean,,0,0,0,,그렇게 자주 해요.
+Dialogue: 0,0:03:50.16,0:03:56.00,Korean,,0,0,0,,최경은: 아~ 저도 종로에 있는 반디앤루니스라는 서점을 좋아하는데 (음~)
+Dialogue: 0,0:03:56.00,0:04:01.40,Korean,,0,0,0,,그 서점을 좋아하는 이유가 우리나라에서 처음으로 (네) 서점에 의자를 놨어요.
+Dialogue: 0,0:04:01.40,0:04:02.54,Korean,,0,0,0,,선현우: 맞아요.
+Dialogue: 0,0:04:02.54,0:04:03.52,Korean,,0,0,0,,맞아요,
+Dialogue: 0,0:04:03.52,0:04:08.50,Korean,,0,0,0,,최경은: 네, 옛날에는 항상 사람들이 서서 (네) 책을 볼 수 밖에 없었거든요.
+Dialogue: 0,0:04:08.50,0:04:15.54,Korean,,0,0,0,,(네) 근데 반디앤루니스에서는 의자에 앉아서 책을 보다가 사면 되니까 (음) 그 점이 너무 좋아서,
+Dialogue: 0,0:04:15.54,0:04:18.42,Korean,,0,0,0,,그 뒤부터 반디앤루니스만 가요.
+Dialogue: 0,0:04:18.42,0:04:20.24,Korean,,0,0,0,,선현우: 네, 굉장히 편해요.
+Dialogue: 0,0:04:20.24,0:04:22.32,Korean,,0,0,0,,최경은: 네, 맞아요.
+Dialogue: 0,0:04:22.32,0:04:23.74,Korean,,0,0,0,,선현우: 그런데 아셨어요?
+Dialogue: 0,0:04:23.74,0:04:24.24,Korean,,0,0,0,,그런 ...
+Dialogue: 0,0:04:24.10,0:04:27.88,Korean,,0,0,0,,다른 서점에도 (네) 의자가 이제 있어요.
+Dialogue: 0,0:04:27.88,0:04:30.14,Korean,,0,0,0,,최경은: 네, 이제 생겼죠.
+Dialogue: 0,0:04:30.14,0:04:31.06,Korean,,0,0,0,,선현우: 네, 네.
+Dialogue: 0,0:04:31.06,0:04:36.38,Korean,,0,0,0,,그래서 저도 영풍문고에 가서, 의자에 앉아서 (네) 책을 볼 때도 있고,
+Dialogue: 0,0:04:36.38,0:04:37.42,Korean,,0,0,0,,(네) 아니면 그냥,
+Dialogue: 0,0:04:37.42,0:04:43.00,Korean,,0,0,0,,예 , 서서 볼 때도 있는데 저는 그 문구를 많이 볼 수 있어서 (아) 좋아요.
+Dialogue: 0,0:04:43.00,0:04:45.70,Korean,,0,0,0,,그래서 서점에 자주 가요.
+Dialogue: 0,0:04:45.70,0:04:46.20,Korean,,0,0,0,,(아 ...
+Dialogue: 0,0:04:45.70,0:04:46.46,Korean,,0,0,0,,) 네.
+Dialogue: 0,0:04:46.46,0:04:50.08,Korean,,0,0,0,,최경은: 저는 일부러 문구 있는 데는 잘 안가요.
+Dialogue: 0,0:04:50.08,0:04:51.90,Korean,,0,0,0,,(아~) 돈을 쓰게 되니까.
+Dialogue: 0,0:04:51.90,0:04:54.28,Korean,,0,0,0,,선현우: 네~ 그것도 이해가 됩니다.
+Dialogue: 0,0:04:54.28,0:04:55.62,Korean,,0,0,0,,최경은: 네.
+Dialogue: 0,0:04:55.62,0:04:56.40,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:04:56.40,0:04:58.66,Korean,,0,0,0,,여러분은 서점에 자주 가세요?
+Dialogue: 0,0:04:58.66,0:05:03.46,Korean,,0,0,0,,그리고 집 근처에 서점이, 큰 서점들이 많이 있나요?
+Dialogue: 0,0:05:03.46,0:05:06.40,Korean,,0,0,0,,최경은: 네, 그리고 책을 많이
+Dialogue: 0,0:05:06.40,0:05:06.90,Korean,,0,0,0,,읽으시나요?
+Dialogue: 0,0:05:06.44,0:05:07.08,Korean,,0,0,0,,선현우:
+Dialogue: 0,0:05:07.08,0:05:08.84,Korean,,0,0,0,,당연하죠.
+Dialogue: 0,0:05:08.84,0:05:10.40,Korean,,0,0,0,,최경은: 아, 그런가요?
+Dialogue: 0,0:05:10.40,0:05:11.46,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:05:11.46,0:05:12.78,Korean,,0,0,0,,최경은: 아 ...
+Dialogue: 0,0:05:12.78,0:05:13.94,Korean,,0,0,0,,선현우: 네,
+Dialogue: 0,0:05:13.94,0:05:19.62,Korean,,0,0,0,,TalkToMeInKorean.com의 이야기 두 번째 에피소드를 들어 주셔서 감사하고요,
+Dialogue: 0,0:05:19.62,0:05:22.26,Korean,,0,0,0,,여러분의 이야기를 들려 주세요.
+Dialogue: 0,0:05:22.26,0:05:24.68,Korean,,0,0,0,,최경은: 네, 코멘트로 남겨 주세요.
+Dialogue: 0,0:05:24.68,0:05:25.60,Korean,,0,0,0,,선현우: 네.
+Dialogue: 0,0:05:25.60,0:05:29.24,Korean,,0,0,0,,그러면 저희는 코멘트 기다리고 있겠습니다.
+Dialogue: 0,0:05:29.24,0:05:30.88,Korean,,0,0,0,,최경은: 안녕히 계세요.
+Dialogue: 0,0:05:30.88,0:05:35.88,Korean,,0,0,0,,선현우: 안녕히 계세요
+Dialogue: 1,0:00:00.00,0:00:00.70,English,,0,0,0,,Iyagi Episode 2 'About Bookstores' Sun Hyun-woo & Choi Kyung-eun Choi Kyung-eun: Hello.
+Dialogue: 1,0:00:00.70,0:00:04.74,English,,0,0,0,,This is the second episode of Talk To Me In Korean's Iyagi.
+Dialogue: 1,0:00:04.74,0:00:07.22,English,,0,0,0,,Sun Hyun-woo: Hello.
+Dialogue: 1,0:00:07.22,0:00:08.02,English,,0,0,0,,Choi Kyung-eun: Hello.
+Dialogue: 1,0:00:08.02,0:00:09.60,English,,0,0,0,,Sun Hyun-woo: I'm Sun Hyun-woo.
+Dialogue: 1,0:00:09.60,0:00:10.50,English,,0,0,0,,Choi Kyung-eun: Hello.
+Dialogue: 1,0:00:10.50,0:00:12.10,English,,0,0,0,,I'm Choi Kyung-eun.
+Dialogue: 1,0:00:12.10,0:00:14.76,English,,0,0,0,,Sun Hyun-woo: Yes, everyone, nice to meet you.
+Dialogue: 1,0:00:14.76,0:00:17.94,English,,0,0,0,,This is the second episode of Iyagi, right? (Yes)
+Dialogue: 1,0:00:17.94,0:00:19.56,English,,0,0,0,,Choi Kyung-eun: Yes, that's right.
+Dialogue: 1,0:00:19.56,0:00:23.80,English,,0,0,0,,Sun Hyun-woo: Today, we're going to talk about bookstores.
+Dialogue: 1,0:00:23.80,0:00:25.34,English,,0,0,0,,Choi Kyung-eun: Bookstores?
+Dialogue: 1,0:00:25.34,0:00:26.96,English,,0,0,0,,Sun Hyun-woo: Yes, bookstores.
+Dialogue: 1,0:00:26.96,0:00:28.58,English,,0,0,0,,Choi Kyung-eun: Bookstores.
+Dialogue: 1,0:00:28.58,0:00:30.92,English,,0,0,0,,Sun Hyun-woo: Yes, it's the place where they sell books, right?
+Dialogue: 1,0:00:30.92,0:00:33.08,English,,0,0,0,,Choi Kyung-eun: Yes, that's right.
+Dialogue: 1,0:00:33.08,0:00:33.58,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:00:33.52,0:00:39.58,English,,0,0,0,,They sell books at bookstores, but actually, they also sell many other things (yes) that aren't books, right?
+Dialogue: 1,0:00:39.58,0:00:41.38,English,,0,0,0,,Choi Kyung-eun: Yes, that's right.
+Dialogue: 1,0:00:41.38,0:00:44.18,English,,0,0,0,,Sun Hyun-woo: Kyung-eun, do you go to bookstores often?
+Dialogue: 1,0:00:44.18,0:00:45.08,English,,0,0,0,,Choi Kyung-eun: No.
+Dialogue: 1,0:00:45.08,0:00:46.36,English,,0,0,0,,I can't go often.
+Dialogue: 1,0:00:46.36,0:00:47.94,English,,0,0,0,,Sun Hyun-woo: You can't go often?
+Dialogue: 1,0:00:47.94,0:00:49.86,English,,0,0,0,,Or do you not go often?
+Dialogue: 1,0:00:49.86,0:00:51.48,English,,0,0,0,,Choi Kyung-eun: I can't go often.
+Dialogue: 1,0:00:51.48,0:00:53.60,English,,0,0,0,,I want to go, but I can't.
+Dialogue: 1,0:00:53.60,0:00:55.16,English,,0,0,0,,(Ah, really?) I don't have time.
+Dialogue: 1,0:00:55.16,0:00:57.04,English,,0,0,0,,Sun Hyun-woo: You don't have time?
+Dialogue: 1,0:00:57.04,0:00:57.88,English,,0,0,0,,Choi Kyung-eun: Yes.
+Dialogue: 1,0:00:57.88,0:00:59.16,English,,0,0,0,,(Hmm~) I'm too busy.
+Dialogue: 1,0:00:59.16,0:01:00.60,English,,0,0,0,,Sun Hyun-woo: Really?
+Dialogue: 1,0:01:00.60,0:01:02.16,English,,0,0,0,,Choi Kyung-eun: How about you, Hyun-woo?
+Dialogue: 1,0:01:02.16,0:01:04.30,English,,0,0,0,,Sun Hyun-woo: I go to bookstores often.
+Dialogue: 1,0:01:04.30,0:01:06.92,English,,0,0,0,,Choi Kyung-eun: Ah, how often do you go?
+Dialogue: 1,0:01:06.92,0:01:07.57,English,,0,0,0,,Sun Hyun-woo: Hmm...
+Dialogue: 1,0:01:07.57,0:01:09.34,English,,0,0,0,,Twice a week?
+Dialogue: 1,0:01:09.34,0:01:11.26,English,,0,0,0,,Choi Kyung-eun: Wow, really?
+Dialogue: 1,0:01:11.26,0:01:11.90,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:01:11.90,0:01:13.78,English,,0,0,0,,I go twice a week,
+Dialogue: 1,0:01:13.78,0:01:19.02,English,,0,0,0,,and I think I also visit online bookstores often, not just physical bookstores (yes).
+Dialogue: 1,0:01:19.02,0:01:22.66,English,,0,0,0,,(Ah~) But I don't buy books from online bookstores.
+Dialogue: 1,0:01:22.66,0:01:23.82,English,,0,0,0,,Choi Kyung-eun: Why?
+Dialogue: 1,0:01:23.82,0:01:25.80,English,,0,0,0,,Sun Hyun-woo: Just books are, well...
+Dialogue: 1,0:01:25.80,0:01:31.32,English,,0,0,0,,I tend to buy them after touching them with my own hands (yes) and reading them right there (yes) (ah~) so (ah~)
+Dialogue: 1,0:01:31.32,0:01:31.82,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:31.32,0:01:36.70,English,,0,0,0,,Choi Kyung-eun: But even though I also like going to bookstores, (yes) online bookstores are much cheaper.
+Dialogue: 1,0:01:36.70,0:01:38.74,English,,0,0,0,,(Is that so?) In Korea.
+Dialogue: 1,0:01:38.74,0:01:39.60,English,,0,0,0,,Sun Hyun-woo: That's right.
+Dialogue: 1,0:01:39.60,0:01:40.92,English,,0,0,0,,I know that.
+Dialogue: 1,0:01:40.92,0:01:43.24,English,,0,0,0,,I know that, (yes) but, hmm...
+Dialogue: 1,0:01:43.24,0:01:49.72,English,,0,0,0,,I just want to see the books myself at the bookstore (yes), read a little bit (yes), and then buy them (ah~), so I buy books at bookstores.
+Dialogue: 1,0:01:49.72,0:01:55.36,English,,0,0,0,,(Yes) By the way, my favorite bookstore is the one in Jonggak,
+Dialogue: 1,0:01:55.36,0:01:57.66,English,,0,0,0,,Youngpoong Bookstore, Choi Kyung-eun: Ah~ Youngpoong Bookstore.
+Dialogue: 1,0:01:57.66,0:01:59.10,English,,0,0,0,,Sun Hyun-woo: Yes, do you know it?
+Dialogue: 1,0:01:59.10,0:02:00.78,English,,0,0,0,,Choi Kyung-eun: It's famous.
+Dialogue: 1,0:02:00.78,0:02:01.46,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:02:01.46,0:02:03.78,English,,0,0,0,,Youngpoong Bookstore is really good.
+Dialogue: 1,0:02:03.78,0:02:07.02,English,,0,0,0,,(Ah~) It's good, (yes) but not long ago, they did major construction work.
+Dialogue: 1,0:02:07.02,0:02:08.94,English,,0,0,0,,Choi Kyung-eun: Oh, really?
+Dialogue: 1,0:02:08.94,0:02:09.48,English,,0,0,0,,Sun Hyun-woo: Yes,
+Dialogue: 1,0:02:09.48,0:02:12.24,English,,0,0,0,,so Youngpoong Bookstore is on the first basement floor
+Dialogue: 1,0:02:12.24,0:02:18.02,English,,0,0,0,,and second basement floor, (ah~) but the second basement floor is completely (yes) stationery, not books (yes) (ah,
+Dialogue: 1,0:02:18.02,0:02:19.66,English,,0,0,0,,really?)
+Dialogue: 1,0:02:19.66,0:02:26.06,English,,0,0,0,,I mean notebooks, (ah~) pencils, pens, or cameras, speakers, well, computers...
+Dialogue: 1,0:02:26.06,0:02:27.34,English,,0,0,0,,Choi Kyung-eun: Is that a bookstore?
+Dialogue: 1,0:02:27.34,0:02:28.06,English,,0,0,0,,Sun Hyun-woo:
+Dialogue: 1,0:02:28.06,0:02:28.60,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:28.60,0:02:31.16,English,,0,0,0,,Only the first basement floor is the bookstore.
+Dialogue: 1,0:02:31.16,0:02:34.98,English,,0,0,0,,(Ah~) But in my opinion, (yes) since there's stationery on the second basement floor,
+Dialogue: 1,0:02:34.98,0:02:38.16,English,,0,0,0,,(yes) and electronic goods like that are really plentiful,
+Dialogue: 1,0:02:38.16,0:02:40.64,English,,0,0,0,,I think they are making more money.
+Dialogue: 1,0:02:40.64,0:02:42.60,English,,0,0,0,,Choi Kyung-eun: Ah, I see.
+Dialogue: 1,0:02:42.60,0:02:44.12,English,,0,0,0,,Sun Hyun-woo: Don't you think so?
+Dialogue: 1,0:02:44.12,0:02:45.70,English,,0,0,0,,Choi Kyung-eun: I think so.
+Dialogue: 1,0:02:45.70,0:02:46.66,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:02:46.66,0:02:48.82,English,,0,0,0,,People want to see books too, but
+Dialogue: 1,0:02:48.82,0:02:50.78,English,,0,0,0,,(yes) when they go to a bookstore, they just,
+Dialogue: 1,0:02:50.78,0:02:53.58,English,,0,0,0,,they go just because they want to look at something, right?
+Dialogue: 1,0:02:53.58,0:02:54.10,English,,0,0,0,,Choi Kyung-eun:
+Dialogue: 1,0:02:54.10,0:02:55.54,English,,0,0,0,,Yes, that's right.
+Dialogue: 1,0:02:55.54,0:02:58.80,English,,0,0,0,,Sun Hyun-woo: And they go because they want to spend money, right?
+Dialogue: 1,0:02:58.80,0:03:00.10,English,,0,0,0,,Choi Kyung-eun: Really?
+Dialogue: 1,0:03:00.10,0:03:00.74,English,,0,0,0,,Sun Hyun-woo: Hmm...
+Dialogue: 1,0:03:00.74,0:03:04.10,English,,0,0,0,,Don't they go because they want to spend money?
+Dialogue: 1,0:03:04.10,0:03:04.62,English,,0,0,0,,Choi Kyung-eun: No, of course not.
+Dialogue: 1,0:03:04.62,0:03:12.62,English,,0,0,0,,That's not it, they just (want to have something) went there and because there were so many pretty things, they fell into temptation and bought them.
+Dialogue: 1,0:03:12.62,0:03:14.32,English,,0,0,0,,So they end up spending money.
+Dialogue: 1,0:03:14.32,0:03:14.82,English,,0,0,0,,(Ah...
+Dialogue: 1,0:03:14.60,0:03:15.86,English,,0,0,0,,That could be)
+Dialogue: 1,0:03:15.86,0:03:17.50,English,,0,0,0,,At least I do.
+Dialogue: 1,0:03:17.50,0:03:20.56,English,,0,0,0,,(the case?) Sun Hyun-woo: Of course, I don't want to spend money either.
+Dialogue: 1,0:03:20.56,0:03:25.14,English,,0,0,0,,(yes) But if you spend money, you can make the item yours (yes), right?
+Dialogue: 1,0:03:25.14,0:03:26.82,English,,0,0,0,,(Ah~ yes.)
+Dialogue: 1,0:03:26.82,0:03:28.44,English,,0,0,0,,So you can buy it.
+Dialogue: 1,0:03:28.44,0:03:31.64,English,,0,0,0,,(Yes, that's right.) I go because of that feeling,
+Dialogue: 1,0:03:31.64,0:03:33.86,English,,0,0,0,,(hmm~) but actually I don't buy everything I look at.
+Dialogue: 1,0:03:33.86,0:03:36.50,English,,0,0,0,,Choi Kyung-eun: If you buy everything, you'd be in big trouble.
+Dialogue: 1,0:03:36.50,0:03:37.36,English,,0,0,0,,Sun Hyun-woo: That's right.
+Dialogue: 1,0:03:37.36,0:03:38.98,English,,0,0,0,,You'd run out of money, right?
+Dialogue: 1,0:03:38.98,0:03:40.82,English,,0,0,0,,Choi Kyung-eun: Yes, that would be trouble.
+Dialogue: 1,0:03:40.82,0:03:44.60,English,,0,0,0,,Sun Hyun-woo: Yes, so I go to bookstores and look at books, look at stationery,
+Dialogue: 1,0:03:44.60,0:03:46.36,English,,0,0,0,,look at computers,
+Dialogue: 1,0:03:46.36,0:03:48.48,English,,0,0,0,,(ah~) and look at newly released cameras.
+Dialogue: 1,0:03:48.48,0:03:50.16,English,,0,0,0,,I do that often.
+Dialogue: 1,0:03:50.16,0:03:56.00,English,,0,0,0,,Choi Kyung-eun: Ah~ I also like a bookstore called Bandi & Luni's in Jongno, (hmm~)
+Dialogue: 1,0:03:56.00,0:04:01.40,English,,0,0,0,,and the reason I like that bookstore is because they put chairs in a bookstore for the first time (yes) in our country.
+Dialogue: 1,0:04:01.40,0:04:02.54,English,,0,0,0,,Sun Hyun-woo: That's right.
+Dialogue: 1,0:04:02.54,0:04:03.52,English,,0,0,0,,That's right,
+Dialogue: 1,0:04:03.52,0:04:08.50,English,,0,0,0,,Choi Kyung-eun: Yes, in the past, people always had no choice but to stand (yes) and read books.
+Dialogue: 1,0:04:08.50,0:04:15.54,English,,0,0,0,,(Yes) But at Bandi & Luni's, you can sit on a chair and read books and then buy them, (hmm) so I liked that so much
+Dialogue: 1,0:04:15.54,0:04:18.42,English,,0,0,0,,that since then, I only go to Bandi & Luni's.
+Dialogue: 1,0:04:18.42,0:04:20.24,English,,0,0,0,,Sun Hyun-woo: Yes, it's very convenient.
+Dialogue: 1,0:04:20.24,0:04:22.32,English,,0,0,0,,Choi Kyung-eun: Yes, that's right.
+Dialogue: 1,0:04:22.32,0:04:23.74,English,,0,0,0,,Sun Hyun-woo: But did you know?
+Dialogue: 1,0:04:23.74,0:04:24.24,English,,0,0,0,,Those...
+Dialogue: 1,0:04:24.10,0:04:27.88,English,,0,0,0,,Other bookstores also (yes) have chairs now.
+Dialogue: 1,0:04:27.88,0:04:30.14,English,,0,0,0,,Choi Kyung-eun: Yes, they have them now.
+Dialogue: 1,0:04:30.14,0:04:31.06,English,,0,0,0,,Sun Hyun-woo: Yes, yes.
+Dialogue: 1,0:04:31.06,0:04:36.38,English,,0,0,0,,So I also go to Youngpoong Bookstore, and sometimes I sit in a chair (yes) to read books,
+Dialogue: 1,0:04:36.38,0:04:37.42,English,,0,0,0,,(yes) or sometimes,
+Dialogue: 1,0:04:37.42,0:04:43.00,English,,0,0,0,,yeah, I just stand and read, but I like it because I can look at stationery a lot (ah).
+Dialogue: 1,0:04:43.00,0:04:45.70,English,,0,0,0,,So I go to bookstores often.
+Dialogue: 1,0:04:45.70,0:04:46.20,English,,0,0,0,,(Ah...
+Dialogue: 1,0:04:45.70,0:04:46.46,English,,0,0,0,,) Yes.
+Dialogue: 1,0:04:46.46,0:04:50.08,English,,0,0,0,,Choi Kyung-eun: I purposely avoid going to places with stationery.
+Dialogue: 1,0:04:50.08,0:04:51.90,English,,0,0,0,,(Ah~) Because I end up spending money.
+Dialogue: 1,0:04:51.90,0:04:54.28,English,,0,0,0,,Sun Hyun-woo: Yes~ I understand that too.
+Dialogue: 1,0:04:54.28,0:04:55.62,English,,0,0,0,,Choi Kyung-eun: Yes.
+Dialogue: 1,0:04:55.62,0:04:56.40,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:04:56.40,0:04:58.66,English,,0,0,0,,Everyone, do you go to bookstores often?
+Dialogue: 1,0:04:58.66,0:05:03.46,English,,0,0,0,,And are there bookstores, many large bookstores, near your house?
+Dialogue: 1,0:05:03.46,0:05:06.40,English,,0,0,0,,Choi Kyung-eun: Yes, and do you read
+Dialogue: 1,0:05:06.40,0:05:06.90,English,,0,0,0,,books a lot?
+Dialogue: 1,0:05:06.44,0:05:07.08,English,,0,0,0,,Sun Hyun-woo:
+Dialogue: 1,0:05:07.08,0:05:08.84,English,,0,0,0,,Of course.
+Dialogue: 1,0:05:08.84,0:05:10.40,English,,0,0,0,,Choi Kyung-eun: Oh, is that so?
+Dialogue: 1,0:05:10.40,0:05:11.46,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:05:11.46,0:05:12.78,English,,0,0,0,,Choi Kyung-eun: Ah...
+Dialogue: 1,0:05:12.78,0:05:13.94,English,,0,0,0,,Sun Hyun-woo: Yes,
+Dialogue: 1,0:05:13.94,0:05:19.62,English,,0,0,0,,thank you for listening to the second episode of TalkToMeInKorean.com's Iyagi,
+Dialogue: 1,0:05:19.62,0:05:22.26,English,,0,0,0,,and please tell us your stories.
+Dialogue: 1,0:05:22.26,0:05:24.68,English,,0,0,0,,Choi Kyung-eun: Yes, please leave them in the comments.
+Dialogue: 1,0:05:24.68,0:05:25.60,English,,0,0,0,,Sun Hyun-woo: Yes.
+Dialogue: 1,0:05:25.60,0:05:29.24,English,,0,0,0,,Then we will be waiting for your comments.
+Dialogue: 1,0:05:29.24,0:05:30.88,English,,0,0,0,,Choi Kyung-eun: Goodbye.
+Dialogue: 1,0:05:30.88,0:05:35.88,English,,0,0,0,,Sun Hyun-woo: Goodbye.
