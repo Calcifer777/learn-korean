@@ -1,0 +1,22 @@
+/home/calcifer/git/marco/learn-korean/src/learn_korean/translator_claude.py
+/home/calcifer/git/marco/learn-korean/src/learn_korean/translator_llm.py
+/home/calcifer/git/marco/learn-korean/tests/test_anki.py
+/home/calcifer/git/marco/learn-korean/tests/test_parser.py
+/home/calcifer/git/marco/learn-korean/tests/test_translator.py
+/home/calcifer/git/marco/learn-korean/.claude/commands/kr.md
+/home/calcifer/git/marco/learn-korean/.gemini/skills/ankiflow.md
+/home/calcifer/git/marco/learn-korean/.github/workflows/test.yml
+/home/calcifer/git/marco/learn-korean/.serena/memories/project_purpose.md
+/home/calcifer/git/marco/learn-korean/.serena/memories/style_and_conventions.md
+/home/calcifer/git/marco/learn-korean/.serena/memories/suggested_commands.md
+/home/calcifer/git/marco/learn-korean/.serena/memories/task_completion.md
+/home/calcifer/git/marco/learn-korean/.serena/memories/tech_stack.md
+/home/calcifer/git/marco/learn-korean/.serena/project.local.yml
+/home/calcifer/git/marco/learn-korean/.serena/project.yml
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 01.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 02.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 03.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 04.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 05.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 06.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 07.md

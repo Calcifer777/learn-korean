@@ -1,0 +1,22 @@
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_024_causatives_and_starting_actions/stories.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_025_orientation_and_location/exercises.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_025_orientation_and_location/review.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_025_orientation_and_location/stories.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_026_zoo_and_interaction/exercises.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_026_zoo_and_interaction/review.md
+/home/calcifer/git/marco/learn-korean/study_plan/history/lesson_026_zoo_and_interaction/stories.md
+/home/calcifer/git/marco/learn-korean/study_plan/vocabulary/categories.md
+/home/calcifer/git/marco/learn-korean/study_plan/vocabulary/vocabulary_learning_plan.md
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/IYAGI_Season_2_Natural_Conversations_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_11_20_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_1_10_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_21_30_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_31_40_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_41_50_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_51_60_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_61_70_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/IYAGI/Iyagi_Natural_Talks_in_Korean_71_80_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/hanyang korean/Hanyang korean 1/Hanyang Korean 1 Grammar & Patterns.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/hanyang korean/Hanyang korean 1/Hanyang Korean 1 Textbook.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/hanyang korean/Hanyang korean 1/Hanyang Korean 1 Writing Practice.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/integrated korean/ik1/Integrated Korean Beginning - Level 1 - Textbook - clean.pdf

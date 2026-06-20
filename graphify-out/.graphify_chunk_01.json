@@ -1,0 +1,1003 @@
+{
+  "nodes": [
+    {
+      "id": "learn_korean_pyproject_package",
+      "label": "learn-korean Python Package",
+      "file_type": "code",
+      "source_file": "pyproject.toml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_main",
+      "label": "main() CLI Entry Point",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 420",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_generate_tts",
+      "label": "generate_tts()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 200",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_align_audio_text",
+      "label": "align_audio_text()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 279",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_align_all_audio_text",
+      "label": "align_all_audio_text()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 304",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_transcribe_all_audio",
+      "label": "transcribe_all_audio()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 347",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_translate_dispatch",
+      "label": "_translate() translator dispatch",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 404",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_extract_phrases_dispatch",
+      "label": "_extract_phrases() dispatch",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 412",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_main_process_alignment",
+      "label": "_process_alignment()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 239",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_pos_map",
+      "label": "POS_MAP — Kiwi POS tag mapping",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_extract_words_with_context",
+      "label": "extract_words_with_context()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_process_text_file",
+      "label": "process_text_file()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 96",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_translate_words_simple",
+      "label": "translate_words_simple()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 76",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_save_vocab_to_csv",
+      "label": "save_vocab_to_csv()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 105",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_parser_load_vocab_from_csv",
+      "label": "load_vocab_from_csv()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 111",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_miner_mine_subtitles",
+      "label": "mine_subtitles()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 54",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_miner_parse_lrc",
+      "label": "parse_lrc() — miner variant",
+      "file_type": "code",
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_miner_parse_srt",
+      "label": "parse_srt()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_anki_utils_generate_anki_deck",
+      "label": "generate_anki_deck()",
+      "file_type": "code",
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 157",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_anki_utils_create_bidirectional_model",
+      "label": "create_bidirectional_model() — Context-Aware Korean Vocab v3",
+      "file_type": "code",
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 82",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_anki_utils_get_stable_id",
+      "label": "get_stable_id() — SHA-256 stable Anki IDs",
+      "file_type": "code",
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 77",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_subtitle_build_ass",
+      "label": "build_ass() — bilingual ASS subtitle builder",
+      "file_type": "code",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 90",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_subtitle_mux_mka",
+      "label": "mux_mka() — MKA container muxer via ffmpeg",
+      "file_type": "code",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 106",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_subtitle_parse_lrc",
+      "label": "parse_lrc() — subtitle variant",
+      "file_type": "code",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_subtitle_with_ends",
+      "label": "_with_ends() — derive subtitle end times",
+      "file_type": "code",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "learn_korean_subtitle_to_srt",
+      "label": "_to_srt() — render timed entries as SRT",
+      "file_type": "code",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 82",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vocab_create_anki_create_deck",
+      "label": "create_deck() — legacy Anki deck creator",
+      "file_type": "code",
+      "source_file": "resources/vocab/create_anki.py",
+      "source_location": "line 8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md_architecture",
+      "label": "learn-korean Architecture & Data Flow",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "gemini_md_teaching_methodology",
+      "label": "Korean Language Teaching Methodology & Pedagogy",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "gemini_md_hanja_etymology",
+      "label": "Hanja-Root Etymology Approach",
+      "file_type": "rationale",
+      "source_file": "GEMINI.md",
+      "source_location": "section 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_md_learn_korean_toolkit",
+      "label": "Learn Korean Toolkit — project overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "resources_md_learning_resources",
+      "label": "Korean Learning Resources List",
+      "file_type": "document",
+      "source_file": "RESOURCES.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "iyagi_001_kr_transcript",
+      "label": "Iyagi Episode 1 — 노약자석 (Priority Seats) Korean transcript",
+      "file_type": "document",
+      "source_file": "resources/stories/iyagi/001.kr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "iyagi_002_kr_transcript",
+      "label": "Iyagi Episode 2 — 서점 (Bookstore) Korean transcript",
+      "file_type": "document",
+      "source_file": "resources/stories/iyagi/002.kr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "iyagi_003_kr_transcript",
+      "label": "Iyagi Episode 3 — 스트레스 (Stress) Korean transcript",
+      "file_type": "document",
+      "source_file": "resources/stories/iyagi/003.kr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "iyagi_003_en_transcript",
+      "label": "Iyagi Episode 3 — Stress English translation",
+      "file_type": "document",
+      "source_file": "resources/stories/iyagi/003.en.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_word_dict_schema",
+      "label": "Korean Vocab Word Dict Schema (Korean/POS/ExampleSentence/English/SentenceTranslation/Etymology)",
+      "file_type": "concept",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 41",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_stable_anki_ids",
+      "label": "Stable SHA-256 Anki IDs to prevent duplicate imports",
+      "file_type": "rationale",
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 77",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_bilingual_mka",
+      "label": "Bilingual MKA container with ASS + dual SRT tracks",
+      "file_type": "concept",
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_catppuccin_frappe_theme",
+      "label": "Catppuccin Frappé CSS theme for Anki cards",
+      "file_type": "concept",
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_kiwi_morphological_analysis",
+      "label": "Kiwi morphological analysis for Korean lemma extraction",
+      "file_type": "concept",
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_translator_backends",
+      "label": "Pluggable translator backends (claude / gemini / simple)",
+      "file_type": "rationale",
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 404",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_lrc_format",
+      "label": "LRC synchronized subtitle format",
+      "file_type": "concept",
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_iyagi_series",
+      "label": "TTMIK Iyagi — Korean listening story series (Talk To Me In Korean)",
+      "file_type": "concept",
+      "source_file": "resources/stories/iyagi/001.kr.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_parser_process_text_file",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 747",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_parser_save_vocab_to_csv",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 771",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_parser_load_vocab_from_csv",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 835",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_anki_utils_generate_anki_deck",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 774",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_miner_mine_subtitles",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 821",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_subtitle_build_ass",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 875",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_subtitle_mux_mka",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 879",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_main_align_audio_text",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 851",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_main_align_all_audio_text",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 854",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_main_transcribe_all_audio",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 857",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_main_translate_dispatch",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 769",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_main",
+      "target": "learn_korean_main_extract_phrases_dispatch",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 762",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_align_audio_text",
+      "target": "learn_korean_main_process_alignment",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 293",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_align_all_audio_text",
+      "target": "learn_korean_main_process_alignment",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 338",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_parser_process_text_file",
+      "target": "learn_korean_parser_extract_words_with_context",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 102",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "learn_korean_miner_parse_lrc",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 62",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "learn_korean_miner_parse_srt",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 64",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "learn_korean_parser_pos_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 80",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_parser_extract_words_with_context",
+      "target": "learn_korean_parser_pos_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 35",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_anki_utils_generate_anki_deck",
+      "target": "learn_korean_anki_utils_create_bidirectional_model",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 163",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_anki_utils_create_bidirectional_model",
+      "target": "learn_korean_anki_utils_get_stable_id",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 84",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_anki_utils_generate_anki_deck",
+      "target": "learn_korean_anki_utils_get_stable_id",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 162",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_build_ass",
+      "target": "learn_korean_subtitle_parse_lrc",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 92",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_build_ass",
+      "target": "learn_korean_subtitle_with_ends",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 92",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_mux_mka",
+      "target": "learn_korean_subtitle_parse_lrc",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 120",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_mux_mka",
+      "target": "learn_korean_subtitle_with_ends",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 120",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_mux_mka",
+      "target": "learn_korean_subtitle_to_srt",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 120",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_anki_utils_get_stable_id",
+      "target": "concept_stable_anki_ids",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 77",
+      "weight": 0.9
+    },
+    {
+      "source": "learn_korean_anki_utils_create_bidirectional_model",
+      "target": "concept_catppuccin_frappe_theme",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 7",
+      "weight": 0.8
+    },
+    {
+      "source": "learn_korean_parser_extract_words_with_context",
+      "target": "concept_kiwi_morphological_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 23",
+      "weight": 0.9
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "concept_kiwi_morphological_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 60",
+      "weight": 0.9
+    },
+    {
+      "source": "learn_korean_parser_extract_words_with_context",
+      "target": "concept_word_dict_schema",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/parser.py",
+      "source_location": "line 41",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_anki_utils_generate_anki_deck",
+      "target": "concept_word_dict_schema",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/anki_utils.py",
+      "source_location": "line 157",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "concept_word_dict_schema",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 120",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_main_translate_dispatch",
+      "target": "concept_translator_backends",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/__main__.py",
+      "source_location": "line 404",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_mux_mka",
+      "target": "concept_bilingual_mka",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 106",
+      "weight": 1.0
+    },
+    {
+      "source": "learn_korean_subtitle_build_ass",
+      "target": "concept_bilingual_mka",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 90",
+      "weight": 0.9
+    },
+    {
+      "source": "iyagi_001_kr_transcript",
+      "target": "concept_iyagi_series",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "resources/stories/iyagi/001.kr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "iyagi_002_kr_transcript",
+      "target": "concept_iyagi_series",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "resources/stories/iyagi/002.kr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "iyagi_003_kr_transcript",
+      "target": "concept_iyagi_series",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "resources/stories/iyagi/003.kr.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "iyagi_003_en_transcript",
+      "target": "iyagi_003_kr_transcript",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "resources/stories/iyagi/003.en.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "gemini_md_teaching_methodology",
+      "target": "gemini_md_hanja_etymology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "GEMINI.md",
+      "source_location": "section 2",
+      "weight": 0.9
+    },
+    {
+      "source": "claude_md_architecture",
+      "target": "readme_md_learn_korean_toolkit",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "vocab_create_anki_create_deck",
+      "target": "learn_korean_anki_utils_generate_anki_deck",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "resources/vocab/create_anki.py",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "learn_korean_miner_parse_lrc",
+      "target": "learn_korean_subtitle_parse_lrc",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "learn_korean_miner_mine_subtitles",
+      "target": "concept_lrc_format",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py",
+      "source_location": "line 62",
+      "weight": 0.8
+    },
+    {
+      "source": "learn_korean_subtitle_parse_lrc",
+      "target": "concept_lrc_format",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py",
+      "source_location": "line 35",
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "process_text_pipeline",
+      "label": "process-text end-to-end pipeline: parser → translator → anki",
+      "nodes": [
+        "learn_korean_parser_process_text_file",
+        "learn_korean_main_translate_dispatch",
+        "learn_korean_anki_utils_generate_anki_deck"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "lrc_to_mka_pipeline",
+      "label": "lrc-to-mka pipeline: parse_lrc → build_ass → mux_mka",
+      "nodes": [
+        "learn_korean_subtitle_parse_lrc",
+        "learn_korean_subtitle_build_ass",
+        "learn_korean_subtitle_mux_mka"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/subtitle.py"
+    },
+    {
+      "id": "kiwi_pos_map_shared",
+      "label": "Kiwi morphological analysis shared between parser and miner via POS_MAP",
+      "nodes": [
+        "learn_korean_parser_pos_map",
+        "learn_korean_parser_extract_words_with_context",
+        "learn_korean_miner_mine_subtitles"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/learn_korean/miner.py"
+    }
+  ],
+  "input_tokens": 12000,
+  "output_tokens": 3200
+}

@@ -1,0 +1,22 @@
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 08.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 09.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 10.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 11.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 12.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 13.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 14.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 15.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 16.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 17.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Easy Korean Reading For Beginners/Story 18.md
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/links.txt
+/home/calcifer/git/marco/learn-korean/resources/TTMIK/Talk To Me In Korean.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/fluent-forever.md
+/home/calcifer/git/marco/learn-korean/resources/books/other.md
+/home/calcifer/git/marco/learn-korean/resources/books/2141）한글 마스터 Become a Hangeul Master (TalkToMeInKorean) (z-lib.org).pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Build_Extend_Your_Korean_Sentences_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Fan_Letter_Recipes_Talk_to_Me_in_Kor_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Korean_Short_Stories_for_Beginners_20_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Korean_Through_Podcasts_A_Piece_of_K_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/News_In_Korean_TalkToMeInKorean_z_library_sk,_1lib_sk,_z_lib.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Reading_Korean_for_Beginners_Alive_K_z_library_sk,_1lib_sk,.pdf

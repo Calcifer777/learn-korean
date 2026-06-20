@@ -1,0 +1,22 @@
+/home/calcifer/git/marco/learn-korean/resources/books/Real_Life_Korean_Conversations_Interm_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/Short_Stories_for_Intermediate_Learne_z_library_sk,_1lib_sk,.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/TTMIK - Level 1 (TTMIK) (Z-Library).pdf
+/home/calcifer/git/marco/learn-korean/resources/books/혼자서_배울_수_있는_조선_말_1_Learn_Korean_On_Z_Library.pdf
+/home/calcifer/git/marco/learn-korean/resources/books/서강 한국어 /README.md
+/home/calcifer/git/marco/learn-korean/resources/books/서강 한국어 /1a-program.jpg
+/home/calcifer/git/marco/learn-korean/resources/books/서강 한국어 /1b-program.jpg
+/home/calcifer/git/marco/learn-korean/resources/books/서강 한국어 /2a-program.jpg
+/home/calcifer/git/marco/learn-korean/resources/books/서강 한국어 /2b-program.jpg
+/home/calcifer/git/marco/learn-korean/resources/idioms.txt
+/home/calcifer/git/marco/learn-korean/resources/magazines/list.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/001.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/001.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/001.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/003.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/003.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/003.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/005.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/005.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/005.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/007.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/Korean_Folktales_in_Everyday_Conversation/007.kr.md

@@ -1,0 +1,22 @@
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/001/001.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/001/link.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/002.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/002.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/002.txt
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/003.en.md
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/003.kr.md
+/home/calcifer/git/marco/learn-korean/resources/stories/womensense/003.kr.original.md
+/home/calcifer/git/marco/learn-korean/resources/trip/document.md
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/001/vocab.txt
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/001/For Marco.F_Verbs (note+hw)-2.pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/001/For Marco.F_Verbs (note+hw)-filled.pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/009/vocab.txt
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/009/For Marco.F_-을 거예요 (hw feedback).pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/009/For Marco.F_형용사 (note+hw) + ans.pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/009/For Marco.F_형용사 (note+hw).pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/010/letter.txt
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/010/exercises.pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/015/letter.txt
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/015/For Marco.F_-아,어야 해요 (note+hw).pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/lessons/015/For Marco.F_-을까요 & 읽기, 듣기 (note+hw).pdf
+/home/calcifer/git/marco/learn-korean/resources/yeoeun/stories/001.md
