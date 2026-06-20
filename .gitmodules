@@ -1,0 +1,3 @@
+[submodule ".claude/commands/language-tutor"]
+	path = .claude/commands/language-tutor
+	url = https://github.com/gislio/claude-language-tutor.git

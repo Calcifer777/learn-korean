@@ -1,0 +1,22 @@
+{
+  "learner_id": "marco",
+  "target_language": "Korean",
+  "native_language": "Italian",
+  "instruction_language": "English",
+  "initial_assessment_date": "2026-06-20",
+  "current_cefr_level": "A2",
+  "cefr_by_skill": {
+    "reading": "A2",
+    "writing": "A1",
+    "listening": "A2",
+    "speaking": "A1",
+    "vocabulary": "A2",
+    "grammar": "A2"
+  },
+  "assessment_notes": "Knows A2 patterns (-고 있다, -려고 하다, -ㄹ 수 있다, -고 sequencing) but spelling and particle accuracy are A1. Reading comprehension gets the gist but misses details. Completed 서강 한국어 1A/1B/2A/2B.",
+  "goals": ["travel", "watch K-dramas", "eventually live in Korea"],
+  "daily_commitment_minutes": 60,
+  "target_cefr_level": "B1",
+  "estimated_hours_to_target": 350,
+  "completed_courses": ["서강 한국어 1A", "서강 한국어 1B", "서강 한국어 2A", "서강 한국어 2B"]
+}
