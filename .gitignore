@@ -1,4 +1,7 @@
 *.mp3
+*.m4a
+*.mka
+*.wav
 *.zip
 .DS_Store
 .env

@@ -1,0 +1,497 @@
+[Script Info]
+Title: Bilingual Korean/English
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Korean,Noto Sans CJK KR,58,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,40,40,25,1
+Style: English,Arial,40,&H00FFE8D0,&H000000FF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,2,1,8,40,40,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:00.72,Korean,,0,0,0,,안녕하세요.
+Dialogue: 0,0:00:00.72,0:00:01.22,Korean,,0,0,0,,Talk To Me In Korean의 이야기입니다.
+Dialogue: 0,0:00:00.72,0:00:01.22,Korean,,0,0,0,,안녕하세요.
+Dialogue: 0,0:00:00.72,0:00:01.22,Korean,,0,0,0,,최경은입니다.
+Dialogue: 0,0:00:00.72,0:00:01.26,Korean,,0,0,0,,안녕하세요.
+Dialogue: 0,0:00:01.26,0:00:02.36,Korean,,0,0,0,,진석진입니다.
+Dialogue: 0,0:00:02.36,0:00:05.12,Korean,,0,0,0,,네, 이야기 세 번째 시간입니다.
+Dialogue: 0,0:00:05.12,0:00:06.72,Korean,,0,0,0,,석진 씨, 안녕하세요?
+Dialogue: 0,0:00:06.72,0:00:08.16,Korean,,0,0,0,,네, 안녕하세요.
+Dialogue: 0,0:00:08.16,0:00:09.84,Korean,,0,0,0,,벌써 세 번째에요.
+Dialogue: 0,0:00:09.84,0:00:12.82,Korean,,0,0,0,,네, 벌써 세 번째 시간인데요.
+Dialogue: 0,0:00:12.82,0:00:17.30,Korean,,0,0,0,,한국 사람한테 3이라는 숫자가 아주 의미가 있는 것 같아요.
+Dialogue: 0,0:00:17.30,0:00:19.16,Korean,,0,0,0,,의미가 있다고요?
+Dialogue: 0,0:00:19.16,0:00:19.94,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:19.94,0:00:22.08,Korean,,0,0,0,,어떤 의미가 있죠?
+Dialogue: 0,0:00:22.08,0:00:22.86,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:00:22.86,0:00:25.42,Korean,,0,0,0,,음… 하루에 밥을 세끼 먹잖아요?
+Dialogue: 0,0:00:25.42,0:00:25.96,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:25.96,0:00:27.60,Korean,,0,0,0,,밥을 세 번 먹죠.
+Dialogue: 0,0:00:27.60,0:00:29.10,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:29.10,0:00:32.86,Korean,,0,0,0,,가위바위보를 할 때도 삼세판이란 말도 있고요.
+Dialogue: 0,0:00:32.86,0:00:37.44,Korean,,0,0,0,,세 번을 해서, 세 번을 먼저 이긴 사람이 승자가 되는 거죠.
+Dialogue: 0,0:00:37.44,0:00:38.98,Korean,,0,0,0,,네, 맞아요.
+Dialogue: 0,0:00:38.98,0:00:43.14,Korean,,0,0,0,,석진 씨는 그러면 숫자들 중에서 3이 젤 좋아요?
+Dialogue: 0,0:00:43.14,0:00:43.76,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:43.76,0:00:45.32,Korean,,0,0,0,,저 3 좋고요.
+Dialogue: 0,0:00:45.32,0:00:46.94,Korean,,0,0,0,,13도 좋아요.
+Dialogue: 0,0:00:46.94,0:00:48.52,Korean,,0,0,0,,13이요?
+Dialogue: 0,0:00:48.52,0:00:49.62,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:49.62,0:00:52.18,Korean,,0,0,0,,13은 안 좋은 숫자 아니에요?
+Dialogue: 0,0:00:52.18,0:00:52.78,Korean,,0,0,0,,네.
+Dialogue: 0,0:00:52.78,0:00:55.68,Korean,,0,0,0,,미국에서는 좀 안 좋은 숫자인데요?
+Dialogue: 0,0:00:55.68,0:00:57.48,Korean,,0,0,0,,13일의 금요일.
+Dialogue: 0,0:00:57.48,0:00:59.32,Korean,,0,0,0,,그런 영화도 있잖아요?
+Dialogue: 0,0:00:59.32,0:01:01.56,Korean,,0,0,0,,그런데 제가 좋아하는 선수,
+Dialogue: 0,0:01:01.56,0:01:04.78,Korean,,0,0,0,,박지성 선수의 등 번호가 13번 이라서
+Dialogue: 0,0:01:04.78,0:01:07.50,Korean,,0,0,0,,제가 13번을 정말 좋아해요.
+Dialogue: 0,0:01:07.50,0:01:08.00,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:01:07.76,0:01:09.08,Korean,,0,0,0,,그렇군요 ...
+Dialogue: 0,0:01:09.08,0:01:13.72,Korean,,0,0,0,,그런데 석진 씨 오늘 우리 숫자에 대해서 이야기하나요?
+Dialogue: 0,0:01:13.72,0:01:14.22,Korean,,0,0,0,,아니요.
+Dialogue: 0,0:01:14.22,0:01:15.38,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:01:15.38,0:01:16.64,Korean,,0,0,0,,네.
+Dialogue: 0,0:01:16.64,0:01:18.42,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:01:18.42,0:01:19.68,Korean,,0,0,0,,네.
+Dialogue: 0,0:01:19.68,0:01:21.32,Korean,,0,0,0,,경은 씨?
+Dialogue: 0,0:01:21.32,0:01:22.58,Korean,,0,0,0,,네?
+Dialogue: 0,0:01:22.58,0:01:23.14,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:01:23.14,0:01:25.74,Korean,,0,0,0,,지금 스트레스 쌓이죠?
+Dialogue: 0,0:01:25.74,0:01:28.92,Korean,,0,0,0,,계속 부르니까 스트레스 쌓이죠?
+Dialogue: 0,0:01:28.92,0:01:29.42,Korean,,0,0,0,,네.
+Dialogue: 0,0:01:29.16,0:01:29.76,Korean,,0,0,0,,석진 씨.
+Dialogue: 0,0:01:29.76,0:01:30.98,Korean,,0,0,0,,그만 좀 불러요.
+Dialogue: 0,0:01:30.98,0:01:33.30,Korean,,0,0,0,,왜 이렇게 귀찮게 불러요.
+Dialogue: 0,0:01:33.30,0:01:36.40,Korean,,0,0,0,,오늘 주제가 스트레스잖아요.
+Dialogue: 0,0:01:36.40,0:01:37.90,Korean,,0,0,0,,아, 오늘의 주제가?
+Dialogue: 0,0:01:37.90,0:01:39.26,Korean,,0,0,0,,스트레스.
+Dialogue: 0,0:01:39.26,0:01:42.24,Korean,,0,0,0,,스트레스 쌓이는 거에 대한 주제인가요?
+Dialogue: 0,0:01:42.24,0:01:43.30,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:01:43.30,0:01:44.40,Korean,,0,0,0,,아니요.
+Dialogue: 0,0:01:44.40,0:01:47.26,Korean,,0,0,0,,스트레스를 어떻게 하면 잘 풀 수 있을까.
+Dialogue: 0,0:01:47.26,0:01:47.76,Korean,,0,0,0,,네.
+Dialogue: 0,0:01:47.58,0:01:49.64,Korean,,0,0,0,,그것에 대해서 이야기해 봐요.
+Dialogue: 0,0:01:49.64,0:01:51.00,Korean,,0,0,0,,아, 좋아요.
+Dialogue: 0,0:01:51.00,0:01:58.08,Korean,,0,0,0,,풀 수 있는 석진 씨만의 방법이 있나요?
+Dialogue: 0,0:01:58.08,0:02:02.78,Korean,,0,0,0,,스트레스에는 한 가지만 있는 게 아니에요.
+Dialogue: 0,0:02:02.78,0:02:06.32,Korean,,0,0,0,,일이 너무 많아서 힘들 때
+Dialogue: 0,0:02:06.32,0:02:10.34,Korean,,0,0,0,,또 여자친구가 없어서 외로워서 생기는 그 스트레스
+Dialogue: 0,0:02:10.34,0:02:10.90,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:10.90,0:02:13.76,Korean,,0,0,0,,그리고 부모님이 보고 싶어서
+Dialogue: 0,0:02:13.76,0:02:14.26,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:14.06,0:02:18.34,Korean,,0,0,0,,석진씨는 지금 부모님하고 따로 떨어져 살죠?
+Dialogue: 0,0:02:18.34,0:02:19.64,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:02:19.64,0:02:22.90,Korean,,0,0,0,,부모님 보러 가려면 한 4시간을 차를 타야 돼요.
+Dialogue: 0,0:02:22.90,0:02:24.46,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:24.46,0:02:26.96,Korean,,0,0,0,,그런 그리움이 있어요.
+Dialogue: 0,0:02:26.96,0:02:27.46,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:27.22,0:02:33.00,Korean,,0,0,0,,그런 그리움 때문에 나오는 스트레스가 따로 있는데 먼저 나오는 스트레스를
+Dialogue: 0,0:02:33.00,0:02:35.92,Korean,,0,0,0,,어떻게 푸는지 알려 드리겠어요.
+Dialogue: 0,0:02:35.92,0:02:40.62,Korean,,0,0,0,,그 스트레스 종류에 따라서 푸는 방법이 다 달라요?
+Dialogue: 0,0:02:40.62,0:02:42.00,Korean,,0,0,0,,다르죠 ...
+Dialogue: 0,0:02:42.00,0:02:44.28,Korean,,0,0,0,,네, 말해 주세요.
+Dialogue: 0,0:02:44.28,0:02:44.84,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:44.84,0:02:49.52,Korean,,0,0,0,,일이 많았을 때는 그때 그때 잘 풀어 줘야 돼요.
+Dialogue: 0,0:02:49.52,0:02:53.38,Korean,,0,0,0,,그러니까 어떻게 그때 그때 잘 풀죠?
+Dialogue: 0,0:02:53.38,0:02:53.92,Korean,,0,0,0,,네.
+Dialogue: 0,0:02:53.92,0:02:57.34,Korean,,0,0,0,,한국에는 지금 노래방이 정말 많아요.
+Dialogue: 0,0:02:57.34,0:03:00.36,Korean,,0,0,0,,저 노래 부르는 거 정말 좋아하거든요.
+Dialogue: 0,0:03:00.36,0:03:00.86,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:03:00.84,0:03:02.30,Korean,,0,0,0,,그래요?
+Dialogue: 0,0:03:02.30,0:03:02.86,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:02.86,0:03:04.38,Korean,,0,0,0,,노래방을 갑니다.
+Dialogue: 0,0:03:04.38,0:03:05.76,Korean,,0,0,0,,그리고 신나는 노래
+Dialogue: 0,0:03:05.76,0:03:06.26,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:06.20,0:03:09.48,Korean,,0,0,0,,소리를 막 지를 수 있는 그런 노래를 골라서
+Dialogue: 0,0:03:09.48,0:03:12.36,Korean,,0,0,0,,노브레인이라는 밴드가 있어요.
+Dialogue: 0,0:03:12.36,0:03:18.76,Korean,,0,0,0,,사실 저희 Talk To Me In Korean을 들으시는 많은 분들은 한국 노래를 굉장히 좋아하잖아요.
+Dialogue: 0,0:03:18.76,0:03:20.82,Korean,,0,0,0,,그렇죠.
+Dialogue: 0,0:03:20.82,0:03:23.90,Korean,,0,0,0,,노래방도 굉장히 좋아하실 것 같은데
+Dialogue: 0,0:03:23.90,0:03:30.14,Korean,,0,0,0,,노래방에 가서 그런 노래를 부르는 게 스트레스를 푸는 데 도움이 많이 되는 군요?
+Dialogue: 0,0:03:30.14,0:03:30.78,Korean,,0,0,0,,네.
+Dialogue: 0,0:03:30.78,0:03:35.60,Korean,,0,0,0,,한 시간 동안 노래를 딱 부르고 나면, 기분이 정말 좋아져요.
+Dialogue: 0,0:03:35.60,0:03:38.78,Korean,,0,0,0,,진석진 씨 혹시 그런 사람 아니에요?
+Dialogue: 0,0:03:38.78,0:03:43.78,Korean,,0,0,0,,노래방에서 꼴불견 1위, 마이크를 절대 놓지 않는다.
+Dialogue: 0,0:03:43.78,0:03:45.84,Korean,,0,0,0,,그래서 전 혼자 가요.
+Dialogue: 0,0:03:45.84,0:03:46.52,Korean,,0,0,0,,최경은:
+Dialogue: 0,0:03:46.52,0:03:49.10,Korean,,0,0,0,,혼자 노래방에 간 적도 있어요?
+Dialogue: 0,0:03:49.10,0:03:52.02,Korean,,0,0,0,,두 명 까지는 가 봤는데 최경은:
+Dialogue: 0,0:03:52.02,0:03:53.56,Korean,,0,0,0,,혼자 간 적은 없어요?
+Dialogue: 0,0:03:53.56,0:03:55.68,Korean,,0,0,0,,혼자 간 적은 아직 없어요.
+Dialogue: 0,0:03:55.68,0:03:56.24,Korean,,0,0,0,,최경은:
+Dialogue: 0,0:03:56.24,0:03:57.94,Korean,,0,0,0,,어, 다행이네요.
+Dialogue: 0,0:03:57.94,0:03:59.80,Korean,,0,0,0,,그런 적 있어요.
+Dialogue: 0,0:03:59.80,0:04:02.60,Korean,,0,0,0,,집에서 노래 반주를 켜 놓고
+Dialogue: 0,0:04:02.60,0:04:06.18,Korean,,0,0,0,,혼자 이불을 뒤집어 쓰고 부른 적 있어요.
+Dialogue: 0,0:04:06.18,0:04:06.68,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:04:06.48,0:04:08.46,Korean,,0,0,0,,그거는 괜찮을 것 같아요.
+Dialogue: 0,0:04:08.46,0:04:09.22,Korean,,0,0,0,,저는.
+Dialogue: 0,0:04:09.22,0:04:13.66,Korean,,0,0,0,,저는 사실 노래를 못 해서 노래방 가는 걸 싫어하거든요.
+Dialogue: 0,0:04:13.66,0:04:16.80,Korean,,0,0,0,,언제, 경은 씨 노래 한번 듣고 싶은데, 최경은:
+Dialogue: 0,0:04:16.80,0:04:18.44,Korean,,0,0,0,,아우, 저는 싫어합니다.
+Dialogue: 0,0:04:18.44,0:04:20.90,Korean,,0,0,0,,진석진 씨가 불러 주세요.
+Dialogue: 0,0:04:20.90,0:04:22.06,Korean,,0,0,0,,언제?
+Dialogue: 0,0:04:22.06,0:04:22.62,Korean,,0,0,0,,최경은:
+Dialogue: 0,0:04:22.62,0:04:23.48,Korean,,0,0,0,,지금.
+Dialogue: 0,0:04:23.48,0:04:25.34,Korean,,0,0,0,,지금이요?
+Dialogue: 0,0:04:25.34,0:04:26.68,Korean,,0,0,0,,네.
+Dialogue: 0,0:04:26.68,0:04:28.02,Korean,,0,0,0,,아유,
+Dialogue: 0,0:04:28.02,0:04:31.98,Korean,,0,0,0,,여자 앞에서는 조금 감미로운 노래를 불러야 되는데 최경은:
+Dialogue: 0,0:04:31.98,0:04:35.96,Korean,,0,0,0,,석진 씨가 지금 노래 부르면 스트레스가 풀릴 것 같아요.
+Dialogue: 0,0:04:35.96,0:04:36.84,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:04:36.84,0:04:38.34,Korean,,0,0,0,,지금 화났어요?
+Dialogue: 0,0:04:38.34,0:04:40.72,Korean,,0,0,0,,지금 스트레스 쌓여요?
+Dialogue: 0,0:04:40.72,0:04:45.54,Korean,,0,0,0,,요즘에 조금 피곤해서 스트레스가 많이 쌓였거든요.
+Dialogue: 0,0:04:45.54,0:04:51.26,Korean,,0,0,0,,저는 사실 노래를 부르는 것보다 노래 들으면서 스트레스를 많이 풀어요.
+Dialogue: 0,0:04:51.26,0:04:55.86,Korean,,0,0,0,,제가 좋아하는 노래를 들으면 스트레스가 많이 풀리더라고요.
+Dialogue: 0,0:04:55.86,0:04:57.96,Korean,,0,0,0,,그러니까 불러 주세요.
+Dialogue: 0,0:04:57.96,0:05:00.14,Korean,,0,0,0,,"있을 때 잘 해,
+Dialogue: 0,0:05:00.14,0:05:02.22,Korean,,0,0,0,,후회하지 말고 ,"
+Dialogue: 0,0:05:02.22,0:05:05.50,Korean,,0,0,0,,저 있을 때 잘 해 주세요.
+Dialogue: 0,0:05:05.50,0:05:08.90,Korean,,0,0,0,,다른 스트레스를 푸는 방법은 뭐가 있죠?
+Dialogue: 0,0:05:08.90,0:05:11.12,Korean,,0,0,0,,두 번째 스트레스.
+Dialogue: 0,0:05:11.12,0:05:14.86,Korean,,0,0,0,,외로워서.
+Dialogue: 0,0:05:14.86,0:05:16.98,Korean,,0,0,0,,여자 친구가 없어서.
+Dialogue: 0,0:05:16.98,0:05:18.80,Korean,,0,0,0,,그런 외로움.
+Dialogue: 0,0:05:18.80,0:05:21.18,Korean,,0,0,0,,보통 여자친구가 없을 때
+Dialogue: 0,0:05:21.18,0:05:22.24,Korean,,0,0,0,,보통
+Dialogue: 0,0:05:22.24,0:05:25.94,Korean,,0,0,0,,여자친구들한테 친한 친구들한테 전화 거는 사람들이 많아요.
+Dialogue: 0,0:05:25.94,0:05:28.46,Korean,,0,0,0,,특히 밤 늦은 시간에.
+Dialogue: 0,0:05:28.46,0:05:29.70,Korean,,0,0,0,,그러면 안되죠.
+Dialogue: 0,0:05:29.70,0:05:33.00,Korean,,0,0,0,,그러면 여자들이 스트레스를 받겠죠?
+Dialogue: 0,0:05:33.00,0:05:35.36,Korean,,0,0,0,,네, 정말 그런 건 안 좋아요.
+Dialogue: 0,0:05:35.36,0:05:37.66,Korean,,0,0,0,,그럴 때는 다른 방법이 없어요.
+Dialogue: 0,0:05:37.66,0:05:41.26,Korean,,0,0,0,,그냥 자야 돼요.
+Dialogue: 0,0:05:41.26,0:05:42.02,Korean,,0,0,0,,네,
+Dialogue: 0,0:05:42.02,0:05:44.58,Korean,,0,0,0,,다른 사람들한테 피해 주지 말고
+Dialogue: 0,0:05:44.58,0:05:49.18,Korean,,0,0,0,,그냥 하룻밤 딱 자고 나면 그 다음날 이런 생각을 하죠.
+Dialogue: 0,0:05:49.18,0:05:52.06,Korean,,0,0,0,,'아, 참 전화 안 하길 정말 잘했다.'
+Dialogue: 0,0:05:52.06,0:05:52.56,Korean,,0,0,0,,네.
+Dialogue: 0,0:05:52.54,0:05:53.62,Korean,,0,0,0,,석진 씨.
+Dialogue: 0,0:05:53.62,0:05:57.08,Korean,,0,0,0,,저한테 전화하지 말고 좀 자요?
+Dialogue: 0,0:05:57.08,0:05:57.64,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:05:57.64,0:06:00.78,Korean,,0,0,0,,그래도 제가 전화할 때가 경은 씨 밖에 없는데 ...
+Dialogue: 0,0:06:00.78,0:06:01.40,Korean,,0,0,0,,최경은:
+Dialogue: 0,0:06:01.40,0:06:02.32,Korean,,0,0,0,,알겠습니다.
+Dialogue: 0,0:06:02.32,0:06:03.12,Korean,,0,0,0,,그리고요?
+Dialogue: 0,0:06:03.12,0:06:04.58,Korean,,0,0,0,,다른 방법은요?
+Dialogue: 0,0:06:04.58,0:06:07.24,Korean,,0,0,0,,네, 엄마가 보고 싶을 때.
+Dialogue: 0,0:06:07.24,0:06:10.54,Korean,,0,0,0,,부모님이 보고 싶을 때는 한 번 울어 주세요.
+Dialogue: 0,0:06:10.54,0:06:16.04,Korean,,0,0,0,,한국에서는 근데 남자들이 울면 안 좋다라는 이야기가 많잖아요.
+Dialogue: 0,0:06:16.04,0:06:19.26,Korean,,0,0,0,,터프한 남자는 절대 울면 안 된다.
+Dialogue: 0,0:06:19.26,0:06:19.80,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:19.80,0:06:22.64,Korean,,0,0,0,,터프한 남자는 절대 울지 않습니다.
+Dialogue: 0,0:06:22.64,0:06:25.52,Korean,,0,0,0,,특히 남이 보는 데서 울지 않습니다.
+Dialogue: 0,0:06:25.52,0:06:26.02,Korean,,0,0,0,,아,
+Dialogue: 0,0:06:25.80,0:06:27.32,Korean,,0,0,0,,집에서 혼자
+Dialogue: 0,0:06:27.32,0:06:31.88,Korean,,0,0,0,,이불 뒤집어 쓰고 많이 울었나요?
+Dialogue: 0,0:06:31.88,0:06:34.02,Korean,,0,0,0,,군대 있을 때 많이 울었어요.
+Dialogue: 0,0:06:34.02,0:06:36.26,Korean,,0,0,0,,부모님 보고 싶어서?
+Dialogue: 0,0:06:36.26,0:06:36.98,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:36.98,0:06:39.04,Korean,,0,0,0,,한번 전화 걸었는데
+Dialogue: 0,0:06:39.04,0:06:44.90,Korean,,0,0,0,,부모님 앞에서 울기는 좀 그렇고, 그냥 전화를 끊고 나서 좀 울었었죠.
+Dialogue: 0,0:06:44.90,0:06:50.94,Korean,,0,0,0,,이렇게 우는 게 좋은 이유는 한 번 울고 나면 정말 힘이 생겨요.
+Dialogue: 0,0:06:50.94,0:06:51.44,Korean,,0,0,0,,네.
+Dialogue: 0,0:06:51.38,0:06:58.00,Korean,,0,0,0,,개운해지고 다음에 더 힘을 낼 수 있는 그런 힘이 생기는 것 같아요.
+Dialogue: 0,0:06:58.00,0:06:59.74,Korean,,0,0,0,,네, 경은 씨는?
+Dialogue: 0,0:06:59.74,0:07:03.38,Korean,,0,0,0,,저는 그냥 단순하게 스트레스 받으면 자요.
+Dialogue: 0,0:07:03.38,0:07:04.56,Korean,,0,0,0,,많이 자고요.
+Dialogue: 0,0:07:04.56,0:07:06.34,Korean,,0,0,0,,그리고 음 ...
+Dialogue: 0,0:07:06.34,0:07:09.06,Korean,,0,0,0,,맛있는 음식 먹으러 갈 때도 있고요.
+Dialogue: 0,0:07:09.06,0:07:14.32,Korean,,0,0,0,,저는 진짜 맛있는 음식 먹으면 스트레스가 많이 풀리는 것 같아요.
+Dialogue: 0,0:07:14.32,0:07:16.82,Korean,,0,0,0,,그래서 요즘 경은 씨가 ...
+Dialogue: 0,0:07:16.82,0:07:17.52,Korean,,0,0,0,,네 ...
+Dialogue: 0,0:07:17.52,0:07:18.92,Korean,,0,0,0,,좀 ...
+Dialogue: 0,0:07:18.92,0:07:21.09,Korean,,0,0,0,,아, 살이 쪘어요?
+Dialogue: 0,0:07:21.09,0:07:25.18,Korean,,0,0,0,,운동하겠습니다.
+Dialogue: 0,0:07:25.18,0:07:27.84,Korean,,0,0,0,,석진 씨 때문에 스트레스 받는 거예요.
+Dialogue: 0,0:07:27.84,0:07:30.32,Korean,,0,0,0,,살쪘다고 말하지 마세요.
+Dialogue: 0,0:07:30.32,0:07:32.70,Korean,,0,0,0,,네, 죄송합니다.
+Dialogue: 0,0:07:32.70,0:07:35.24,Korean,,0,0,0,,그리고 맛있는 음식도 먹고,
+Dialogue: 0,0:07:35.24,0:07:40.70,Korean,,0,0,0,,여자들은 보통 친구들하고 수다를 떨면서 스트레스를 풀잖아요?
+Dialogue: 0,0:07:40.70,0:07:44.36,Korean,,0,0,0,,저도 마찬가지로 친구들 만나서 이야기하고,
+Dialogue: 0,0:07:44.36,0:07:49.26,Korean,,0,0,0,,또 맛있는 음식 먹고 이러면서 스트레스 많이 풀고요.
+Dialogue: 0,0:07:49.26,0:07:52.80,Korean,,0,0,0,,그리고 좋은 책 골라서 읽으려고 노력하고.
+Dialogue: 0,0:07:52.80,0:07:54.40,Korean,,0,0,0,,그런 것들?
+Dialogue: 0,0:07:54.40,0:07:58.14,Korean,,0,0,0,,조금 어떻게 보면 평범한 것들인 것 같아요.
+Dialogue: 0,0:07:58.14,0:07:59.52,Korean,,0,0,0,,음 ...
+Dialogue: 0,0:07:59.52,0:08:03.70,Korean,,0,0,0,,하지만 그런 평범한 게 가장 효율적인 거 아닐까요?
+Dialogue: 0,0:08:03.70,0:08:05.50,Korean,,0,0,0,,그럴 수도 있죠.
+Dialogue: 0,0:08:05.50,0:08:13.16,Korean,,0,0,0,,혹시 여러분들 중에서 자신만의 스트레스를 푸는 특별한 방법이 있으시면 저희한테 알려 주세요.
+Dialogue: 0,0:08:13.16,0:08:20.34,Korean,,0,0,0,,TalkToMeInKorean.com에 오셔서 코멘트로 저희에게 스트레스 푸는 방법을 꼭 알려 주세요.
+Dialogue: 0,0:08:20.34,0:08:20.90,Korean,,0,0,0,,네.
+Dialogue: 0,0:08:20.90,0:08:21.74,Korean,,0,0,0,,경은 씨.
+Dialogue: 0,0:08:21.74,0:08:23.50,Korean,,0,0,0,,이따가 노래방 한번 갈까?
+Dialogue: 0,0:08:23.50,0:08:24.22,Korean,,0,0,0,,아우 ...
+Dialogue: 0,0:08:24.22,0:08:25.64,Korean,,0,0,0,,싫어요.
+Dialogue: 0,0:08:25.64,0:08:27.56,Korean,,0,0,0,,가자.
+Dialogue: 0,0:08:27.56,0:08:29.46,Korean,,0,0,0,,맛있는 거 사 주세요.
+Dialogue: 0,0:08:29.46,0:08:30.22,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:08:30.22,0:08:32.30,Korean,,0,0,0,,맛있는 거 짜장면?
+Dialogue: 0,0:08:32.30,0:08:36.86,Korean,,0,0,0,,물론 짜장면 좋아하지만 다른 거 맛있는 거 사 주세요.
+Dialogue: 0,0:08:36.86,0:08:41.14,Korean,,0,0,0,,다음에 석진 씨 노래 한 번 제대로 들려 주세요.
+Dialogue: 0,0:08:41.14,0:08:41.66,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:08:41.66,0:08:44.02,Korean,,0,0,0,,Talk To Me In Korean에 나올 거예요?
+Dialogue: 0,0:08:44.02,0:08:45.24,Korean,,0,0,0,,당연하죠?
+Dialogue: 0,0:08:45.24,0:08:47.80,Korean,,0,0,0,,여러분들이 기대하고 있을 거예요.
+Dialogue: 0,0:08:47.80,0:08:48.34,Korean,,0,0,0,,진석진:
+Dialogue: 0,0:08:48.34,0:08:50.36,Korean,,0,0,0,,네, 준비하겠습니다.
+Dialogue: 0,0:08:50.36,0:08:52.62,Korean,,0,0,0,,네, 그러면 이야기 오늘도 ...
+Dialogue: 0,0:08:52.62,0:08:54.42,Korean,,0,0,0,,지금 말고요.
+Dialogue: 0,0:08:54.42,0:08:55.46,Korean,,0,0,0,,석진 씨.
+Dialogue: 0,0:08:55.46,0:08:55.96,Korean,,0,0,0,,아 ...
+Dialogue: 0,0:08:55.96,0:08:58.32,Korean,,0,0,0,,저 스트레스 받아요.
+Dialogue: 0,0:08:58.32,0:09:00.32,Korean,,0,0,0,,이거 클로징 ...
+Dialogue: 0,0:09:00.32,0:09:02.10,Korean,,0,0,0,,클로징 노래인데.
+Dialogue: 0,0:09:02.10,0:09:06.86,Korean,,0,0,0,,아, 저희 좋은 클로징 음악 따로 있으니까 그만.
+Dialogue: 0,0:09:06.86,0:09:08.52,Korean,,0,0,0,,알겠습니다.
+Dialogue: 0,0:09:08.52,0:09:10.48,Korean,,0,0,0,,네, 들어 주셔서 감사하고요.
+Dialogue: 0,0:09:10.48,0:09:13.66,Korean,,0,0,0,,여러분 꼭 저희에게 이야기해 주세요.
+Dialogue: 0,0:09:13.66,0:09:15.66,Korean,,0,0,0,,네, 안녕히 계세요.
+Dialogue: 0,0:09:15.66,0:09:20.66,Korean,,0,0,0,,안녕히 계세요
+Dialogue: 1,0:00:00.04,0:00:00.72,English,,0,0,0,,Hello.
+Dialogue: 1,0:00:00.72,0:00:01.22,English,,0,0,0,,This is Talk To Me In Korean's Iyagi.
+Dialogue: 1,0:00:00.72,0:00:01.22,English,,0,0,0,,Hello.
+Dialogue: 1,0:00:00.72,0:00:01.22,English,,0,0,0,,I'm Kyeong-eun Choi.
+Dialogue: 1,0:00:00.72,0:00:01.26,English,,0,0,0,,Hello.
+Dialogue: 1,0:00:01.26,0:00:02.36,English,,0,0,0,,I'm Seok-jin Jin.
+Dialogue: 1,0:00:02.36,0:00:05.12,English,,0,0,0,,Yes, this is our third Iyagi episode.
+Dialogue: 1,0:00:05.12,0:00:06.72,English,,0,0,0,,Seok-jin, hello.
+Dialogue: 1,0:00:06.72,0:00:08.16,English,,0,0,0,,Yes, hello.
+Dialogue: 1,0:00:08.16,0:00:09.84,English,,0,0,0,,It's already the third one.
+Dialogue: 1,0:00:09.84,0:00:12.82,English,,0,0,0,,Yes, it's already the third episode.
+Dialogue: 1,0:00:12.82,0:00:17.30,English,,0,0,0,,It seems like the number 3 is very meaningful to Koreans.
+Dialogue: 1,0:00:17.30,0:00:19.16,English,,0,0,0,,Did you say it's meaningful?
+Dialogue: 1,0:00:19.16,0:00:19.94,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:19.94,0:00:22.08,English,,0,0,0,,What kind of meaning does it have?
+Dialogue: 1,0:00:22.08,0:00:22.86,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:00:22.86,0:00:25.42,English,,0,0,0,,Well... we eat three meals a day, don't we?
+Dialogue: 1,0:00:25.42,0:00:25.96,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:25.96,0:00:27.60,English,,0,0,0,,We eat three times.
+Dialogue: 1,0:00:27.60,0:00:29.10,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:29.10,0:00:32.86,English,,0,0,0,,Even when we play Rock-Paper-Scissors, there's a saying "sam-se-pan" (best of three).
+Dialogue: 1,0:00:32.86,0:00:37.44,English,,0,0,0,,You play three times, and the person who wins three times first becomes the winner.
+Dialogue: 1,0:00:37.44,0:00:38.98,English,,0,0,0,,Yes, that's right.
+Dialogue: 1,0:00:38.98,0:00:43.14,English,,0,0,0,,Then Seok-jin, is 3 your favorite out of all numbers?
+Dialogue: 1,0:00:43.14,0:00:43.76,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:43.76,0:00:45.32,English,,0,0,0,,I like 3.
+Dialogue: 1,0:00:45.32,0:00:46.94,English,,0,0,0,,I like 13 too.
+Dialogue: 1,0:00:46.94,0:00:48.52,English,,0,0,0,,13?
+Dialogue: 1,0:00:48.52,0:00:49.62,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:49.62,0:00:52.18,English,,0,0,0,,Isn't 13 an unlucky number?
+Dialogue: 1,0:00:52.18,0:00:52.78,English,,0,0,0,,Yes.
+Dialogue: 1,0:00:52.78,0:00:55.68,English,,0,0,0,,In America, it's considered a bit of an unlucky number, right?
+Dialogue: 1,0:00:55.68,0:00:57.48,English,,0,0,0,,Friday the 13th.
+Dialogue: 1,0:00:57.48,0:00:59.32,English,,0,0,0,,There's even a movie like that, isn't there?
+Dialogue: 1,0:00:59.32,0:01:01.56,English,,0,0,0,,But a player I like,
+Dialogue: 1,0:01:01.56,0:01:04.78,English,,0,0,0,,Park Ji-sung's jersey number is 13,
+Dialogue: 1,0:01:04.78,0:01:07.50,English,,0,0,0,,so I really like the number 13.
+Dialogue: 1,0:01:07.50,0:01:08.00,English,,0,0,0,,Oh...
+Dialogue: 1,0:01:07.76,0:01:09.08,English,,0,0,0,,I see...
+Dialogue: 1,0:01:09.08,0:01:13.72,English,,0,0,0,,By the way Seok-jin, are we talking about numbers today?
+Dialogue: 1,0:01:13.72,0:01:14.22,English,,0,0,0,,No.
+Dialogue: 1,0:01:14.22,0:01:15.38,English,,0,0,0,,Kyeong-eun.
+Dialogue: 1,0:01:15.38,0:01:16.64,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:16.64,0:01:18.42,English,,0,0,0,,Kyeong-eun.
+Dialogue: 1,0:01:18.42,0:01:19.68,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:19.68,0:01:21.32,English,,0,0,0,,Kyeong-eun?
+Dialogue: 1,0:01:21.32,0:01:22.58,English,,0,0,0,,Yes?
+Dialogue: 1,0:01:22.58,0:01:23.14,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:01:23.14,0:01:25.74,English,,0,0,0,,Your stress is building up right now, isn't it?
+Dialogue: 1,0:01:25.74,0:01:28.92,English,,0,0,0,,Because I keep calling you, your stress is building up, right?
+Dialogue: 1,0:01:28.92,0:01:29.42,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:29.16,0:01:29.76,English,,0,0,0,,Seok-jin.
+Dialogue: 1,0:01:29.76,0:01:30.98,English,,0,0,0,,Stop calling me.
+Dialogue: 1,0:01:30.98,0:01:33.30,English,,0,0,0,,Why are you annoying me by calling me like this.
+Dialogue: 1,0:01:33.30,0:01:36.40,English,,0,0,0,,Today's topic is stress, you see.
+Dialogue: 1,0:01:36.40,0:01:37.90,English,,0,0,0,,Ah, today's topic is?
+Dialogue: 1,0:01:37.90,0:01:39.26,English,,0,0,0,,Stress.
+Dialogue: 1,0:01:39.26,0:01:42.24,English,,0,0,0,,Is the topic about stress building up?
+Dialogue: 1,0:01:42.24,0:01:43.30,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:01:43.30,0:01:44.40,English,,0,0,0,,No.
+Dialogue: 1,0:01:44.40,0:01:47.26,English,,0,0,0,,It's about how we can relieve stress well.
+Dialogue: 1,0:01:47.26,0:01:47.76,English,,0,0,0,,Yes.
+Dialogue: 1,0:01:47.58,0:01:49.64,English,,0,0,0,,Let's talk about that.
+Dialogue: 1,0:01:49.64,0:01:51.00,English,,0,0,0,,Ah, sounds good.
+Dialogue: 1,0:01:51.00,0:01:58.08,English,,0,0,0,,Is there a method unique to you, Seok-jin, to relieve it?
+Dialogue: 1,0:01:58.08,0:02:02.78,English,,0,0,0,,For stress, there isn't just one type.
+Dialogue: 1,0:02:02.78,0:02:06.32,English,,0,0,0,,When it's tough because there's too much work,
+Dialogue: 1,0:02:06.32,0:02:10.34,English,,0,0,0,,or the stress that comes from being lonely because you don't have a girlfriend.
+Dialogue: 1,0:02:10.34,0:02:10.90,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:10.90,0:02:13.76,English,,0,0,0,,And because you miss your parents.
+Dialogue: 1,0:02:13.76,0:02:14.26,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:14.06,0:02:18.34,English,,0,0,0,,Seok-jin, you currently live apart from your parents, right?
+Dialogue: 1,0:02:18.34,0:02:19.64,English,,0,0,0,,That's right.
+Dialogue: 1,0:02:19.64,0:02:22.90,English,,0,0,0,,To go see my parents, I have to ride in a car for about 4 hours.
+Dialogue: 1,0:02:22.90,0:02:24.46,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:24.46,0:02:26.96,English,,0,0,0,,There's that kind of longing.
+Dialogue: 1,0:02:26.96,0:02:27.46,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:27.22,0:02:35.92,English,,0,0,0,,The stress that comes from that longing is different, but first, I'll tell you how I relieve the stress that comes up first.
+Dialogue: 1,0:02:35.92,0:02:40.62,English,,0,0,0,,So the method of relieving it is completely different depending on the type of stress?
+Dialogue: 1,0:02:40.62,0:02:42.00,English,,0,0,0,,It's different...
+Dialogue: 1,0:02:42.00,0:02:44.28,English,,0,0,0,,Yes, please tell me.
+Dialogue: 1,0:02:44.28,0:02:44.84,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:44.84,0:02:49.52,English,,0,0,0,,When there's a lot of work, you have to relieve it right then and there.
+Dialogue: 1,0:02:49.52,0:02:53.38,English,,0,0,0,,So, how exactly do you relieve it well right then and there?
+Dialogue: 1,0:02:53.38,0:02:53.92,English,,0,0,0,,Yes.
+Dialogue: 1,0:02:53.92,0:02:57.34,English,,0,0,0,,In Korea right now, there are really a lot of noraebangs (karaoke rooms).
+Dialogue: 1,0:02:57.34,0:03:00.36,English,,0,0,0,,I really like singing, you see.
+Dialogue: 1,0:03:00.36,0:03:00.86,English,,0,0,0,,Ah...
+Dialogue: 1,0:03:00.84,0:03:02.30,English,,0,0,0,,Really?
+Dialogue: 1,0:03:02.30,0:03:02.86,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:02.86,0:03:04.38,English,,0,0,0,,I go to a noraebang.
+Dialogue: 1,0:03:04.38,0:03:05.76,English,,0,0,0,,And an exciting song,
+Dialogue: 1,0:03:05.76,0:03:06.26,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:06.20,0:03:09.48,English,,0,0,0,,I choose a song where I can just scream out loud,
+Dialogue: 1,0:03:09.48,0:03:12.36,English,,0,0,0,,there's a band called No Brain.
+Dialogue: 1,0:03:12.36,0:03:18.76,English,,0,0,0,,Actually, many people who listen to our Talk To Me In Korean really like Korean songs, don't they?
+Dialogue: 1,0:03:18.76,0:03:20.82,English,,0,0,0,,That's true.
+Dialogue: 1,0:03:20.82,0:03:23.90,English,,0,0,0,,I think they would really like noraebangs too,
+Dialogue: 1,0:03:23.90,0:03:30.14,English,,0,0,0,,so going to a noraebang and singing those kinds of songs helps a lot in relieving stress?
+Dialogue: 1,0:03:30.14,0:03:30.78,English,,0,0,0,,Yes.
+Dialogue: 1,0:03:30.78,0:03:35.60,English,,0,0,0,,After singing for exactly one hour, my mood gets really good.
+Dialogue: 1,0:03:35.60,0:03:38.78,English,,0,0,0,,Seok-jin, by any chance, aren't you that kind of person?
+Dialogue: 1,0:03:38.78,0:03:43.78,English,,0,0,0,,The number 1 eyesore at a noraebang: the person who never lets go of the microphone.
+Dialogue: 1,0:03:43.78,0:03:45.84,English,,0,0,0,,That's why I go alone.
+Dialogue: 1,0:03:45.84,0:03:46.52,English,,0,0,0,,Kyeong-eun Choi:
+Dialogue: 1,0:03:46.52,0:03:49.10,English,,0,0,0,,Have you ever been to a noraebang alone?
+Dialogue: 1,0:03:49.10,0:03:52.02,English,,0,0,0,,I've gone with up to two people, but... Kyeong-eun Choi:
+Dialogue: 1,0:03:52.02,0:03:53.56,English,,0,0,0,,You've never gone alone?
+Dialogue: 1,0:03:53.56,0:03:55.68,English,,0,0,0,,I haven't gone alone yet.
+Dialogue: 1,0:03:55.68,0:03:56.24,English,,0,0,0,,Kyeong-eun Choi:
+Dialogue: 1,0:03:56.24,0:03:57.94,English,,0,0,0,,Oh, thank goodness.
+Dialogue: 1,0:03:57.94,0:03:59.80,English,,0,0,0,,I have done something like this.
+Dialogue: 1,0:03:59.80,0:04:02.60,English,,0,0,0,,At home, turning on a karaoke accompaniment,
+Dialogue: 1,0:04:02.60,0:04:06.18,English,,0,0,0,,pulling the blanket over my head and singing alone before.
+Dialogue: 1,0:04:06.18,0:04:06.68,English,,0,0,0,,Ah...
+Dialogue: 1,0:04:06.48,0:04:08.46,English,,0,0,0,,I think that would be fine.
+Dialogue: 1,0:04:08.46,0:04:09.22,English,,0,0,0,,For me.
+Dialogue: 1,0:04:09.22,0:04:13.66,English,,0,0,0,,I actually can't sing, so I hate going to noraebangs.
+Dialogue: 1,0:04:13.66,0:04:16.80,English,,0,0,0,,Someday, I want to hear you sing, Kyeong-eun. Kyeong-eun Choi:
+Dialogue: 1,0:04:16.80,0:04:18.44,English,,0,0,0,,Oh, I hate that.
+Dialogue: 1,0:04:18.44,0:04:20.90,English,,0,0,0,,You sing for me, Seok-jin.
+Dialogue: 1,0:04:20.90,0:04:22.06,English,,0,0,0,,Someday?
+Dialogue: 1,0:04:22.06,0:04:22.62,English,,0,0,0,,Kyeong-eun Choi:
+Dialogue: 1,0:04:22.62,0:04:23.48,English,,0,0,0,,Right now.
+Dialogue: 1,0:04:23.48,0:04:25.34,English,,0,0,0,,Right now?
+Dialogue: 1,0:04:25.34,0:04:26.68,English,,0,0,0,,Yes.
+Dialogue: 1,0:04:26.68,0:04:28.02,English,,0,0,0,,Oh dear,
+Dialogue: 1,0:04:28.02,0:04:31.98,English,,0,0,0,,in front of a woman, I should sing a slightly sweet song, but... Kyeong-eun Choi:
+Dialogue: 1,0:04:31.98,0:04:35.96,English,,0,0,0,,If you sing right now, Seok-jin, I think my stress will be relieved.
+Dialogue: 1,0:04:35.96,0:04:36.84,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:04:36.84,0:04:38.34,English,,0,0,0,,Are you angry right now?
+Dialogue: 1,0:04:38.34,0:04:40.72,English,,0,0,0,,Is your stress building up right now?
+Dialogue: 1,0:04:40.72,0:04:45.54,English,,0,0,0,,I've been a bit tired lately, so a lot of stress has built up.
+Dialogue: 1,0:04:45.54,0:04:51.26,English,,0,0,0,,I actually relieve stress more by listening to music rather than singing.
+Dialogue: 1,0:04:51.26,0:04:55.86,English,,0,0,0,,When I listen to songs I like, my stress gets relieved a lot.
+Dialogue: 1,0:04:55.86,0:04:57.96,English,,0,0,0,,That's why, please sing for me.
+Dialogue: 1,0:04:57.96,0:05:00.14,English,,0,0,0,,"Treat me well while I'm here,
+Dialogue: 1,0:05:00.14,0:05:02.22,English,,0,0,0,,don't regret it later,"
+Dialogue: 1,0:05:02.22,0:05:05.50,English,,0,0,0,,Please treat me well while I'm here.
+Dialogue: 1,0:05:05.50,0:05:08.90,English,,0,0,0,,What other methods are there to relieve stress?
+Dialogue: 1,0:05:08.90,0:05:11.12,English,,0,0,0,,The second stress.
+Dialogue: 1,0:05:11.12,0:05:14.86,English,,0,0,0,,Being lonely.
+Dialogue: 1,0:05:14.86,0:05:16.98,English,,0,0,0,,Because you don't have a girlfriend.
+Dialogue: 1,0:05:16.98,0:05:18.80,English,,0,0,0,,That kind of loneliness.
+Dialogue: 1,0:05:18.80,0:05:21.18,English,,0,0,0,,Usually, when they don't have a girlfriend,
+Dialogue: 1,0:05:21.18,0:05:22.24,English,,0,0,0,,usually,
+Dialogue: 1,0:05:22.24,0:05:25.94,English,,0,0,0,,there are many people who make phone calls to their female friends or close friends.
+Dialogue: 1,0:05:25.94,0:05:28.46,English,,0,0,0,,Especially late at night.
+Dialogue: 1,0:05:28.46,0:05:29.70,English,,0,0,0,,You shouldn't do that.
+Dialogue: 1,0:05:29.70,0:05:33.00,English,,0,0,0,,Then women would get stressed, right?
+Dialogue: 1,0:05:33.00,0:05:35.36,English,,0,0,0,,Yes, that's really not good.
+Dialogue: 1,0:05:35.36,0:05:37.66,English,,0,0,0,,In that case, there is no other way.
+Dialogue: 1,0:05:37.66,0:05:41.26,English,,0,0,0,,You just have to sleep.
+Dialogue: 1,0:05:41.26,0:05:42.02,English,,0,0,0,,Yes,
+Dialogue: 1,0:05:42.02,0:05:44.58,English,,0,0,0,,without causing trouble to other people,
+Dialogue: 1,0:05:44.58,0:05:49.18,English,,0,0,0,,if you just sleep for one night, the next day you think like this:
+Dialogue: 1,0:05:49.18,0:05:52.06,English,,0,0,0,,'Ah, I'm really glad I didn't call.'
+Dialogue: 1,0:05:52.06,0:05:52.56,English,,0,0,0,,Yes.
+Dialogue: 1,0:05:52.54,0:05:53.62,English,,0,0,0,,Seok-jin.
+Dialogue: 1,0:05:53.62,0:05:57.08,English,,0,0,0,,Don't call me, just go to sleep, okay?
+Dialogue: 1,0:05:57.08,0:05:57.64,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:05:57.64,0:06:00.78,English,,0,0,0,,Still, Kyeong-eun, you're the only one I have to call...
+Dialogue: 1,0:06:00.78,0:06:01.40,English,,0,0,0,,Kyeong-eun Choi:
+Dialogue: 1,0:06:01.40,0:06:02.32,English,,0,0,0,,I understand.
+Dialogue: 1,0:06:02.32,0:06:03.12,English,,0,0,0,,And?
+Dialogue: 1,0:06:03.12,0:06:04.58,English,,0,0,0,,What about other methods?
+Dialogue: 1,0:06:04.58,0:06:07.24,English,,0,0,0,,Yes, when you miss your mom.
+Dialogue: 1,0:06:07.24,0:06:10.54,English,,0,0,0,,When you miss your parents, cry just once.
+Dialogue: 1,0:06:10.54,0:06:16.04,English,,0,0,0,,But in Korea, there's a lot of talk saying it's not good if men cry.
+Dialogue: 1,0:06:16.04,0:06:19.26,English,,0,0,0,,A tough man must never cry.
+Dialogue: 1,0:06:19.26,0:06:19.80,English,,0,0,0,,Yes.
+Dialogue: 1,0:06:19.80,0:06:22.64,English,,0,0,0,,A tough man never cries.
+Dialogue: 1,0:06:22.64,0:06:25.52,English,,0,0,0,,Especially, he does not cry where others can see.
+Dialogue: 1,0:06:25.52,0:06:26.02,English,,0,0,0,,Ah,
+Dialogue: 1,0:06:25.80,0:06:27.32,English,,0,0,0,,alone at home,
+Dialogue: 1,0:06:27.32,0:06:31.88,English,,0,0,0,,did you cry a lot pulling the blanket over your head?
+Dialogue: 1,0:06:31.88,0:06:34.02,English,,0,0,0,,I cried a lot when I was in the military.
+Dialogue: 1,0:06:34.02,0:06:36.26,English,,0,0,0,,Because you missed your parents?
+Dialogue: 1,0:06:36.26,0:06:36.98,English,,0,0,0,,Yes.
+Dialogue: 1,0:06:36.98,0:06:39.04,English,,0,0,0,,I called them once,
+Dialogue: 1,0:06:39.04,0:06:44.90,English,,0,0,0,,but crying in front of my parents was a bit much, so I just hung up the phone and cried for a bit.
+Dialogue: 1,0:06:44.90,0:06:50.94,English,,0,0,0,,The reason why crying like this is good is because after you cry once, you really gain strength.
+Dialogue: 1,0:06:50.94,0:06:51.44,English,,0,0,0,,Yes.
+Dialogue: 1,0:06:51.38,0:06:58.00,English,,0,0,0,,You feel refreshed, and I think it gives you the kind of strength to do better next time.
+Dialogue: 1,0:06:58.00,0:06:59.74,English,,0,0,0,,Yes, what about you, Kyeong-eun?
+Dialogue: 1,0:06:59.74,0:07:03.38,English,,0,0,0,,For me, simply, when I get stressed, I sleep.
+Dialogue: 1,0:07:03.38,0:07:04.56,English,,0,0,0,,I sleep a lot.
+Dialogue: 1,0:07:04.56,0:07:06.34,English,,0,0,0,,And, well...
+Dialogue: 1,0:07:06.34,0:07:09.06,English,,0,0,0,,There are times when I go to eat delicious food, too.
+Dialogue: 1,0:07:09.06,0:07:14.32,English,,0,0,0,,I think my stress is relieved a lot when I eat truly delicious food.
+Dialogue: 1,0:07:14.32,0:07:16.82,English,,0,0,0,,That's why lately, Kyeong-eun...
+Dialogue: 1,0:07:16.82,0:07:17.52,English,,0,0,0,,Yes...
+Dialogue: 1,0:07:17.52,0:07:18.92,English,,0,0,0,,A bit...
+Dialogue: 1,0:07:18.92,0:07:21.09,English,,0,0,0,,Ah, did I gain weight?
+Dialogue: 1,0:07:21.09,0:07:25.18,English,,0,0,0,,I will exercise.
+Dialogue: 1,0:07:25.18,0:07:27.84,English,,0,0,0,,I'm getting stressed because of you, Seok-jin.
+Dialogue: 1,0:07:27.84,0:07:30.32,English,,0,0,0,,Don't say I gained weight.
+Dialogue: 1,0:07:30.32,0:07:32.70,English,,0,0,0,,Yes, I'm sorry.
+Dialogue: 1,0:07:32.70,0:07:35.24,English,,0,0,0,,And besides eating delicious food,
+Dialogue: 1,0:07:35.24,0:07:40.70,English,,0,0,0,,women usually relieve stress by chatting with friends, right?
+Dialogue: 1,0:07:40.70,0:07:44.36,English,,0,0,0,,Same for me, I meet friends and talk,
+Dialogue: 1,0:07:44.36,0:07:49.26,English,,0,0,0,,and eat delicious food, and that's how I relieve a lot of stress.
+Dialogue: 1,0:07:49.26,0:07:52.80,English,,0,0,0,,And I try to choose and read good books.
+Dialogue: 1,0:07:52.80,0:07:54.40,English,,0,0,0,,Things like that?
+Dialogue: 1,0:07:54.40,0:07:58.14,English,,0,0,0,,In a way, I think they are somewhat ordinary things.
+Dialogue: 1,0:07:58.14,0:07:59.52,English,,0,0,0,,Um...
+Dialogue: 1,0:07:59.52,0:08:03.70,English,,0,0,0,,But wouldn't those ordinary things be the most efficient?
+Dialogue: 1,0:08:03.70,0:08:05.50,English,,0,0,0,,That could be true.
+Dialogue: 1,0:08:05.50,0:08:13.16,English,,0,0,0,,If any of you have your own special method for relieving stress, please let us know.
+Dialogue: 1,0:08:13.16,0:08:20.34,English,,0,0,0,,Please come to TalkToMeInKorean.com and be sure to let us know your way of relieving stress in the comments.
+Dialogue: 1,0:08:20.34,0:08:20.90,English,,0,0,0,,Yes.
+Dialogue: 1,0:08:20.90,0:08:21.74,English,,0,0,0,,Kyeong-eun.
+Dialogue: 1,0:08:21.74,0:08:23.50,English,,0,0,0,,Shall we go to a noraebang together later?
+Dialogue: 1,0:08:23.50,0:08:24.22,English,,0,0,0,,Oh...
+Dialogue: 1,0:08:24.22,0:08:25.64,English,,0,0,0,,I don't want to.
+Dialogue: 1,0:08:25.64,0:08:27.56,English,,0,0,0,,Let's go.
+Dialogue: 1,0:08:27.56,0:08:29.46,English,,0,0,0,,Buy me something delicious.
+Dialogue: 1,0:08:29.46,0:08:30.22,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:08:30.22,0:08:32.30,English,,0,0,0,,Something delicious, Jajangmyeon?
+Dialogue: 1,0:08:32.30,0:08:36.86,English,,0,0,0,,Of course I like Jajangmyeon, but buy me something else that is delicious.
+Dialogue: 1,0:08:36.86,0:08:41.14,English,,0,0,0,,Next time, please let us hear you sing properly, Seok-jin.
+Dialogue: 1,0:08:41.14,0:08:41.66,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:08:41.66,0:08:44.02,English,,0,0,0,,Is it going to be on Talk To Me In Korean?
+Dialogue: 1,0:08:44.02,0:08:45.24,English,,0,0,0,,Of course.
+Dialogue: 1,0:08:45.24,0:08:47.80,English,,0,0,0,,Everyone will be looking forward to it.
+Dialogue: 1,0:08:47.80,0:08:48.34,English,,0,0,0,,Seok-jin Jin:
+Dialogue: 1,0:08:48.34,0:08:50.36,English,,0,0,0,,Yes, I will prepare.
+Dialogue: 1,0:08:50.36,0:08:52.62,English,,0,0,0,,Yes, then Iyagi today as well...
+Dialogue: 1,0:08:52.62,0:08:54.42,English,,0,0,0,,Not right now.
+Dialogue: 1,0:08:54.42,0:08:55.46,English,,0,0,0,,Seok-jin.
+Dialogue: 1,0:08:55.46,0:08:55.96,English,,0,0,0,,Ah...
+Dialogue: 1,0:08:55.96,0:08:58.32,English,,0,0,0,,I'm getting stressed.
+Dialogue: 1,0:08:58.32,0:09:00.32,English,,0,0,0,,This closing...
+Dialogue: 1,0:09:00.32,0:09:02.10,English,,0,0,0,,It's a closing song, though.
+Dialogue: 1,0:09:02.10,0:09:06.86,English,,0,0,0,,Ah, we have a separate, good closing music, so stop it.
+Dialogue: 1,0:09:06.86,0:09:08.52,English,,0,0,0,,I understand.
+Dialogue: 1,0:09:08.52,0:09:10.48,English,,0,0,0,,Yes, thank you for listening.
+Dialogue: 1,0:09:10.48,0:09:13.66,English,,0,0,0,,Everyone, please be sure to talk to us.
+Dialogue: 1,0:09:13.66,0:09:15.66,English,,0,0,0,,Yes, goodbye.
+Dialogue: 1,0:09:15.66,0:09:20.66,English,,0,0,0,,Goodbye.

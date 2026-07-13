@@ -1,0 +1,42 @@
+{
+  "story": "iyagi/003",
+  "title": "스트레스에 대해서",
+  "total_questions": 38,
+  "sessions": [
+    {
+      "date": "2026-06-20",
+      "words_practiced": [
+        "개운하다", "꼴불견", "힘을 내다", "감미롭다", "이불을 뒤집어 쓰다",
+        "소리를 지르다", "귀찮다", "스트레스를 풀다", "신나다", "-아/어 놓다",
+        "그리움", "수다를 떨다", "고르다", "숫자", "종류", "승자", "-거든요",
+        "-고 나면"
+      ],
+      "grammar_practiced": ["-거든요", "-고 나면", "-아/어 놓다", "-에 따라서", "-면서", "-려면", "-아야 되다", "-아서"],
+      "correct": 20,
+      "wrong": 3,
+      "partial": 15,
+      "questions_this_session": 38,
+      "difficulty_end": 4
+    }
+  ],
+  "word_stats": {
+    "개운하다":            { "seen": 2, "correct": 1, "wrong": 0, "partial": 1, "level": 2, "mastered": false },
+    "꼴불견":              { "seen": 2, "correct": 1, "wrong": 0, "partial": 1, "level": 2, "mastered": false },
+    "힘을 내다":           { "seen": 2, "correct": 1, "wrong": 0, "partial": 1, "level": 4, "mastered": false },
+    "감미롭다":            { "seen": 1, "correct": 1, "wrong": 0, "partial": 0, "level": 2, "mastered": false },
+    "이불을 뒤집어 쓰다":  { "seen": 1, "correct": 1, "wrong": 0, "partial": 0, "level": 2, "mastered": false },
+    "-거든요":             { "seen": 3, "correct": 2, "wrong": 0, "partial": 1, "level": 3, "mastered": false },
+    "-고 나면":            { "seen": 2, "correct": 0, "wrong": 0, "partial": 2, "level": 2, "mastered": false },
+    "-아/어 놓다":         { "seen": 2, "correct": 2, "wrong": 0, "partial": 0, "level": 2, "mastered": false },
+    "귀찮다":              { "seen": 2, "correct": 1, "wrong": 0, "partial": 1, "level": 3, "mastered": false },
+    "스트레스를 풀다":     { "seen": 1, "correct": 1, "wrong": 0, "partial": 0, "level": 2, "mastered": false },
+    "신나다":              { "seen": 1, "correct": 1, "wrong": 0, "partial": 0, "level": 2, "mastered": false },
+    "소리를 지르다":       { "seen": 2, "correct": 2, "wrong": 0, "partial": 0, "level": 3, "mastered": false },
+    "그리움":              { "seen": 2, "correct": 1, "wrong": 1, "partial": 0, "level": 2, "mastered": false },
+    "수다를 떨다":         { "seen": 3, "correct": 2, "wrong": 0, "partial": 1, "level": 4, "mastered": true },
+    "고르다":              { "seen": 3, "correct": 1, "wrong": 0, "partial": 2, "level": 4, "mastered": true },
+    "숫자":                { "seen": 2, "correct": 0, "wrong": 0, "partial": 2, "level": 4, "mastered": false },
+    "종류":                { "seen": 4, "correct": 2, "wrong": 1, "partial": 1, "level": 3, "mastered": false },
+    "승자":                { "seen": 2, "correct": 1, "wrong": 1, "partial": 0, "level": 2, "mastered": false }
+  }
+}

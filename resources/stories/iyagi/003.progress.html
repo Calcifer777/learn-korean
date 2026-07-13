@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iyagi 003 — Progress</title>
+<style>
+  :root {
+    --base:    #303446;
+    --mantle:  #292c3c;
+    --crust:   #232634;
+    --surface0:#414559;
+    --surface1:#51576d;
+    --surface2:#626880;
+    --overlay0:#737994;
+    --overlay1:#838ba7;
+    --text:    #c6d0f5;
+    --subtext0:#a5adce;
+    --subtext1:#b5bfe2;
+    --green:   #a6d189;
+    --red:     #e78284;
+    --yellow:  #e5c890;
+    --blue:    #8caaee;
+    --mauve:   #ca9ee6;
+    --peach:   #ef9f76;
+    --teal:    #81c8be;
+    --sky:     #99d1db;
+    --lavender:#babbf1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--base);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  h1 { color: var(--lavender); font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { color: var(--blue); font-size: 1.1rem; margin: 2rem 0 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .subtitle { color: var(--subtext0); font-size: 0.9rem; margin-bottom: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+  .card {
+    background: var(--mantle);
+    border: 1px solid var(--surface0);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+  .stat-row { display: flex; gap: 2rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .stat {
+    background: var(--mantle);
+    border: 1px solid var(--surface0);
+    border-radius: 10px;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    min-width: 90px;
+  }
+  .stat .val { font-size: 1.8rem; font-weight: 700; color: var(--lavender); }
+  .stat .lbl { font-size: 0.75rem; color: var(--subtext0); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  /* ── Word recall bars ── */
+  .word-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .word-label {
+    min-width: 160px;
+    font-size: 0.88rem;
+    color: var(--subtext1);
+  }
+  .word-label .ko { color: var(--text); font-weight: 600; }
+  .bar-track {
+    flex: 1;
+    height: 18px;
+    background: var(--surface0);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+  }
+  .bar-seg { height: 100%; transition: width 0.4s ease; }
+  .bar-seg.correct  { background: var(--green); }
+  .bar-seg.partial  { background: var(--yellow); }
+  .bar-seg.wrong    { background: var(--red); }
+  .bar-seg.unseen   { background: var(--surface1); width: 100%; }
+  .level-badge {
+    font-size: 0.72rem;
+    padding: 1px 7px;
+    border-radius: 20px;
+    font-weight: 700;
+    background: var(--surface1);
+    color: var(--subtext0);
+    white-space: nowrap;
+  }
+  .level-badge.l1 { background: var(--surface1); color: var(--subtext0); }
+  .level-badge.l2 { background: #3a4a6e; color: var(--sky); }
+  .level-badge.l3 { background: #3d4a35; color: var(--green); }
+  .level-badge.l4 { background: #4a3d5e; color: var(--mauve); }
+  .star { color: var(--yellow); margin-left: 2px; }
+  .section-divider { border: none; border-top: 1px solid var(--surface0); margin: 0.75rem 0; }
+
+  /* ── Session timeline ── */
+  .timeline-row {
+    display: flex; align-items: center; gap: 0.75rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--surface0);
+  }
+  .timeline-row:last-child { border-bottom: none; }
+  .tl-date { color: var(--subtext0); font-size: 0.82rem; min-width: 90px; }
+  .tl-score { font-weight: 700; color: var(--green); min-width: 50px; }
+  .tl-bar {
+    flex: 1; height: 10px; background: var(--surface0); border-radius: 3px; overflow: hidden;
+  }
+  .tl-bar-fill { height: 100%; background: var(--blue); border-radius: 3px; }
+  .tl-q { font-size: 0.8rem; color: var(--subtext0); }
+
+  /* ── Grammar tags ── */
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .tag {
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    background: var(--surface0);
+    color: var(--lavender);
+    border: 1px solid var(--surface1);
+  }
+  .tag .count {
+    margin-left: 5px;
+    font-size: 0.7rem;
+    color: var(--subtext0);
+    font-weight: 400;
+  }
+
+  /* ── Donut chart ── */
+  .donut-wrap { display: flex; align-items: center; gap: 1.5rem; }
+  .donut-legend { display: flex; flex-direction: column; gap: 0.5rem; }
+  .legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<h1>Iyagi 003 · 스트레스에 대해서</h1>
+<p class="subtitle">Progress report · 2026-06-20 · Session 1</p>
+
+<div class="stat-row">
+  <div class="stat"><div class="val">38</div><div class="lbl">Questions</div></div>
+  <div class="stat"><div class="val" style="color:var(--green)">20</div><div class="lbl">Correct</div></div>
+  <div class="stat"><div class="val" style="color:var(--yellow)">15</div><div class="lbl">Partial</div></div>
+  <div class="stat"><div class="val" style="color:var(--red)">3</div><div class="lbl">Wrong</div></div>
+  <div class="stat"><div class="val" style="color:var(--mauve)">38%</div><div class="lbl">of 100</div></div>
+</div>
+
+<!-- ── Recall bars ── -->
+<h2>Word recall</h2>
+<div class="card">
+
+  <div style="font-size:0.78rem;color:var(--subtext0);margin-bottom:0.75rem;display:flex;gap:1rem;">
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--green);border-radius:2px;margin-right:4px;"></span>correct</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--yellow);border-radius:2px;margin-right:4px;"></span>partial</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--red);border-radius:2px;margin-right:4px;"></span>wrong</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--surface1);border-radius:2px;margin-right:4px;"></span>not seen</span>
+  </div>
+
+  <!-- mastered first -->
+  <div style="font-size:0.75rem;color:var(--subtext0);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;">⭐ Mastered</div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">수다를 떨다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct"  style="width:66.6%"></div>
+      <div class="bar-seg partial"  style="width:33.3%"></div>
+    </div>
+    <span class="level-badge l4">L4</span><span class="star">★</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">고르다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:33.3%"></div>
+      <div class="bar-seg partial" style="width:66.6%"></div>
+    </div>
+    <span class="level-badge l4">L4</span><span class="star">★</span>
+  </div>
+
+  <hr class="section-divider">
+  <div style="font-size:0.75rem;color:var(--subtext0);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;margin-top:0.5rem;">In progress</div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">소리를 지르다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l3">L3</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">-거든요</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:66.6%"></div>
+      <div class="bar-seg partial" style="width:33.3%"></div>
+    </div>
+    <span class="level-badge l3">L3</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">귀찮다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg partial" style="width:50%"></div>
+    </div>
+    <span class="level-badge l3">L3</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">종류</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg partial" style="width:25%"></div>
+      <div class="bar-seg wrong"   style="width:25%"></div>
+    </div>
+    <span class="level-badge l3">L3</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">힘을 내다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg partial" style="width:50%"></div>
+    </div>
+    <span class="level-badge l4">L4</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">숫자</span></div>
+    <div class="bar-track">
+      <div class="bar-seg partial" style="width:100%"></div>
+    </div>
+    <span class="level-badge l4">L4</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">개운하다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg partial" style="width:50%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">꼴불견</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg partial" style="width:50%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">감미롭다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">이불을 뒤집어 쓰다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">-아/어 놓다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">스트레스를 풀다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">신나다</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">그리움</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg wrong"   style="width:50%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">-고 나면</span></div>
+    <div class="bar-track">
+      <div class="bar-seg partial" style="width:100%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <div class="word-row">
+    <div class="word-label"><span class="ko">승자</span></div>
+    <div class="bar-track">
+      <div class="bar-seg correct" style="width:50%"></div>
+      <div class="bar-seg wrong"   style="width:50%"></div>
+    </div>
+    <span class="level-badge l2">L2</span>
+  </div>
+
+  <hr class="section-divider">
+  <div style="font-size:0.75rem;color:var(--subtext0);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;margin-top:0.5rem;">Not yet seen</div>
+
+  <!-- sample of unseen words -->
+  <div class="word-row"><div class="word-label"><span class="ko">세끼</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">삼세판</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">이기다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">의미</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">쌓이다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">주제</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">딱</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">반주</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">다행</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">풀리다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">피곤하다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">후회</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">외로움</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">군대</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">효율적</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">평범하다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">이따가</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">제대로</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">기대하다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">전화를 걸다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">전화를 끊다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">마이크를 놓지 않다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">노래 반주를 켜 놓다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">살이 찌다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">피해를 주다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">그리움이 생기다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">힘이 생기다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">있을 때 잘 하다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+  <div class="word-row"><div class="word-label"><span class="ko">스트레스가 쌓이다</span></div><div class="bar-track"><div class="bar-seg unseen"></div></div><span class="level-badge l1">L1</span></div>
+
+</div><!-- /card -->
+
+<!-- ── Session timeline ── -->
+<h2>Session history</h2>
+<div class="card">
+  <div class="timeline-row">
+    <div class="tl-date">2026-06-20</div>
+    <div class="tl-score">20/38</div>
+    <div class="tl-bar"><div class="tl-bar-fill" style="width:53%"></div></div>
+    <div class="tl-q">38 questions · L4 reached</div>
+  </div>
+</div>
+
+<!-- ── Grammar coverage ── -->
+<h2>Grammar practiced</h2>
+<div class="card">
+  <div class="tag-cloud">
+    <span class="tag">-거든요 <span class="count">×3</span></span>
+    <span class="tag">-고 나면 <span class="count">×2</span></span>
+    <span class="tag">-아/어 놓다 <span class="count">×2</span></span>
+    <span class="tag">-면서 <span class="count">×2</span></span>
+    <span class="tag">-아서 <span class="count">×3</span></span>
+    <span class="tag">-에 따라서 <span class="count">×2</span></span>
+    <span class="tag">-려면 <span class="count">×1</span></span>
+    <span class="tag">-아야 되다 <span class="count">×1</span></span>
+    <span class="tag">-는 (modifier) <span class="count">×1</span></span>
+    <span class="tag">-아/어지다 <span class="count">×1</span></span>
+  </div>
+  <p style="margin-top:1rem;font-size:0.82rem;color:var(--subtext0);">
+    Still to drill: <strong style="color:var(--peach)">-기는 그렇다</strong> · <strong style="color:var(--peach)">이라서</strong> · <strong style="color:var(--peach)">-ㄹ 텐데</strong>
+  </p>
+</div>
+
+<!-- ── Donut chart ── -->
+<h2>Mastery overview</h2>
+<div class="card">
+  <div class="donut-wrap">
+    <svg width="140" height="140" viewBox="0 0 140 140">
+      <circle cx="70" cy="70" r="54" fill="none" stroke="var(--surface0)" stroke-width="22"/>
+      <!-- not seen: 29 words → 29/47 = 61.7% → 387° → clip at 360. stroke-dasharray total = 2π×54 ≈ 339.3 -->
+      <!-- total items: 18 seen + 29 unseen = 47 -->
+      <!-- mastered: 2 → 2/47 = 4.3% → 14.5px -->
+      <!-- in-progress: 16 → 16/47 = 34% → 115.4px -->
+      <!-- unseen: 29 → 61.7% → 209.4px -->
+      <circle cx="70" cy="70" r="54" fill="none"
+        stroke="var(--surface1)"
+        stroke-width="22"
+        stroke-dasharray="339.3"
+        stroke-dashoffset="0"
+        transform="rotate(-90 70 70)"/>
+      <!-- in-progress (blue) -->
+      <circle cx="70" cy="70" r="54" fill="none"
+        stroke="var(--blue)"
+        stroke-width="22"
+        stroke-dasharray="115.4 223.9"
+        stroke-dashoffset="0"
+        transform="rotate(-90 70 70)"/>
+      <!-- mastered (yellow) — after in-progress -->
+      <circle cx="70" cy="70" r="54" fill="none"
+        stroke="var(--yellow)"
+        stroke-width="22"
+        stroke-dasharray="14.5 324.8"
+        stroke-dashoffset="-115.4"
+        transform="rotate(-90 70 70)"/>
+      <text x="70" y="66" text-anchor="middle" fill="var(--text)" font-size="20" font-weight="700">2</text>
+      <text x="70" y="82" text-anchor="middle" fill="var(--subtext0)" font-size="10">mastered</text>
+    </svg>
+    <div class="donut-legend">
+      <div class="legend-item">
+        <div class="legend-dot" style="background:var(--yellow)"></div>
+        <span>Mastered <strong>2</strong> / 47</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:var(--blue)"></div>
+        <span>In progress <strong>16</strong> / 47</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:var(--surface1)"></div>
+        <span>Not yet seen <strong>29</strong> / 47</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top:2rem;font-size:0.78rem;color:var(--overlay0);text-align:center;">
+  Iyagi 003 · Session 1 of ? · 38 / 100 questions complete
+</p>
+
+</body>
+</html>
