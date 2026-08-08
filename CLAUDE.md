@@ -59,6 +59,21 @@ resources/
 
 Each lesson series folder typically contains: `NNN.kr.md` (Korean text), `NNN.mp3` (audio), `NNN.lrc` (synchronized subtitles), `NNN.words.csv` + `NNN.apkg` (output).
 
+## Manual Anki deck creation (no API key)
+
+When no translator API key is available, build the deck by hand from vocabulary/idioms already covered in a reading session, instead of running `process-text` (which requires a translator call):
+
+1. Author `NNN.words.csv` and `NNN.idioms.csv` for the story directly with Python's `csv` module, matching `load_vocab_from_csv`'s column order exactly: `Korean,Part of Speech,Example Sentence,English,Sentence Translation,Etymology`.
+2. Combine both into `NNN.csv` (same column order, idioms/phrases appended after words).
+3. Generate the deck:
+   ```bash
+   n=NNN
+   uv run python -m learn_korean anki-deck --input resources/stories/<series>/$n.csv --name "<Series Name> - $n" --output resources/stories/<series>/$n.apkg
+   ```
+   Note: `n=NNN` is bash/zsh syntax. In fish, use `set n NNN` instead.
+
+Always invoke Python as `uv run python3 ...` (or `uv run <entry point>`), never the bare `python3` binary — this project manages its env with `uv`.
+
 ## Environment
 
 ```

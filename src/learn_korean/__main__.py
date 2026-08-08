@@ -719,6 +719,11 @@ def main() -> None:
         "--ass-output",
         help="Where to save the intermediate ASS file (default: <output stem>.ass)",
     )
+    lrc_mka_parser.add_argument(
+        "--denoise",
+        action="store_true",
+        help="Apply FFT noise reduction to the audio (re-encodes as Opus 128k)",
+    )
 
     args = parser.parse_args()
 
@@ -871,7 +876,7 @@ def main() -> None:
         print(f"ASS written  → {ass_out}")
 
         print("Muxing MKA …")
-        mux_mka(mp3, ass_out, kr_lrc, en_lrc, output)
+        mux_mka(mp3, ass_out, kr_lrc, en_lrc, output, denoise=args.denoise)
         print(f"Done         → {output}")
         return
 
