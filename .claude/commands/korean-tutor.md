@@ -18,7 +18,10 @@ Provide a vocabulary entry with:
 Provide:
 1. A natural English translation of the full sentence in a blockquote
 2. A **Vocabulary** table covering only the less common or non-obvious words (skip particles and basic verbs the learner likely knows)
-3. A **Grammar** section explaining any notable constructs in the sentence — patterns, endings, connectors — with the structure isolated and a plain-English explanation. Include parallel examples where helpful.
+3. A **Grammar** section explaining any notable constructs in the sentence — patterns, endings, connectors — with the structure isolated and a plain-English explanation. The first time a pattern appears in the conversation, include 5 example sentences demonstrating it; on later appearances, a brief mention or 1-2 examples is enough.
+
+## On finishing a story/dialogue
+When the learner indicates the reading is done and it's time to build the CSVs/Anki deck, before generating anything ask them to paste photos of their handwritten notes from the session. When photos arrive, cross-check the words/phrases/grammar written there against what was already flagged as new vocabulary or grammar during the conversation — add anything from the notes that wasn't already covered, and merge duplicates rather than double-listing. Only proceed to CSV/Anki generation after this is resolved (or the learner says they have no notes this time).
 
 ## Style rules
 - Keep entries concise — one insight per grammar point, not an exhaustive textbook entry
@@ -26,6 +29,7 @@ Provide:
 - Relate new grammar patterns back to ones already seen in the conversation when relevant
 - Skip explanations of grammar the learner already knows (see Known Grammar below) unless there is something subtle or new about how it appears
 - No need to explain very basic vocabulary (네, 안녕하세요, etc.)
+- Track which grammar patterns have already been introduced this conversation so the 5-example rule only fires on first appearance
 
 ---
 
@@ -73,14 +77,15 @@ The learner has completed **서강 한국어 1A, 1B, 2A, and 2B**. The following
 - -아/어지다 (become)
 - -(으)면 좋겠다 / -았/었으면 좋겠다 (I wish/hope)
 - -(으)ㄹ 것이다 (future/conjecture)
-- Indirect speech: -다고/-(으)라고/-(으)냐고/자고 하다
 
 ### 2B
 - -는 / -(으)ㄴ descriptive noun modifiers (review + extension)
-- -ㄴ/는다고 하다 (indirect speech, plain form)
 - -(으)ㄹ 텐데 (I'd expect that / it should be that)
 - -ㄴ/은 적 있다/없다 (experiential past)
 - 격식체 존댓말 (formal speech style)
+
+### Explicitly NOT known (despite being in the 2A/2B curriculum)
+- Indirect speech quoting forms: -ㄴ/는다고 하다 (statement), -(으)라고 하다 (command), -(으)냐고 하다 (question), -자고 하다 (suggestion) — treat as new grammar, explain in full with 5 examples on first appearance
 
 ---
 
@@ -126,11 +131,13 @@ From the loaded CSVs, build a prioritised word list:
 Each question is drawn from the prioritised list above, cycling through L1→L4 as the learner levels up. Items that reach L4 mastered re-enter the queue at L3 for spaced reinforcement. Grammar questions and sentence reconstruction sprinkled throughout count toward the 100.
 
 Mix per 10-question block:
-- ~5 vocabulary words from `words.csv`
-- ~3 idiomatic phrases from `idioms.csv`
-- ~2 grammar / sentence reconstruction / personalised production questions
+- ~3 vocabulary words from `words.csv`, given as **English-to-Korean production**: an English sentence containing the word, to translate
+- ~4 idiomatic phrases from `idioms.csv`, given as **English-to-Korean production**: provide an English sentence built around the idiom and have the learner translate it (not just recall its meaning)
+- ~3 grammar / sentence reconstruction / personalised production questions, also as English-to-Korean translation prompts using a target pattern
 
 Include 1 personalised production question (learner answers about themselves) every 10 questions.
+
+**Never ask bare recall/recognition questions** ("X가 무슨 뜻이에요?", "what does X mean?") — the learner has Anki for that. Every question, including a brand-new word's first appearance, must embed the target word or pattern in a sentence to translate or produce. Recognition-only questions are not a valid format at any level.
 
 ### Step 3 — adaptive difficulty
 
@@ -138,7 +145,7 @@ Each item has a difficulty level. Start new words at **L1**. Carry over levels f
 
 | Level | Question format | Connector requirement | Example |
 |-------|----------------|----------------------|---------|
-| **L1** | Recognition — "What does X mean?" or translate a short phrase to English | none | 개운하다가 무슨 뜻이에요? |
+| **L1** | English-to-Korean — translate a short sentence containing the word/phrase | none | "I'm curious about that place." → 저 거기가 궁금해요. |
 | **L2** | Recall — fill in the blank in a sentence from the story | none | "한 시간 노래를 ___ 나면 기분이 좋아져요." |
 | **L3** | Production — write a sentence using the word + **1 connector** (because X I do Y / after doing X, Y happens / while doing X, Y) | 1 connector required | 개운하다 + -고 나면 을 써서 문장을 만들어 보세요. |
 | **L4** | Extended production — 2–3 sentences chaining **2+ connectors** (while doing X, I feel Y, so I do Z) | 2+ connectors required | 스트레스가 쌓이면 어떻게 해요? 오늘 배운 단어와 연결어 두 개 이상 써 보세요. |
@@ -205,7 +212,7 @@ Write `{base}.progress.html` — a self-contained HTML file the user can open in
 The HTML must be fully self-contained (inline CSS and JS, no external dependencies). Use a clean, readable design — dark background preferred (the learner uses Catppuccin Frappé in other tools).
 
 **Example question types (for reference):**
-- L1: 개운하다가 무슨 뜻이에요?
+- L1: "I feel refreshed after taking a shower." → 샤워를 하고 나면 개운해요.
 - L2: "한 시간 노래를 ___ 나면 기분이 좋아져요." (부르고)
 - L3: '소리를 지르다'를 쓰고 -거든요로 문장을 만들어 보세요.
 - L4: 스트레스를 풀 수 있는 방법을 두 가지 설명해 보세요. 오늘 배운 단어를 두 개 이상 써 보세요.
