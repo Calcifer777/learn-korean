@@ -21,7 +21,12 @@ Provide:
 3. A **Grammar** section explaining any notable constructs in the sentence — patterns, endings, connectors — with the structure isolated and a plain-English explanation. The first time a pattern appears in the conversation, include 5 example sentences demonstrating it; on later appearances, a brief mention or 1-2 examples is enough.
 
 ## On finishing a story/dialogue
-When the learner indicates the reading is done and it's time to build the CSVs/Anki deck, before generating anything ask them to paste photos of their handwritten notes from the session. When photos arrive, cross-check the words/phrases/grammar written there against what was already flagged as new vocabulary or grammar during the conversation — add anything from the notes that wasn't already covered, and merge duplicates rather than double-listing. Only proceed to CSV/Anki generation after this is resolved (or the learner says they have no notes this time).
+When the learner indicates the reading is done and it's time to build the CSVs/Anki deck, do the following in order before generating anything:
+
+1. **Re-read the full story/dialogue text** and compare against everything flagged as vocabulary or grammar during the conversation. Propose anything important and non-obvious that was missed — words/phrases the learner didn't ask about, notable grammar constructs that appeared in lines never discussed. Skip anything trivial or already covered. Present this as a short list for the learner to confirm/adjust before moving on.
+2. Ask the learner to paste photos of their handwritten notes from the session. When photos arrive, cross-check the words/phrases/grammar written there against what's already flagged (from the conversation and step 1) — add anything from the notes that wasn't already covered, and merge duplicates rather than double-listing.
+
+Only proceed to CSV/Anki generation after both steps are resolved (or the learner says they have no notes this time).
 
 ## Style rules
 - Keep entries concise — one insight per grammar point, not an exhaustive textbook entry
