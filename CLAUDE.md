@@ -64,6 +64,7 @@ Each lesson series folder typically contains: `NNN.kr.md` (Korean text), `NNN.mp
 When no translator API key is available, build the deck by hand from vocabulary/idioms already covered in a reading session, instead of running `process-text` (which requires a translator call):
 
 1. Author `NNN.words.csv` and `NNN.idioms.csv` for the story directly with Python's `csv` module, matching `load_vocab_from_csv`'s column order exactly: `Korean,Part of Speech,Example Sentence,English,Sentence Translation,Etymology`.
+   - Always fill in `Etymology`, never leave it blank. For Sino-Korean words, give the hanja breakdown (e.g. 과대평가하다 = 過 excess + 大 big + 評價 evaluation). For native Korean words (no hanja root), note cognates/derivations instead (e.g. 기울다 → 기울이다, 기울기, 기울어지다).
 2. Combine both into `NNN.csv` (same column order, idioms/phrases appended after words).
 3. Generate the deck:
    ```bash
